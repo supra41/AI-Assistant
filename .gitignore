@@ -3,4 +3,5 @@ ffmpeg-master-latest-win64-gpl-shared/
 *.mp3
 *.wav
 __pycache__/
-Videos/
+videos/
+audios/
