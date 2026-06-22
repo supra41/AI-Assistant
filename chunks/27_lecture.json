@@ -1,0 +1,551 @@
+{
+    "chunks": [
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 4.8,
+            "text": " In the database management system, today's topic is what is RDBMS?"
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 4.8,
+            "end": 6.2,
+            "text": " What is RDBMS?"
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 6.2,
+            "end": 10.8,
+            "text": " In full explanation, we will practically explain how it works."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 10.8,
+            "end": 13.6,
+            "text": " But first, let's explain the meaning of this."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 16.6,
+            "end": 21.1,
+            "text": " The arrangement of data of this model in row and column format."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 21.1,
+            "end": 27.0,
+            "text": " The data stored in the RDBMS model in the database"
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 27.1,
+            "end": 31.8,
+            "text": " is stored in row and column format, i.e. tabular format."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 31.8,
+            "end": 35.9,
+            "text": " For example, we have a table named student details."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 35.9,
+            "end": 39.8,
+            "text": " In which we have data stored in row and column format."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 39.8,
+            "end": 45.7,
+            "text": " In RDBMS, the data stored in this format is stored in these three columns."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 45.7,
+            "end": 48.6,
+            "text": " And these are the data stored in these three columns."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 48.6,
+            "end": 55.0,
+            "text": " Note that while working with RDBMS, so many technical terms are arrived."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 55.1,
+            "end": 59.3,
+            "text": " When you work with RDBMS, you will get many words to listen to."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 59.3,
+            "end": 68.9,
+            "text": " Like entity, the table, attribute, column, records, row, degree, number of column, cardinality, row,"
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 68.9,
+            "end": 71.3,
+            "text": " and the value of our column is domain."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 71.3,
+            "end": 73.3,
+            "text": " In the example, look here."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 73.3,
+            "end": 76.2,
+            "text": " This is a table called student."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 76.2,
+            "end": 78.4,
+            "text": " We will call it entity."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 78.4,
+            "end": 80.9,
+            "text": " The name of the table."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 80.9,
+            "end": 84.4,
+            "text": " Then from the column, these are our attributes."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 84.80000000000001,
+            "end": 88.30000000000001,
+            "text": " Then here you see the data."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 88.30000000000001,
+            "end": 91.0,
+            "text": " In the first row, it is called row."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 91.0,
+            "end": 92.80000000000001,
+            "text": " There are three rows here."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 92.80000000000001,
+            "end": 94.80000000000001,
+            "text": " After that, we have a degree."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 94.80000000000001,
+            "end": 96.30000000000001,
+            "text": " What is our degree?"
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 96.30000000000001,
+            "end": 98.0,
+            "text": " Our total number of column."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 98.0,
+            "end": 99.7,
+            "text": " There are three here."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 99.7,
+            "end": 102.7,
+            "text": " Cardinality is our total number of row."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 102.7,
+            "end": 104.80000000000001,
+            "text": " Here it is."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 104.80000000000001,
+            "end": 107.30000000000001,
+            "text": " The value of our column is domain."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 107.30000000000001,
+            "end": 111.10000000000001,
+            "text": " i.e. if the value in the S name column is Ankit Ankus Akhil."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 111.10000000000001,
+            "end": 113.30000000000001,
+            "text": " Then this is our cardinality."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 114.2,
+            "end": 123.7,
+            "text": " Now let's practically show you how to create tables in RDBMS and how to store data in tabular form."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 127.1,
+            "end": 131.6,
+            "text": " To show practical, we have connected with our database here."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 131.6,
+            "end": 135.6,
+            "text": " We are using the database and the original version is 11G."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 135.6,
+            "end": 139.8,
+            "text": " You can use MySQL or post-grape."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 139.8,
+            "end": 143.10000000000002,
+            "text": " First of all, we have to create tables."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 143.10000000000002,
+            "end": 145.9,
+            "text": " This is our query to create tables."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 145.9,
+            "end": 147.9,
+            "text": " The table is created."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 147.9,
+            "end": 150.8,
+            "text": " If you want to see, you can see this way."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 150.8,
+            "end": 153.0,
+            "text": " The command here is DESC."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 153.0,
+            "end": 155.3,
+            "text": " The name of the table."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 155.3,
+            "end": 158.10000000000002,
+            "text": " There is a little mistake in spelling."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 158.10000000000002,
+            "end": 162.8,
+            "text": " Here what you see is the complete structure of the table."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 162.8,
+            "end": 164.3,
+            "text": " This is called schema."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 164.3,
+            "end": 169.8,
+            "text": " Here we have provided the complete description of our entity."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 169.8,
+            "end": 173.3,
+            "text": " This is the type of column in my table."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 173.3,
+            "end": 175.3,
+            "text": " This is the type of column."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 175.3,
+            "end": 176.8,
+            "text": " This is also a var square."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 176.8,
+            "end": 178.3,
+            "text": " We have the table."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 178.3,
+            "end": 180.8,
+            "text": " Now we have to insert a record in it."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 180.8,
+            "end": 184.3,
+            "text": " To insert a record, we have the query for insert."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 184.3,
+            "end": 187.3,
+            "text": " This is our record insert."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 187.3,
+            "end": 191.3,
+            "text": " To insert a second record, we are firing the query shortcut."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 191.3,
+            "end": 193.3,
+            "text": " We have inserted three records."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 193.3,
+            "end": 197.3,
+            "text": " Now we will select and show you whether the data is inserted or not."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 197.3,
+            "end": 200.3,
+            "text": " Here we have the data in our table."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 200.3,
+            "end": 202.3,
+            "text": " Selected a star from the student."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 202.3,
+            "end": 204.3,
+            "text": " Here we have the data in our student table."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 204.3,
+            "end": 206.3,
+            "text": " This is in tabular form."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 206.3,
+            "end": 208.3,
+            "text": " This is the attribute."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 208.3,
+            "end": 211.3,
+            "text": " This is the data we have to store."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 211.3,
+            "end": 215.3,
+            "text": " First of all, we have to define the structure."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 215.3,
+            "end": 217.3,
+            "text": " We have to create a schema for our data."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 217.3,
+            "end": 218.3,
+            "text": " We have created that."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 218.3,
+            "end": 221.3,
+            "text": " Then we have inserted the data."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 221.3,
+            "end": 224.3,
+            "text": " The data is stored in the row column format."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 224.3,
+            "end": 226.3,
+            "text": " This was our simple practical."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 226.3,
+            "end": 234.3,
+            "text": " We have shown you the practical so that you can know how to implement it in every real work."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 234.3,
+            "end": 237.3,
+            "text": " Although there is no requirement for practical in dbms."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 237.3,
+            "end": 242.3,
+            "text": " If you want to know the practical details of Oracle database or rdbms,"
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 242.3,
+            "end": 247.3,
+            "text": " you will get the complete playlist of our SQL in the video description."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 247.3,
+            "end": 249.3,
+            "text": " Check out the video description."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 249.3,
+            "end": 252.3,
+            "text": " We have explained everything in detail."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 252.3,
+            "end": 255.3,
+            "text": " We have explained the other requirements."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 255.3,
+            "end": 257.3,
+            "text": " We hope you understood."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 257.3,
+            "end": 260.3,
+            "text": " If you have come, then like the video and share it."
+        },
+        {
+            "number": "27",
+            "title": "lecture",
+            "start": 260.3,
+            "end": 262.3,
+            "text": " Subscribe to the channel."
+        }
+    ],
+    "text": " In the database management system, today's topic is what is RDBMS? What is RDBMS? In full explanation, we will practically explain how it works. But first, let's explain the meaning of this. The arrangement of data of this model in row and column format. The data stored in the RDBMS model in the database is stored in row and column format, i.e. tabular format. For example, we have a table named student details. In which we have data stored in row and column format. In RDBMS, the data stored in this format is stored in these three columns. And these are the data stored in these three columns. Note that while working with RDBMS, so many technical terms are arrived. When you work with RDBMS, you will get many words to listen to. Like entity, the table, attribute, column, records, row, degree, number of column, cardinality, row, and the value of our column is domain. In the example, look here. This is a table called student. We will call it entity. The name of the table. Then from the column, these are our attributes. Then here you see the data. In the first row, it is called row. There are three rows here. After that, we have a degree. What is our degree? Our total number of column. There are three here. Cardinality is our total number of row. Here it is. The value of our column is domain. i.e. if the value in the S name column is Ankit Ankus Akhil. Then this is our cardinality. Now let's practically show you how to create tables in RDBMS and how to store data in tabular form. To show practical, we have connected with our database here. We are using the database and the original version is 11G. You can use MySQL or post-grape. First of all, we have to create tables. This is our query to create tables. The table is created. If you want to see, you can see this way. The command here is DESC. The name of the table. There is a little mistake in spelling. Here what you see is the complete structure of the table. This is called schema. Here we have provided the complete description of our entity. This is the type of column in my table. This is the type of column. This is also a var square. We have the table. Now we have to insert a record in it. To insert a record, we have the query for insert. This is our record insert. To insert a second record, we are firing the query shortcut. We have inserted three records. Now we will select and show you whether the data is inserted or not. Here we have the data in our table. Selected a star from the student. Here we have the data in our student table. This is in tabular form. This is the attribute. This is the data we have to store. First of all, we have to define the structure. We have to create a schema for our data. We have created that. Then we have inserted the data. The data is stored in the row column format. This was our simple practical. We have shown you the practical so that you can know how to implement it in every real work. Although there is no requirement for practical in dbms. If you want to know the practical details of Oracle database or rdbms, you will get the complete playlist of our SQL in the video description. Check out the video description. We have explained everything in detail. We have explained the other requirements. We hope you understood. If you have come, then like the video and share it. Subscribe to the channel."
+}

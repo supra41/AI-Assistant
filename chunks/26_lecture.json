@@ -1,0 +1,1482 @@
+{
+    "chunks": [
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 3.6,
+            "text": " Today's topic is Normalization in the database management system."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 3.6,
+            "end": 9.1,
+            "text": " This is a very important topic from the perspective of the interview and the point of view of the exam."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 9.1,
+            "end": 12.5,
+            "text": " We are always asked about normalization in the exam."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 12.5,
+            "end": 14.6,
+            "text": " Let's start."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 17.900000000000002,
+            "end": 23.7,
+            "text": " Normalization is a method to breaking down large complex tables into smaller tables,"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 23.7,
+            "end": 27.2,
+            "text": " related tables and define relationship between them."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 27.2,
+            "end": 32.8,
+            "text": " If you have a complex table and you want to divide it into smaller tables,"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 32.8,
+            "end": 35.3,
+            "text": " then you have to follow the normalization technique."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 35.3,
+            "end": 38.8,
+            "text": " Or you have to create a table related to that complex table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 38.8,
+            "end": 41.3,
+            "text": " Then you have to follow the normalization."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 41.3,
+            "end": 45.3,
+            "text": " If you have to create a relationship between them, then you need normalization."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 45.3,
+            "end": 53.0,
+            "text": " Normalization reduces the redundancy of data, i.e. it ends duplicacy."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 53.0,
+            "end": 57.0,
+            "text": " And also removes inconsistency, problem and unwanted risk."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 57.0,
+            "end": 63.9,
+            "text": " You can easily fit the data and the risks that are there in the table are all over the use of normalization."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 63.9,
+            "end": 65.9,
+            "text": " See the advantages."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 65.9,
+            "end": 67.9,
+            "text": " Maintain data integrity."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 67.9,
+            "end": 73.6,
+            "text": " It means that your data will be maintained properly and you can use it without the primary's uniqueness."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 73.6,
+            "end": 77.6,
+            "text": " You can reduce the structure of the table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 77.6,
+            "end": 82.6,
+            "text": " You can divide the big table into smaller tables or you can create a table related to that table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 82.6,
+            "end": 84.1,
+            "text": " Avoid null value."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 84.19999999999999,
+            "end": 89.19999999999999,
+            "text": " You can avoid null value because you can use integrity in your data."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 89.19999999999999,
+            "end": 90.69999999999999,
+            "text": " The primary key."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 90.69999999999999,
+            "end": 92.69999999999999,
+            "text": " So null value will be avoided."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 92.69999999999999,
+            "end": 97.19999999999999,
+            "text": " Structuring of tables so that the model is flexible and easy to use."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 97.19999999999999,
+            "end": 99.69999999999999,
+            "text": " The structure of the table will be very easy."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 99.69999999999999,
+            "end": 102.19999999999999,
+            "text": " You can easily structure the data."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 102.19999999999999,
+            "end": 105.39999999999999,
+            "text": " This will make it easier to use the model."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 105.39999999999999,
+            "end": 108.19999999999999,
+            "text": " See the types of normalization."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 108.19999999999999,
+            "end": 109.19999999999999,
+            "text": " How many types are there?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 109.19999999999999,
+            "end": 110.19999999999999,
+            "text": " There are five types."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 110.3,
+            "end": 115.3,
+            "text": " First NF, second NF, third NF, BC NF, fourth NF and fifth NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 115.3,
+            "end": 118.3,
+            "text": " So total six types are of our normalization."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 118.3,
+            "end": 120.8,
+            "text": " Here you can see the level in the figure."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 120.8,
+            "end": 123.8,
+            "text": " First NF on the upper level."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 123.8,
+            "end": 127.30000000000001,
+            "text": " After that second NF, third NF, BC NF, fourth NF, fifth NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 127.30000000000001,
+            "end": 131.8,
+            "text": " This means that if our normal table is first NF, then it should be in the first NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 131.8,
+            "end": 134.3,
+            "text": " In the second NF case, it should be in the first NF case."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 134.3,
+            "end": 136.3,
+            "text": " In the third NF case, it should be in the second NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 136.3,
+            "end": 139.3,
+            "text": " In BC NF, the table should be in the first and third NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 139.3,
+            "end": 143.02,
+            "text": " Similarly, table should be in 5th and 10th."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 143.02,
+            "end": 146.5,
+            "text": " Now let's cover this type in detail."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 146.5,
+            "end": 150.86,
+            "text": " First, data must be stored in a table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 150.86,
+            "end": 155.70000000000002,
+            "text": " The first condition should be data in row and column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 155.70000000000002,
+            "end": 156.98000000000002,
+            "text": " What will it do?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 156.98000000000002,
+            "end": 160.18,
+            "text": " Each column should contain individual values."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 160.18,
+            "end": 162.82000000000002,
+            "text": " Here we have a project table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 162.82000000000002,
+            "end": 165.5,
+            "text": " We have data in row column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 165.58,
+            "end": 170.46,
+            "text": " But firstNF condition is that each column should contain individual values."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 170.46,
+            "end": 171.74,
+            "text": " Look here."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 171.74,
+            "end": 173.5,
+            "text": " Now look at this table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 173.5,
+            "end": 177.42,
+            "text": " This column has multiple values in same column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 177.42,
+            "end": 179.1,
+            "text": " What will we do here?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 179.1,
+            "end": 181.5,
+            "text": " We will convert this table to firstNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 181.5,
+            "end": 186.06,
+            "text": " So, we have to convert it to individual values in each table in the course."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 186.06,
+            "end": 188.86,
+            "text": " We have to do individual values in each table in the teacher."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 188.86,
+            "end": 193.26,
+            "text": " So, if we convert this table to this table,"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 193.34,
+            "end": 195.57999999999998,
+            "text": " this will be our firstNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 195.57999999999998,
+            "end": 197.1,
+            "text": " Let's hope that we have understood."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 197.1,
+            "end": 199.42,
+            "text": " Now let's look at our next type."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 199.42,
+            "end": 203.66,
+            "text": " In the secondNF, the first point is table must be in firstNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 203.66,
+            "end": 206.29999999999998,
+            "text": " Your table should be in firstNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 206.29999999999998,
+            "end": 208.94,
+            "text": " If you want to achieve secondNF normalization."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 208.94,
+            "end": 214.22,
+            "text": " Second point is allNN attributes should be fully dependent on primary key."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 214.22,
+            "end": 215.89999999999998,
+            "text": " No partial dependencies."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 215.89999999999998,
+            "end": 222.29999999999998,
+            "text": " The normal column of allNN attributes should be dependent on primary key."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 222.94,
+            "end": 223.9,
+            "text": " Look here."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 223.9,
+            "end": 225.9,
+            "text": " The table that will be in the beginning,"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 225.9,
+            "end": 227.02,
+            "text": " suppose this is the table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 227.02,
+            "end": 231.26000000000002,
+            "text": " First, we have to convert it to firstNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 231.26000000000002,
+            "end": 233.66000000000003,
+            "text": " This is our firstNF table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 233.66000000000003,
+            "end": 234.46,
+            "text": " How did we make this table?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 234.46,
+            "end": 236.38000000000002,
+            "text": " I have explained this to you a little while ago."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 236.38000000000002,
+            "end": 238.86,
+            "text": " To make this firstNF table in secondNF,"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 238.86,
+            "end": 242.3,
+            "text": " first, we have to find the primary key column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 242.3,
+            "end": 243.66000000000003,
+            "text": " Look here."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 243.66000000000003,
+            "end": 247.26000000000002,
+            "text": " If we show the primary key column in our table,"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 247.26000000000002,
+            "end": 249.5,
+            "text": " here we have 4 columns in this table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 249.58,
+            "end": 253.42,
+            "text": " We can consider this column as primary key or we can do this too."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 253.42,
+            "end": 255.26,
+            "text": " Because they have unique value."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 255.26,
+            "end": 258.94,
+            "text": " To go to secondNF, first, we need 2 tables."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 258.94,
+            "end": 263.74,
+            "text": " In table 1, we will keep the primary key attribute that contains unique data."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 263.74,
+            "end": 264.86,
+            "text": " We have kept it."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 264.86,
+            "end": 268.62,
+            "text": " In second table, we will keep non key attribute."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 268.62,
+            "end": 272.06,
+            "text": " That is, we will keep all the duplicate values in second."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 272.06,
+            "end": 277.9,
+            "text": " Now to create a relationship, we need a foreign key column of primary key column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 278.06,
+            "end": 281.26,
+            "text": " Which contains the same data as primary key."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 281.26,
+            "end": 285.09999999999997,
+            "text": " So that we can relate the table and the data can be fetched from here to here."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 285.09999999999997,
+            "end": 290.21999999999997,
+            "text": " This is our secondNF in which we have to follow the first rule."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 290.21999999999997,
+            "end": 294.06,
+            "text": " Identify the primary key column from the firstNormal form."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 294.06,
+            "end": 296.53999999999996,
+            "text": " Our firstNormal form is this table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 296.53999999999996,
+            "end": 299.34,
+            "text": " We have found the primary key column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 299.34,
+            "end": 301.5,
+            "text": " We have separated it into one table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 301.5,
+            "end": 302.85999999999996,
+            "text": " The unique data."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 302.85999999999996,
+            "end": 303.65999999999997,
+            "text": " What else?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 303.65999999999997,
+            "end": 306.21999999999997,
+            "text": " We have made the color table of non key attribute."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 306.3,
+            "end": 308.06,
+            "text": " After that, we have created a relationship."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 308.06,
+            "end": 310.46000000000004,
+            "text": " We have created a foreign key from primary key."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 310.46000000000004,
+            "end": 312.46000000000004,
+            "text": " This is our secondNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 312.46000000000004,
+            "end": 314.06,
+            "text": " ThirdNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 314.06,
+            "end": 314.70000000000005,
+            "text": " What was this?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 314.70000000000005,
+            "end": 317.90000000000003,
+            "text": " The table should be in secondNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 317.90000000000003,
+            "end": 322.86,
+            "text": " Second point is non key attribute should not depend on other non key attributes."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 322.86,
+            "end": 326.78000000000003,
+            "text": " One table should not depend on non key attributes of other table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 326.78000000000003,
+            "end": 330.54,
+            "text": " Or the same table should not depend on other non key attributes."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 330.54,
+            "end": 334.86,
+            "text": " In table 1, we have kept the value of the primary key column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 335.18,
+            "end": 338.14,
+            "text": " The primary key is unique value."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 338.14,
+            "end": 339.58000000000004,
+            "text": " This is the secondNF table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 339.58000000000004,
+            "end": 342.94,
+            "text": " What is the value of non key attribute in table 2?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 342.94,
+            "end": 344.94,
+            "text": " We have kept the value of non key attribute."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 344.94,
+            "end": 349.90000000000003,
+            "text": " Now, we are creating a relationship between table 1 and table 3 with 2."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 349.90000000000003,
+            "end": 352.78000000000003,
+            "text": " This is our primary key column, S-Roll."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 352.78000000000003,
+            "end": 355.1,
+            "text": " And we have taken the second value, Core."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 355.1,
+            "end": 357.26,
+            "text": " We have created a new table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 357.26,
+            "end": 360.14,
+            "text": " This is our PK column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 360.14,
+            "end": 362.38,
+            "text": " This is our primary key column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 362.94,
+            "end": 367.65999999999997,
+            "text": " We have created a new table by creating a relationship between table 1 and table 3."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 367.65999999999997,
+            "end": 370.38,
+            "text": " This is our thirdNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 370.38,
+            "end": 373.65999999999997,
+            "text": " In which non key attribute is not dependent on each other."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 373.65999999999997,
+            "end": 377.5,
+            "text": " These are non key attributes but they are not dependent on each other."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 377.5,
+            "end": 384.62,
+            "text": " We have taken the primary key and non key of other table and created a new table by creating a relationship between them."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 384.62,
+            "end": 387.65999999999997,
+            "text": " Now, we will see what is B-C-N-F."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 387.65999999999997,
+            "end": 390.62,
+            "text": " B-C-N-F means Boy Scored Normal Form."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 390.7,
+            "end": 394.38,
+            "text": " In this, the first condition is that our table should be in our thirdNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 394.38,
+            "end": 399.26,
+            "text": " Second is, if a table contains more than one composite key attribute"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 399.26,
+            "end": 404.14,
+            "text": " and should be possible, the one attribute of both composites are matched."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 404.14,
+            "end": 405.5,
+            "text": " We will not understand this now."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 405.5,
+            "end": 407.74,
+            "text": " Let us also tell you in the example."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 407.74,
+            "end": 409.02,
+            "text": " We have a table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 409.02,
+            "end": 411.26,
+            "text": " Look, this is the table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 411.26,
+            "end": 417.34000000000003,
+            "text": " Now, what we have to say is that if table contains more than one composite key attribute."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 417.41999999999996,
+            "end": 421.58,
+            "text": " Composite key attribute means that two columns should be given a unique record."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 421.58,
+            "end": 423.73999999999995,
+            "text": " Look here, E code and P code."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 423.73999999999995,
+            "end": 431.41999999999996,
+            "text": " If we see these two columns, we can use these two columns to create a composite key and take a unique data."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 431.41999999999996,
+            "end": 437.58,
+            "text": " Also, we can identify the name and P code and also make a unique record."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 437.58,
+            "end": 441.02,
+            "text": " We can also make a unique data fetch by combining name and P code."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 441.02,
+            "end": 442.94,
+            "text": " This is also the case with composite key."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 442.94,
+            "end": 445.73999999999995,
+            "text": " So, what was the definition in this starting?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 445.82,
+            "end": 449.18,
+            "text": " We said if a table contains more than one composite key."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 449.18,
+            "end": 451.18,
+            "text": " We have two composites."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 451.18,
+            "end": 452.38,
+            "text": " Now, what to do?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 452.38,
+            "end": 456.38,
+            "text": " Should be possible, the one attribute of both composites are matched."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 456.38,
+            "end": 463.34000000000003,
+            "text": " Look, in composite 1, P code and in composite 2, P code is matching these two columns."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 463.34000000000003,
+            "end": 465.18,
+            "text": " Now, what to do?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 465.18,
+            "end": 467.34000000000003,
+            "text": " We have to create BCNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 467.34000000000003,
+            "end": 469.26,
+            "text": " So, what we will do first?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 469.34,
+            "end": 479.82,
+            "text": " We will create a table of the two columns, which are the E code columns and the name columns."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 479.82,
+            "end": 481.42,
+            "text": " What will we create the second table?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 481.42,
+            "end": 482.94,
+            "text": " We will create the second table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 482.94,
+            "end": 487.26,
+            "text": " This is the original table of P code and this is the column of R."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 487.26,
+            "end": 489.98,
+            "text": " We will create a second table with P code and R."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 489.98,
+            "end": 494.38,
+            "text": " We will use this column to create a relationship."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 494.38,
+            "end": 498.94,
+            "text": " This is the primary and this is the foreign."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 499.02,
+            "end": 500.94,
+            "text": " What can we do here?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 500.94,
+            "end": 503.9,
+            "text": " We can create a relationship between these two tables."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 503.9,
+            "end": 505.74,
+            "text": " This is our BCNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 505.74,
+            "end": 507.26,
+            "text": " What we have to do?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 507.26,
+            "end": 510.46,
+            "text": " We have to see in our table how many composites are there."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 510.46,
+            "end": 513.98,
+            "text": " We have seen here two composites in our table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 513.98,
+            "end": 520.7,
+            "text": " After that, we will keep the unique column of composite key in separate table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 520.7,
+            "end": 522.62,
+            "text": " And with the remaining column."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 522.62,
+            "end": 524.62,
+            "text": " Look here, we have kept it."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 524.62,
+            "end": 528.38,
+            "text": " And we will keep the different columns in a different table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 528.38,
+            "end": 529.74,
+            "text": " And then what we will do?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 529.74,
+            "end": 534.3,
+            "text": " We will make a primary column and create the same column in the other table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 534.3,
+            "end": 537.82,
+            "text": " We can create a relationship and send the data."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 537.82,
+            "end": 539.34,
+            "text": " This is BCNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 539.34,
+            "end": 541.66,
+            "text": " Let's hope you have understood."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 541.66,
+            "end": 544.22,
+            "text": " Now we will see our fifth type, fourth NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 544.22,
+            "end": 545.26,
+            "text": " What is this?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 545.26,
+            "end": 547.74,
+            "text": " The table must be in BCNF and third NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 547.74,
+            "end": 550.54,
+            "text": " The table should be in BCNF or third NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 550.54,
+            "end": 555.82,
+            "text": " After that, we must ensure there are no multi-value dependency."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 555.98,
+            "end": 558.7800000000001,
+            "text": " There should be no multi-value dependency."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 558.7800000000001,
+            "end": 561.58,
+            "text": " Where one column is dependent on another."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 561.58,
+            "end": 564.5400000000001,
+            "text": " But one column should be dependent on another."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 564.5400000000001,
+            "end": 568.3000000000001,
+            "text": " But then the same column should be independent of other attributes."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 568.3000000000001,
+            "end": 572.7800000000001,
+            "text": " The same column should not be dependent on another attribute."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 572.7800000000001,
+            "end": 576.3000000000001,
+            "text": " Suppose there is a table with three columns."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 576.3000000000001,
+            "end": 580.22,
+            "text": " If column 1 is dependent on column 3, then it is fine."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 580.22,
+            "end": 584.1400000000001,
+            "text": " Also, column 1 and column 2 should not be dependent on each other."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 584.62,
+            "end": 585.8199999999999,
+            "text": " This is what we want to say."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 585.8199999999999,
+            "end": 590.54,
+            "text": " You can create a table and understand the examples."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 590.54,
+            "end": 596.3,
+            "text": " But we are telling the fourth and fifth NF as we can say it in the interview."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 596.3,
+            "end": 600.06,
+            "text": " But you don't have to make an example."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 600.06,
+            "end": 602.46,
+            "text": " The fourth was important."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 602.46,
+            "end": 604.46,
+            "text": " First, second, third and BCNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 604.46,
+            "end": 606.6999999999999,
+            "text": " The fifth NF is the last."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 606.6999999999999,
+            "end": 607.74,
+            "text": " What is this?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 607.74,
+            "end": 610.7,
+            "text": " It is also called cold project joint normal form."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 610.7,
+            "end": 612.54,
+            "text": " It is also called PGNF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 613.5,
+            "end": 616.54,
+            "text": " This table should be in the fourth NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 616.54,
+            "end": 618.54,
+            "text": " After that, what can we do?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 618.54,
+            "end": 620.54,
+            "text": " We can perform the operation ahead."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 620.54,
+            "end": 625.0999999999999,
+            "text": " If we decompose the table further to eliminate redundancy."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 625.0999999999999,
+            "end": 630.54,
+            "text": " And when we rejoin the decomposed table, it means the candidate"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 630.54,
+            "end": 633.98,
+            "text": " that we should not be losing the original data."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 633.98,
+            "end": 635.0999999999999,
+            "text": " What does this mean?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 635.0999999999999,
+            "end": 638.4599999999999,
+            "text": " If we have a table, we are decomposing it."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 638.4599999999999,
+            "end": 640.9399999999999,
+            "text": " So, what will be the redundancy?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 640.94,
+            "end": 641.9000000000001,
+            "text": " It will be removed."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 641.9000000000001,
+            "end": 643.74,
+            "text": " It means the duplicacy will be gone."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 643.74,
+            "end": 647.5,
+            "text": " Then when we will rejoin the table again,"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 647.5,
+            "end": 649.9000000000001,
+            "text": " we will decompose the table."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 649.9000000000001,
+            "end": 650.94,
+            "text": " Then what will happen?"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 650.94,
+            "end": 653.5,
+            "text": " Whatever our candidate did,"
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 653.5,
+            "end": 656.1400000000001,
+            "text": " he will not lose our original data."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 656.1400000000001,
+            "end": 657.9000000000001,
+            "text": " We will get the original data again."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 657.9000000000001,
+            "end": 659.98,
+            "text": " This is the fifth NF."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 659.98,
+            "end": 664.62,
+            "text": " So, let's hope you understand the normalization of DBMS."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 664.62,
+            "end": 666.86,
+            "text": " If you have come, then like the video, share it."
+        },
+        {
+            "number": "26",
+            "title": "lecture",
+            "start": 666.86,
+            "end": 668.86,
+            "text": " Subscribe to the channel."
+        }
+    ],
+    "text": " Today's topic is Normalization in the database management system. This is a very important topic from the perspective of the interview and the point of view of the exam. We are always asked about normalization in the exam. Let's start. Normalization is a method to breaking down large complex tables into smaller tables, related tables and define relationship between them. If you have a complex table and you want to divide it into smaller tables, then you have to follow the normalization technique. Or you have to create a table related to that complex table. Then you have to follow the normalization. If you have to create a relationship between them, then you need normalization. Normalization reduces the redundancy of data, i.e. it ends duplicacy. And also removes inconsistency, problem and unwanted risk. You can easily fit the data and the risks that are there in the table are all over the use of normalization. See the advantages. Maintain data integrity. It means that your data will be maintained properly and you can use it without the primary's uniqueness. You can reduce the structure of the table. You can divide the big table into smaller tables or you can create a table related to that table. Avoid null value. You can avoid null value because you can use integrity in your data. The primary key. So null value will be avoided. Structuring of tables so that the model is flexible and easy to use. The structure of the table will be very easy. You can easily structure the data. This will make it easier to use the model. See the types of normalization. How many types are there? There are five types. First NF, second NF, third NF, BC NF, fourth NF and fifth NF. So total six types are of our normalization. Here you can see the level in the figure. First NF on the upper level. After that second NF, third NF, BC NF, fourth NF, fifth NF. This means that if our normal table is first NF, then it should be in the first NF. In the second NF case, it should be in the first NF case. In the third NF case, it should be in the second NF. In BC NF, the table should be in the first and third NF. Similarly, table should be in 5th and 10th. Now let's cover this type in detail. First, data must be stored in a table. The first condition should be data in row and column. What will it do? Each column should contain individual values. Here we have a project table. We have data in row column. But firstNF condition is that each column should contain individual values. Look here. Now look at this table. This column has multiple values in same column. What will we do here? We will convert this table to firstNF. So, we have to convert it to individual values in each table in the course. We have to do individual values in each table in the teacher. So, if we convert this table to this table, this will be our firstNF. Let's hope that we have understood. Now let's look at our next type. In the secondNF, the first point is table must be in firstNF. Your table should be in firstNF. If you want to achieve secondNF normalization. Second point is allNN attributes should be fully dependent on primary key. No partial dependencies. The normal column of allNN attributes should be dependent on primary key. Look here. The table that will be in the beginning, suppose this is the table. First, we have to convert it to firstNF. This is our firstNF table. How did we make this table? I have explained this to you a little while ago. To make this firstNF table in secondNF, first, we have to find the primary key column. Look here. If we show the primary key column in our table, here we have 4 columns in this table. We can consider this column as primary key or we can do this too. Because they have unique value. To go to secondNF, first, we need 2 tables. In table 1, we will keep the primary key attribute that contains unique data. We have kept it. In second table, we will keep non key attribute. That is, we will keep all the duplicate values in second. Now to create a relationship, we need a foreign key column of primary key column. Which contains the same data as primary key. So that we can relate the table and the data can be fetched from here to here. This is our secondNF in which we have to follow the first rule. Identify the primary key column from the firstNormal form. Our firstNormal form is this table. We have found the primary key column. We have separated it into one table. The unique data. What else? We have made the color table of non key attribute. After that, we have created a relationship. We have created a foreign key from primary key. This is our secondNF. ThirdNF. What was this? The table should be in secondNF. Second point is non key attribute should not depend on other non key attributes. One table should not depend on non key attributes of other table. Or the same table should not depend on other non key attributes. In table 1, we have kept the value of the primary key column. The primary key is unique value. This is the secondNF table. What is the value of non key attribute in table 2? We have kept the value of non key attribute. Now, we are creating a relationship between table 1 and table 3 with 2. This is our primary key column, S-Roll. And we have taken the second value, Core. We have created a new table. This is our PK column. This is our primary key column. We have created a new table by creating a relationship between table 1 and table 3. This is our thirdNF. In which non key attribute is not dependent on each other. These are non key attributes but they are not dependent on each other. We have taken the primary key and non key of other table and created a new table by creating a relationship between them. Now, we will see what is B-C-N-F. B-C-N-F means Boy Scored Normal Form. In this, the first condition is that our table should be in our thirdNF. Second is, if a table contains more than one composite key attribute and should be possible, the one attribute of both composites are matched. We will not understand this now. Let us also tell you in the example. We have a table. Look, this is the table. Now, what we have to say is that if table contains more than one composite key attribute. Composite key attribute means that two columns should be given a unique record. Look here, E code and P code. If we see these two columns, we can use these two columns to create a composite key and take a unique data. Also, we can identify the name and P code and also make a unique record. We can also make a unique data fetch by combining name and P code. This is also the case with composite key. So, what was the definition in this starting? We said if a table contains more than one composite key. We have two composites. Now, what to do? Should be possible, the one attribute of both composites are matched. Look, in composite 1, P code and in composite 2, P code is matching these two columns. Now, what to do? We have to create BCNF. So, what we will do first? We will create a table of the two columns, which are the E code columns and the name columns. What will we create the second table? We will create the second table. This is the original table of P code and this is the column of R. We will create a second table with P code and R. We will use this column to create a relationship. This is the primary and this is the foreign. What can we do here? We can create a relationship between these two tables. This is our BCNF. What we have to do? We have to see in our table how many composites are there. We have seen here two composites in our table. After that, we will keep the unique column of composite key in separate table. And with the remaining column. Look here, we have kept it. And we will keep the different columns in a different table. And then what we will do? We will make a primary column and create the same column in the other table. We can create a relationship and send the data. This is BCNF. Let's hope you have understood. Now we will see our fifth type, fourth NF. What is this? The table must be in BCNF and third NF. The table should be in BCNF or third NF. After that, we must ensure there are no multi-value dependency. There should be no multi-value dependency. Where one column is dependent on another. But one column should be dependent on another. But then the same column should be independent of other attributes. The same column should not be dependent on another attribute. Suppose there is a table with three columns. If column 1 is dependent on column 3, then it is fine. Also, column 1 and column 2 should not be dependent on each other. This is what we want to say. You can create a table and understand the examples. But we are telling the fourth and fifth NF as we can say it in the interview. But you don't have to make an example. The fourth was important. First, second, third and BCNF. The fifth NF is the last. What is this? It is also called cold project joint normal form. It is also called PGNF. This table should be in the fourth NF. After that, what can we do? We can perform the operation ahead. If we decompose the table further to eliminate redundancy. And when we rejoin the decomposed table, it means the candidate that we should not be losing the original data. What does this mean? If we have a table, we are decomposing it. So, what will be the redundancy? It will be removed. It means the duplicacy will be gone. Then when we will rejoin the table again, we will decompose the table. Then what will happen? Whatever our candidate did, he will not lose our original data. We will get the original data again. This is the fifth NF. So, let's hope you understand the normalization of DBMS. If you have come, then like the video, share it. Subscribe to the channel."
+}

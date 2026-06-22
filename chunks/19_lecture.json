@@ -1,0 +1,803 @@
+{
+    "chunks": [
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 4.2,
+            "text": " In the database management system, today's topic is Codes Rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 4.2,
+            "end": 9.1,
+            "text": " This is a very important question and it is also very important for interviews."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 9.1,
+            "end": 11.5,
+            "text": " We are always asked what is Codes Rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 11.5,
+            "end": 16.0,
+            "text": " In full explanation, we will cover in detail what it is."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 19.0,
+            "end": 26.8,
+            "text": " Here we have written the rules are called Codes Rule because they were introduced by Dr. Edgar Frank Ted Code."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 26.8,
+            "end": 35.3,
+            "text": " This is called Codes Rule because the person who introduced these rules was called Dr. Edgar Frank Ted Code."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 35.3,
+            "end": 38.8,
+            "text": " So, he named it by his surname."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 38.8,
+            "end": 44.3,
+            "text": " He was a British computer scientist who is considered as the father of RDBMS."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 44.3,
+            "end": 52.3,
+            "text": " This was a computer scientist of British who was called RDBMS's father."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 52.3,
+            "end": 58.3,
+            "text": " So, you know RDBMS is a relational database management system in which the data is stored in a tabular form."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 58.3,
+            "end": 65.8,
+            "text": " Here you see the total types of Codes Rule are 12 and 12."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 65.8,
+            "end": 71.8,
+            "text": " Here we cover one by one what is said in the Codes Rule and what is this."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 71.8,
+            "end": 75.8,
+            "text": " All the systems must support relational database features."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 76.3,
+            "end": 83.3,
+            "text": " All the systems and computers must support all the relational database features."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 83.3,
+            "end": 87.8,
+            "text": " This means we can install relational database in all the systems."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 87.8,
+            "end": 93.3,
+            "text": " That means all the systems must be installed in the RACAL, MISQUAL systems."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 93.3,
+            "end": 95.3,
+            "text": " The system rule is called the zero rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 95.3,
+            "end": 97.3,
+            "text": " Remember the second name."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 97.3,
+            "end": 104.3,
+            "text": " According to this rule, all the data must be stored in tabular format."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 104.3,
+            "end": 108.3,
+            "text": " All the data must be stored in tabular format."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 108.3,
+            "end": 111.8,
+            "text": " In RDBMS, the data is stored in tabular format."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 111.8,
+            "end": 114.3,
+            "text": " That means RACAL, MISQUAL, and all the data base."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 114.3,
+            "end": 118.8,
+            "text": " It is also called the information rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 118.8,
+            "end": 123.3,
+            "text": " The third point is the second rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 123.3,
+            "end": 129.8,
+            "text": " In this rule, a table must contain a column which can pick a record uniquely."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 129.8,
+            "end": 137.3,
+            "text": " In this rule, a column must be placed in the table which can pick a record uniquely."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 137.3,
+            "end": 143.3,
+            "text": " That means the primary or the unique constant must be applied in that column."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 143.3,
+            "end": 146.3,
+            "text": " It is also known as the guaranteed access rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 146.3,
+            "end": 149.3,
+            "text": " It is also called the guaranteed access rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 149.3,
+            "end": 153.3,
+            "text": " The next point is the third rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 153.3,
+            "end": 156.8,
+            "text": " The system must handle null values."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 156.8,
+            "end": 159.8,
+            "text": " Null values must be handled."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 159.8,
+            "end": 162.8,
+            "text": " Null is a special type of value in terms of DBMS."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 162.8,
+            "end": 168.8,
+            "text": " If we do not provide any value, then by default, the null value is stored in the column."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 168.8,
+            "end": 172.8,
+            "text": " It can be assigned with any column of any type."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 172.8,
+            "end": 178.8,
+            "text": " If we do not provide any value in the column of any data, then it can be applied in the column of any type."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 178.8,
+            "end": 183.8,
+            "text": " It is also known as the null handling systematic treatment rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 183.8,
+            "end": 185.8,
+            "text": " This is the third rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 185.8,
+            "end": 191.8,
+            "text": " Null values must be accepted and handled properly."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 191.8,
+            "end": 194.8,
+            "text": " The fifth point is the fourth rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 194.8,
+            "end": 199.8,
+            "text": " The database scheme must be stored as a relational model."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 199.8,
+            "end": 205.8,
+            "text": " The database scheme must be stored in the table form."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 205.8,
+            "end": 208.8,
+            "text": " The database scheme must be stored in the table form."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 208.8,
+            "end": 211.8,
+            "text": " What is the database scheme?"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 211.8,
+            "end": 215.8,
+            "text": " It is also known as the dynamic catalog or the descriptive data rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 215.8,
+            "end": 219.8,
+            "text": " You can provide the description of your data first."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 219.8,
+            "end": 222.8,
+            "text": " The sixth point is the fifth rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 222.8,
+            "end": 226.8,
+            "text": " The database must support all the sub languages of SQL."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 226.8,
+            "end": 229.8,
+            "text": " You also know that there are five types of SQL."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 229.8,
+            "end": 232.8,
+            "text": " DDL, DML, DQL, DCL and TCL."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 232.8,
+            "end": 236.8,
+            "text": " Our database should support all these languages."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 236.8,
+            "end": 239.8,
+            "text": " That is, the overall SQL query should be supported."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 239.8,
+            "end": 243.8,
+            "text": " It is called the comprehensive data sub language rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 243.8,
+            "end": 246.8,
+            "text": " The seventh point is the sixth rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 246.8,
+            "end": 252.8,
+            "text": " All the views that are theoretically updated must be updated by the system."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 252.8,
+            "end": 256.8,
+            "text": " We have updated any of the things theoretically in our view."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 256.8,
+            "end": 261.8,
+            "text": " The changes we have made in our view should be in our table."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 261.8,
+            "end": 262.8,
+            "text": " Practically also."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 262.8,
+            "end": 266.8,
+            "text": " It is also known as the view updateability rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 266.8,
+            "end": 269.8,
+            "text": " The eighth point is the seventh rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 269.8,
+            "end": 274.8,
+            "text": " The database must support SQL insert, update and delete operation."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 274.8,
+            "end": 277.8,
+            "text": " It is also known as the set operation rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 277.8,
+            "end": 280.8,
+            "text": " The ninth point is the eighth rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 280.8,
+            "end": 285.8,
+            "text": " Physical data changes should not affect how data is accessed."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 285.8,
+            "end": 288.8,
+            "text": " If we know that some changes are made in the data,"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 288.8,
+            "end": 292.8,
+            "text": " then it should not affect the data access."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 292.8,
+            "end": 294.8,
+            "text": " If we know that some changes are made in the data,"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 294.8,
+            "end": 297.8,
+            "text": " then it should be accessed today as well."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 297.8,
+            "end": 300.8,
+            "text": " It is also known as physical data independence rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 300.8,
+            "end": 303.8,
+            "text": " That is why it is called data independence rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 303.8,
+            "end": 305.8,
+            "text": " If some changes are made in the data,"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 305.8,
+            "end": 307.8,
+            "text": " then there should be no changes in accessibility."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 307.8,
+            "end": 309.8,
+            "text": " The tenth point is the ninth rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 309.8,
+            "end": 310.8,
+            "text": " What is in this?"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 310.8,
+            "end": 314.8,
+            "text": " Changes to the logical structure should not affect data access."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 314.8,
+            "end": 320.8,
+            "text": " If we change some logical changes in our SQL query,"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 320.8,
+            "end": 324.8,
+            "text": " then there should be no problem in data fetching."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 324.8,
+            "end": 327.8,
+            "text": " It is also known as logical data independence."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 327.8,
+            "end": 331.8,
+            "text": " If some logic changes, then the data accessibility should not stop."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 331.8,
+            "end": 334.8,
+            "text": " The eleventh point is the tenth rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 334.8,
+            "end": 338.8,
+            "text": " Integrity constraints should be defined in the schema."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 338.8,
+            "end": 342.8,
+            "text": " If you are defining the schema of the database,"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 342.8,
+            "end": 347.8,
+            "text": " then apply the constraint of the primary, the unique one in the schema."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 347.8,
+            "end": 351.8,
+            "text": " If you apply the whole code of the Not in application code in the PLS SQL,"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 351.8,
+            "end": 354.8,
+            "text": " then you are thinking that you should apply the constraint."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 354.8,
+            "end": 356.8,
+            "text": " This cannot be done."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 356.8,
+            "end": 359.8,
+            "text": " It is also known as integrated dependency."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 359.8,
+            "end": 363.8,
+            "text": " The twelfth point is the code's eleventh rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 363.8,
+            "end": 368.8,
+            "text": " Distribution of data across locations should be invisible to users."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 368.8,
+            "end": 372.8,
+            "text": " If we are sharing data on different locations and distributing it,"
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 372.8,
+            "end": 375.8,
+            "text": " then it should not be visible to the end user."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 375.8,
+            "end": 377.8,
+            "text": " Only for developers."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 377.8,
+            "end": 379.8,
+            "text": " We will apply the conditions."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 379.8,
+            "end": 381.8,
+            "text": " Data should be visible to them."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 381.8,
+            "end": 383.8,
+            "text": " Otherwise, it should be invisible."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 383.8,
+            "end": 387.8,
+            "text": " It is also known as distribution dependency rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 387.8,
+            "end": 390.8,
+            "text": " Our last is the code's twelfth rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 390.8,
+            "end": 392.8,
+            "text": " This is the last."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 392.8,
+            "end": 396.8,
+            "text": " No bypassing integrity rules through low level access."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 396.8,
+            "end": 399.8,
+            "text": " We cannot bypass integrity rules."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 399.8,
+            "end": 402.8,
+            "text": " We have to follow the rules of the codes."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 402.8,
+            "end": 404.8,
+            "text": " Even in low level access."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 404.8,
+            "end": 407.8,
+            "text": " Users and developers can do the same."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 407.8,
+            "end": 412.8,
+            "text": " We cannot bypass any rules to follow the codes."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 412.8,
+            "end": 415.8,
+            "text": " It is also known as non-subversion rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 415.8,
+            "end": 419.8,
+            "text": " We have defined the second name of each rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 419.8,
+            "end": 421.8,
+            "text": " You should remember the second name."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 421.8,
+            "end": 424.8,
+            "text": " Because sometimes the question is asked in the interview."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 424.8,
+            "end": 428.8,
+            "text": " This was our complete code's twelfth rule."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 428.8,
+            "end": 431.8,
+            "text": " We have explained all the rules in detail."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 431.8,
+            "end": 434.8,
+            "text": " We hope you understood all the rules."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 434.8,
+            "end": 436.8,
+            "text": " You can speak in the interview now."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 436.8,
+            "end": 439.8,
+            "text": " If you liked the video, then like and share it."
+        },
+        {
+            "number": "19",
+            "title": "lecture",
+            "start": 439.8,
+            "end": 441.8,
+            "text": " Subscribe to the channel."
+        }
+    ],
+    "text": " In the database management system, today's topic is Codes Rule. This is a very important question and it is also very important for interviews. We are always asked what is Codes Rule. In full explanation, we will cover in detail what it is. Here we have written the rules are called Codes Rule because they were introduced by Dr. Edgar Frank Ted Code. This is called Codes Rule because the person who introduced these rules was called Dr. Edgar Frank Ted Code. So, he named it by his surname. He was a British computer scientist who is considered as the father of RDBMS. This was a computer scientist of British who was called RDBMS's father. So, you know RDBMS is a relational database management system in which the data is stored in a tabular form. Here you see the total types of Codes Rule are 12 and 12. Here we cover one by one what is said in the Codes Rule and what is this. All the systems must support relational database features. All the systems and computers must support all the relational database features. This means we can install relational database in all the systems. That means all the systems must be installed in the RACAL, MISQUAL systems. The system rule is called the zero rule. Remember the second name. According to this rule, all the data must be stored in tabular format. All the data must be stored in tabular format. In RDBMS, the data is stored in tabular format. That means RACAL, MISQUAL, and all the data base. It is also called the information rule. The third point is the second rule. In this rule, a table must contain a column which can pick a record uniquely. In this rule, a column must be placed in the table which can pick a record uniquely. That means the primary or the unique constant must be applied in that column. It is also known as the guaranteed access rule. It is also called the guaranteed access rule. The next point is the third rule. The system must handle null values. Null values must be handled. Null is a special type of value in terms of DBMS. If we do not provide any value, then by default, the null value is stored in the column. It can be assigned with any column of any type. If we do not provide any value in the column of any data, then it can be applied in the column of any type. It is also known as the null handling systematic treatment rule. This is the third rule. Null values must be accepted and handled properly. The fifth point is the fourth rule. The database scheme must be stored as a relational model. The database scheme must be stored in the table form. The database scheme must be stored in the table form. What is the database scheme? It is also known as the dynamic catalog or the descriptive data rule. You can provide the description of your data first. The sixth point is the fifth rule. The database must support all the sub languages of SQL. You also know that there are five types of SQL. DDL, DML, DQL, DCL and TCL. Our database should support all these languages. That is, the overall SQL query should be supported. It is called the comprehensive data sub language rule. The seventh point is the sixth rule. All the views that are theoretically updated must be updated by the system. We have updated any of the things theoretically in our view. The changes we have made in our view should be in our table. Practically also. It is also known as the view updateability rule. The eighth point is the seventh rule. The database must support SQL insert, update and delete operation. It is also known as the set operation rule. The ninth point is the eighth rule. Physical data changes should not affect how data is accessed. If we know that some changes are made in the data, then it should not affect the data access. If we know that some changes are made in the data, then it should be accessed today as well. It is also known as physical data independence rule. That is why it is called data independence rule. If some changes are made in the data, then there should be no changes in accessibility. The tenth point is the ninth rule. What is in this? Changes to the logical structure should not affect data access. If we change some logical changes in our SQL query, then there should be no problem in data fetching. It is also known as logical data independence. If some logic changes, then the data accessibility should not stop. The eleventh point is the tenth rule. Integrity constraints should be defined in the schema. If you are defining the schema of the database, then apply the constraint of the primary, the unique one in the schema. If you apply the whole code of the Not in application code in the PLS SQL, then you are thinking that you should apply the constraint. This cannot be done. It is also known as integrated dependency. The twelfth point is the code's eleventh rule. Distribution of data across locations should be invisible to users. If we are sharing data on different locations and distributing it, then it should not be visible to the end user. Only for developers. We will apply the conditions. Data should be visible to them. Otherwise, it should be invisible. It is also known as distribution dependency rule. Our last is the code's twelfth rule. This is the last. No bypassing integrity rules through low level access. We cannot bypass integrity rules. We have to follow the rules of the codes. Even in low level access. Users and developers can do the same. We cannot bypass any rules to follow the codes. It is also known as non-subversion rule. We have defined the second name of each rule. You should remember the second name. Because sometimes the question is asked in the interview. This was our complete code's twelfth rule. We have explained all the rules in detail. We hope you understood all the rules. You can speak in the interview now. If you liked the video, then like and share it. Subscribe to the channel."
+}
