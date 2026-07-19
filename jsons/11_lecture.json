@@ -1,0 +1,1636 @@
+{
+    "chunks": [
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 4.0,
+            "text": " In the database management system, today's topic is relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 4.0,
+            "end": 8.0,
+            "text": " We will tell you what is relationship, full explanation"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 8.0,
+            "end": 11.0,
+            "text": " How to add the table to another table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 11.0,
+            "end": 17.0,
+            "text": " I have written that RDBMS allows us to create relationships among the different tables"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 17.0,
+            "end": 26.0,
+            "text": " If you want to create a relationship between different tables, then you will use RDBMS"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 27.0,
+            "end": 31.0,
+            "text": " There are three types of relationships"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 31.0,
+            "end": 34.0,
+            "text": " The first one is 1 to 1"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 34.0,
+            "end": 39.0,
+            "text": " If each record of the table is related to only each record of another table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 39.0,
+            "end": 44.0,
+            "text": " If any record of a table is related to another table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 44.0,
+            "end": 49.0,
+            "text": " If it is a joint, then we call it 1 to 1 relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 49.0,
+            "end": 53.0,
+            "text": " The second record of a table is a joint"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 53.0,
+            "end": 57.0,
+            "text": " For example, here a table is a person, this is our data"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 57.0,
+            "end": 60.0,
+            "text": " The second table is a passport, this is our data"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 60.0,
+            "end": 64.0,
+            "text": " If our person is our first table, then we call it parent table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 64.0,
+            "end": 68.0,
+            "text": " Then we have to make a column of primary"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 68.0,
+            "end": 71.0,
+            "text": " We can make this column primary because it has a unique record"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 71.0,
+            "end": 74.0,
+            "text": " We can do this too, but why not do it?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 74.0,
+            "end": 78.0,
+            "text": " Because the value is not existing here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 78.0,
+            "end": 83.0,
+            "text": " When we join two tables at the time of joining"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 83.0,
+            "end": 86.0,
+            "text": " We have to make that column of primary"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 86.0,
+            "end": 89.0,
+            "text": " The value of which is also existing in another table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 89.0,
+            "end": 91.0,
+            "text": " So this is the primary"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 91.0,
+            "end": 97.0,
+            "text": " Using this column, we will join this table and send this record from here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 97.0,
+            "end": 100.0,
+            "text": " This will be our foreign column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 100.0,
+            "end": 107.0,
+            "text": " Our second child table will allow us to create a second child column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 107.0,
+            "end": 110.0,
+            "text": " From here to here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 110.0,
+            "end": 114.0,
+            "text": " The first 100th record will be joined with this"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 114.0,
+            "end": 118.0,
+            "text": " This will create our relationship with this"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 118.0,
+            "end": 121.0,
+            "text": " This is one record with this"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 121.0,
+            "end": 123.0,
+            "text": " This is one record with this"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 123.0,
+            "end": 125.0,
+            "text": " This is why we call it 1 to 1 relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 125.0,
+            "end": 131.0,
+            "text": " Let's show you practically how we do this in RDBMS and Rackle Database"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 132.0,
+            "end": 138.0,
+            "text": " In practical session, we have a table named person"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 138.0,
+            "end": 140.0,
+            "text": " This is the record in that person table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 140.0,
+            "end": 142.0,
+            "text": " Selecting star from person"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 142.0,
+            "end": 145.0,
+            "text": " We have this information of person table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 145.0,
+            "end": 147.0,
+            "text": " This table is created"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 147.0,
+            "end": 150.0,
+            "text": " The query for creating this table is written here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 150.0,
+            "end": 153.0,
+            "text": " When you will query after connecting with your database"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 153.0,
+            "end": 155.0,
+            "text": " This will be the same table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 155.0,
+            "end": 159.0,
+            "text": " After that, you will get the data in front of you"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 159.0,
+            "end": 161.0,
+            "text": " The second table is the passport"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 161.0,
+            "end": 164.0,
+            "text": " The query for creating the passport table is written here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 164.0,
+            "end": 166.0,
+            "text": " When we are selecting star from the passport"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 166.0,
+            "end": 169.0,
+            "text": " We have this information of the table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 169.0,
+            "end": 175.0,
+            "text": " Our requirement is that we need the entire passport detail of Akhil"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 175.0,
+            "end": 178.0,
+            "text": " The person's name is Akhil"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 178.0,
+            "end": 180.0,
+            "text": " We need the entire passport detail"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 180.0,
+            "end": 182.0,
+            "text": " So where will we get the passport detail?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 182.0,
+            "end": 183.0,
+            "text": " From the passport table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 183.0,
+            "end": 186.0,
+            "text": " When we were creating the passport table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 186.0,
+            "end": 188.0,
+            "text": " We had created the relationship first"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 188.0,
+            "end": 191.0,
+            "text": " Passport to person table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 191.0,
+            "end": 194.0,
+            "text": " See the query in between these tables"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 194.0,
+            "end": 196.0,
+            "text": " We have defined the column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 196.0,
+            "end": 198.0,
+            "text": " ID, passport ID, passport number"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 198.0,
+            "end": 201.0,
+            "text": " These are the three columns that you can see here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 201.0,
+            "end": 203.0,
+            "text": " What is written here?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 203.0,
+            "end": 204.0,
+            "text": " Foreign key"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 204.0,
+            "end": 207.0,
+            "text": " And a ID is passed in the key"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 207.0,
+            "end": 209.0,
+            "text": " This ID is passed in the foreign key"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 209.0,
+            "end": 212.0,
+            "text": " This is the ID of the passport table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 212.0,
+            "end": 213.0,
+            "text": " This is the column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 213.0,
+            "end": 215.0,
+            "text": " What is written in the references?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 215.0,
+            "end": 217.0,
+            "text": " The ID of the person table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 217.0,
+            "end": 220.0,
+            "text": " The column ID in the person table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 220.0,
+            "end": 222.0,
+            "text": " Take the reference of that column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 222.0,
+            "end": 224.0,
+            "text": " Because this is the primary key column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 224.0,
+            "end": 226.0,
+            "text": " See here, this is the primary key column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 226.0,
+            "end": 227.0,
+            "text": " Our ID"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 227.0,
+            "end": 229.0,
+            "text": " Take the reference of this primary key column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 229.0,
+            "end": 232.0,
+            "text": " Foreign key column that we are creating in our passport"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 232.0,
+            "end": 234.0,
+            "text": " Create a relation"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 234.0,
+            "end": 235.0,
+            "text": " The relation is created"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 235.0,
+            "end": 238.0,
+            "text": " Now our requirement was that we need Akhil's passport detail"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 238.0,
+            "end": 240.0,
+            "text": " How will we get it?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 240.0,
+            "end": 242.0,
+            "text": " We will get it like this"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 242.0,
+            "end": 244.0,
+            "text": " We got an error here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 244.0,
+            "end": 246.0,
+            "text": " We should not have got an error"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 246.0,
+            "end": 249.0,
+            "text": " Did we make any mistakes?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 256.0,
+            "end": 258.0,
+            "text": " Let's fire this query"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 258.0,
+            "end": 261.0,
+            "text": " This is the query to face the detail"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 261.0,
+            "end": 262.0,
+            "text": " There is a little parenthesis"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 262.0,
+            "end": 264.0,
+            "text": " This is the issue"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 264.0,
+            "end": 266.0,
+            "text": " Let's explain this query"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 266.0,
+            "end": 268.0,
+            "text": " The execution will start from here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 268.0,
+            "end": 270.0,
+            "text": " Select ID from person"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 270.0,
+            "end": 273.0,
+            "text": " Select which ID is 100"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 273.0,
+            "end": 276.0,
+            "text": " The 100 ID is here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 276.0,
+            "end": 279.0,
+            "text": " The ID of the 100 is selected by the ID"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 279.0,
+            "end": 281.0,
+            "text": " The 100 value is here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 281.0,
+            "end": 283.0,
+            "text": " So you should keep 100 instead of 100"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 283.0,
+            "end": 286.0,
+            "text": " Now select the star from the passport"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 286.0,
+            "end": 289.0,
+            "text": " We are ID in 100"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 289.0,
+            "end": 292.0,
+            "text": " Whose ID is 100 in the passport?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 292.0,
+            "end": 294.0,
+            "text": " This is the Akhil's passport detail"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 294.0,
+            "end": 296.0,
+            "text": " See here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 296.0,
+            "end": 298.0,
+            "text": " We are done like this"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 298.0,
+            "end": 301.0,
+            "text": " Create a relationship between two tables"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 301.0,
+            "end": 303.0,
+            "text": " And then we will face the data"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 303.0,
+            "end": 306.0,
+            "text": " This is our 1 to 1 relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 306.0,
+            "end": 309.0,
+            "text": " The second type is 1 to many"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 309.0,
+            "end": 311.0,
+            "text": " What happens in 1 to many relationship?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 311.0,
+            "end": 315.0,
+            "text": " If one record of table is enter related to multiple records"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 315.0,
+            "end": 318.0,
+            "text": " Of another table called 1 to many relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 318.0,
+            "end": 320.0,
+            "text": " If we are able to join a record of a table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 320.0,
+            "end": 322.0,
+            "text": " Along with multiple records of other tables"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 322.0,
+            "end": 324.0,
+            "text": " We can face the data"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 324.0,
+            "end": 326.0,
+            "text": " That is the 1 to many relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 326.0,
+            "end": 328.0,
+            "text": " In the example"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 328.0,
+            "end": 330.0,
+            "text": " One table is our customer"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " The second table is our order"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 332.0,
+            "end": 336.0,
+            "text": " One customer can order multiple records"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 336.0,
+            "end": 338.0,
+            "text": " Like here customer ID is 1,2"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 338.0,
+            "end": 340.0,
+            "text": " Customer ID is 1,1,2"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 340.0,
+            "end": 344.0,
+            "text": " So our customer can order two records"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 344.0,
+            "end": 348.0,
+            "text": " You can order multiple records"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 348.0,
+            "end": 350.0,
+            "text": " If you purchase anything online"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 350.0,
+            "end": 352.0,
+            "text": " This is how it happens"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 352.0,
+            "end": 355.0,
+            "text": " This is our primary"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 356.0,
+            "end": 358.0,
+            "text": " Primary key column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 358.0,
+            "end": 360.0,
+            "text": " In which we will have unique record"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 360.0,
+            "end": 362.0,
+            "text": " This is our foreign key column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 362.0,
+            "end": 364.0,
+            "text": " Through which we can create our relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 364.0,
+            "end": 366.0,
+            "text": " Through primary key"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 366.0,
+            "end": 368.0,
+            "text": " In the other table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 368.0,
+            "end": 370.0,
+            "text": " I have made a mistake here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 370.0,
+            "end": 372.0,
+            "text": " This foreign key column is our this one"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 372.0,
+            "end": 375.0,
+            "text": " Because the value of primary key is existing here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 375.0,
+            "end": 378.0,
+            "text": " In 1 to many"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 378.0,
+            "end": 380.0,
+            "text": " We can join a record with multiple records"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 380.0,
+            "end": 382.0,
+            "text": " In the other table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 382.0,
+            "end": 384.0,
+            "text": " When we will face the record"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 384.0,
+            "end": 387.0,
+            "text": " The customer will have two orders"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 387.0,
+            "end": 392.0,
+            "text": " Let's see how it will be in our database"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 396.0,
+            "end": 398.0,
+            "text": " In 1 to many"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 398.0,
+            "end": 400.0,
+            "text": " We have a customer table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 400.0,
+            "end": 402.0,
+            "text": " When we select the star from customer"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 402.0,
+            "end": 404.0,
+            "text": " We have this detail"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 404.0,
+            "end": 406.0,
+            "text": " How we have created this table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 406.0,
+            "end": 408.0,
+            "text": " We have created it through this query"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 408.0,
+            "end": 412.0,
+            "text": " Primary key is on our ID column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 412.0,
+            "end": 414.0,
+            "text": " In the second table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 414.0,
+            "end": 416.0,
+            "text": " We have orders name"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 416.0,
+            "end": 418.0,
+            "text": " Select star from order"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 418.0,
+            "end": 420.0,
+            "text": " We have this detail from order table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 420.0,
+            "end": 422.0,
+            "text": " What we have done here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 422.0,
+            "end": 424.0,
+            "text": " What is our foreign key column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 424.0,
+            "end": 426.0,
+            "text": " Look here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 426.0,
+            "end": 428.0,
+            "text": " Sorry, look here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 428.0,
+            "end": 431.0,
+            "text": " The ID of foreign key is this column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 431.0,
+            "end": 433.0,
+            "text": " What is the reference column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 433.0,
+            "end": 438.0,
+            "text": " The customer table's primary key column"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 438.0,
+            "end": 439.0,
+            "text": " Why?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 439.0,
+            "end": 441.0,
+            "text": " Because through primary key"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 441.0,
+            "end": 444.0,
+            "text": " We can create a relationship with the table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 444.0,
+            "end": 446.0,
+            "text": " Or it should be a unique key"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 446.0,
+            "end": 448.0,
+            "text": " We have primary ID"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 448.0,
+            "end": 450.0,
+            "text": " In 1 to record"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 450.0,
+            "end": 452.0,
+            "text": " In foreign key"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 452.0,
+            "end": 454.0,
+            "text": " This will be the record"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 454.0,
+            "end": 456.0,
+            "text": " There can be more but this is not the case"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 456.0,
+            "end": 458.0,
+            "text": " Only then the record will be released"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 458.0,
+            "end": 460.0,
+            "text": " What is our requirement?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 460.0,
+            "end": 462.0,
+            "text": " The name of the person who has the name Ankit"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 462.0,
+            "end": 465.0,
+            "text": " I want to know how many orders he has made"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 465.0,
+            "end": 468.0,
+            "text": " I want to know how many orders he has made"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 468.0,
+            "end": 471.0,
+            "text": " To know the order, we have to come to the table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 471.0,
+            "end": 475.0,
+            "text": " And here we have to write in the query"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 475.0,
+            "end": 477.0,
+            "text": " Where did the query go?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 477.0,
+            "end": 479.0,
+            "text": " Here we are showing the query"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 479.0,
+            "end": 481.0,
+            "text": " We have read all this in detail"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 481.0,
+            "end": 483.0,
+            "text": " Okay"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 483.0,
+            "end": 485.0,
+            "text": " Old query is here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 485.0,
+            "end": 487.0,
+            "text": " So look here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 487.0,
+            "end": 490.0,
+            "text": " Ankit has two order details"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 490.0,
+            "end": 492.0,
+            "text": " One is an employee"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 492.0,
+            "end": 494.0,
+            "text": " He can order two"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 494.0,
+            "end": 495.0,
+            "text": " He can order multiple"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 495.0,
+            "end": 497.0,
+            "text": " So this is one to many relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 497.0,
+            "end": 499.0,
+            "text": " Let's explain the query"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 499.0,
+            "end": 501.0,
+            "text": " Select ID"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 501.0,
+            "end": 503.0,
+            "text": " From the customer table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 503.0,
+            "end": 504.0,
+            "text": " Whose ID is 1"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 504.0,
+            "end": 506.0,
+            "text": " Only 1 will be selected here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 506.0,
+            "end": 508.0,
+            "text": " Because only 1 ID will get 1 ID"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 508.0,
+            "end": 511.0,
+            "text": " After that select the order details"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 511.0,
+            "end": 513.0,
+            "text": " Whose ID"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 513.0,
+            "end": 515.0,
+            "text": " And you can put 1 on this change"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 515.0,
+            "end": 517.0,
+            "text": " Because from the old table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 517.0,
+            "end": 519.0,
+            "text": " Means 1 is coming from this table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 519.0,
+            "end": 520.0,
+            "text": " So look at 1"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 520.0,
+            "end": 521.0,
+            "text": " One record is here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 521.0,
+            "end": 523.0,
+            "text": " And one record is here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 523.0,
+            "end": 525.0,
+            "text": " So these are the records"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 525.0,
+            "end": 527.0,
+            "text": " So this is our one to many relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 527.0,
+            "end": 529.0,
+            "text": " To show you a simple fund"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 529.0,
+            "end": 531.0,
+            "text": " So that you understand"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 531.0,
+            "end": 533.0,
+            "text": " That this thing exists in real"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 533.0,
+            "end": 534.0,
+            "text": " Okay"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 534.0,
+            "end": 536.0,
+            "text": " If you like the video"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 536.0,
+            "end": 538.0,
+            "text": " Then like and share the video"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 538.0,
+            "end": 540.0,
+            "text": " Third is our many to many relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 540.0,
+            "end": 541.0,
+            "text": " What is there in this?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 541.0,
+            "end": 543.0,
+            "text": " If multiple records of one table"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 543.0,
+            "end": 545.0,
+            "text": " Are interrelated to multiple records"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 545.0,
+            "end": 547.0,
+            "text": " Of another table called"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 547.0,
+            "end": 549.0,
+            "text": " Many to many relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 549.0,
+            "end": 551.0,
+            "text": " For example, there is a student"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 551.0,
+            "end": 552.0,
+            "text": " Here"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 552.0,
+            "end": 553.0,
+            "text": " Second table records"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 553.0,
+            "end": 554.0,
+            "text": " Here we have"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 554.0,
+            "end": 556.0,
+            "text": " So how to understand this?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 556.0,
+            "end": 558.0,
+            "text": " Here is a student"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 558.0,
+            "end": 560.0,
+            "text": " Whose number is 101"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 560.0,
+            "end": 561.0,
+            "text": " Ankit"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 561.0,
+            "end": 562.0,
+            "text": " What is he doing?"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 562.0,
+            "end": 564.0,
+            "text": " He can do multiple courses at the same time"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 564.0,
+            "end": 566.0,
+            "text": " Ankit is reading Java"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 566.0,
+            "end": 568.0,
+            "text": " And Ankit is the same"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 568.0,
+            "end": 570.0,
+            "text": " The student is also learning React"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 570.0,
+            "end": 571.0,
+            "text": " Okay"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 571.0,
+            "end": 573.0,
+            "text": " If we look at the other side"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 573.0,
+            "end": 575.0,
+            "text": " There is another course of Python"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 575.0,
+            "end": 577.0,
+            "text": " Here is doing Akhil"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 577.0,
+            "end": 579.0,
+            "text": " Ankus is also doing it"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 579.0,
+            "end": 581.0,
+            "text": " And Ankit can also do Python"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 581.0,
+            "end": 582.0,
+            "text": " Okay"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 582.0,
+            "end": 584.0,
+            "text": " So this is our many to many relationship"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 584.0,
+            "end": 586.0,
+            "text": " Let's hope you have understood"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 586.0,
+            "end": 588.0,
+            "text": " If you like this video"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 588.0,
+            "end": 590.0,
+            "text": " Then like and share the video"
+        },
+        {
+            "number": "11",
+            "title": "lecture",
+            "start": 590.0,
+            "end": 592.0,
+            "text": " Subscribe to the channel"
+        }
+    ],
+    "text": " In the database management system, today's topic is relationship We will tell you what is relationship, full explanation How to add the table to another table I have written that RDBMS allows us to create relationships among the different tables If you want to create a relationship between different tables, then you will use RDBMS There are three types of relationships The first one is 1 to 1 If each record of the table is related to only each record of another table If any record of a table is related to another table If it is a joint, then we call it 1 to 1 relationship The second record of a table is a joint For example, here a table is a person, this is our data The second table is a passport, this is our data If our person is our first table, then we call it parent table Then we have to make a column of primary We can make this column primary because it has a unique record We can do this too, but why not do it? Because the value is not existing here When we join two tables at the time of joining We have to make that column of primary The value of which is also existing in another table So this is the primary Using this column, we will join this table and send this record from here This will be our foreign column Our second child table will allow us to create a second child column From here to here The first 100th record will be joined with this This will create our relationship with this This is one record with this This is one record with this This is why we call it 1 to 1 relationship Let's show you practically how we do this in RDBMS and Rackle Database In practical session, we have a table named person This is the record in that person table Selecting star from person We have this information of person table This table is created The query for creating this table is written here When you will query after connecting with your database This will be the same table After that, you will get the data in front of you The second table is the passport The query for creating the passport table is written here When we are selecting star from the passport We have this information of the table Our requirement is that we need the entire passport detail of Akhil The person's name is Akhil We need the entire passport detail So where will we get the passport detail? From the passport table When we were creating the passport table We had created the relationship first Passport to person table See the query in between these tables We have defined the column ID, passport ID, passport number These are the three columns that you can see here What is written here? Foreign key And a ID is passed in the key This ID is passed in the foreign key This is the ID of the passport table This is the column What is written in the references? The ID of the person table The column ID in the person table Take the reference of that column Because this is the primary key column See here, this is the primary key column Our ID Take the reference of this primary key column Foreign key column that we are creating in our passport Create a relation The relation is created Now our requirement was that we need Akhil's passport detail How will we get it? We will get it like this We got an error here We should not have got an error Did we make any mistakes? Let's fire this query This is the query to face the detail There is a little parenthesis This is the issue Let's explain this query The execution will start from here Select ID from person Select which ID is 100 The 100 ID is here The ID of the 100 is selected by the ID The 100 value is here So you should keep 100 instead of 100 Now select the star from the passport We are ID in 100 Whose ID is 100 in the passport? This is the Akhil's passport detail See here We are done like this Create a relationship between two tables And then we will face the data This is our 1 to 1 relationship The second type is 1 to many What happens in 1 to many relationship? If one record of table is enter related to multiple records Of another table called 1 to many relationship If we are able to join a record of a table Along with multiple records of other tables We can face the data That is the 1 to many relationship In the example One table is our customer The second table is our order One customer can order multiple records Like here customer ID is 1,2 Customer ID is 1,1,2 So our customer can order two records You can order multiple records If you purchase anything online This is how it happens This is our primary Primary key column In which we will have unique record This is our foreign key column Through which we can create our relationship Through primary key In the other table I have made a mistake here This foreign key column is our this one Because the value of primary key is existing here In 1 to many We can join a record with multiple records In the other table When we will face the record The customer will have two orders Let's see how it will be in our database In 1 to many We have a customer table When we select the star from customer We have this detail How we have created this table We have created it through this query Primary key is on our ID column In the second table We have orders name Select star from order We have this detail from order table What we have done here What is our foreign key column Look here Sorry, look here The ID of foreign key is this column What is the reference column The customer table's primary key column Why? Because through primary key We can create a relationship with the table Or it should be a unique key We have primary ID In 1 to record In foreign key This will be the record There can be more but this is not the case Only then the record will be released What is our requirement? The name of the person who has the name Ankit I want to know how many orders he has made I want to know how many orders he has made To know the order, we have to come to the table And here we have to write in the query Where did the query go? Here we are showing the query We have read all this in detail Okay Old query is here So look here Ankit has two order details One is an employee He can order two He can order multiple So this is one to many relationship Let's explain the query Select ID From the customer table Whose ID is 1 Only 1 will be selected here Because only 1 ID will get 1 ID After that select the order details Whose ID And you can put 1 on this change Because from the old table Means 1 is coming from this table So look at 1 One record is here And one record is here So these are the records So this is our one to many relationship To show you a simple fund So that you understand That this thing exists in real Okay If you like the video Then like and share the video Third is our many to many relationship What is there in this? If multiple records of one table Are interrelated to multiple records Of another table called Many to many relationship For example, there is a student Here Second table records Here we have So how to understand this? Here is a student Whose number is 101 Ankit What is he doing? He can do multiple courses at the same time Ankit is reading Java And Ankit is the same The student is also learning React Okay If we look at the other side There is another course of Python Here is doing Akhil Ankus is also doing it And Ankit can also do Python Okay So this is our many to many relationship Let's hope you have understood If you like this video Then like and share the video Subscribe to the channel"
+}

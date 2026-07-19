@@ -1,0 +1,607 @@
+{
+    "chunks": [
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 3.46,
+            "text": " In DBMS, today's topic is DeNormalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 3.46,
+            "end": 6.9,
+            "text": " In full explanation, we will see what is DeNormalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 6.9,
+            "end": 11.46,
+            "text": " We will understand with practical examples what is its importance and why it is there."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 14.76,
+            "end": 17.5,
+            "text": " First, let's see its definition."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 17.5,
+            "end": 25.7,
+            "text": " DeNormalization is the process of combining multiple related tables into a single table to improve the table performance."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 25.86,
+            "end": 31.2,
+            "text": " If we have a table relating to another table and multiple tables,"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 31.2,
+            "end": 32.7,
+            "text": " what can we do?"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 32.7,
+            "end": 43.2,
+            "text": " We can create a single table of those multiple tables so that we can easily search and fetch data and increase the performance of our database."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 43.2,
+            "end": 48.5,
+            "text": " In that case, DeNormalization is used and that is why it is called DeNormalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 48.5,
+            "end": 52.5,
+            "text": " Here you have some points written, after that we will see practical examples."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 52.66,
+            "end": 55.0,
+            "text": " It is opposite of normalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 55.0,
+            "end": 58.0,
+            "text": " DeNormalization is opposite of normalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 58.0,
+            "end": 60.4,
+            "text": " In the last video, we read normalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 60.4,
+            "end": 69.0,
+            "text": " We saw where the goal was to reduce redundancy and ensure data integrity by splitting tables."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 69.0,
+            "end": 73.0,
+            "text": " The goal of normalization was to remove duplicacy."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 73.0,
+            "end": 79.5,
+            "text": " Data integrity was to be used to keep the data uniquely."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 79.5,
+            "end": 81.5,
+            "text": " This was happening in normalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 81.5,
+            "end": 84.5,
+            "text": " DeNormalization is opposite of normalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 84.5,
+            "end": 87.5,
+            "text": " We intentionally create data redundancy."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 87.5,
+            "end": 98.5,
+            "text": " We create data duplicacy by asking for the number of joints required to reduce the requirement of joining when querying the database."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 98.5,
+            "end": 103.5,
+            "text": " When we query for any data from the database so that we can easily fetch the data."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 103.5,
+            "end": 109.5,
+            "text": " We merge the table into multiple tables so that we can easily access the data from the single table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 109.5,
+            "end": 111.5,
+            "text": " What are the key points to remember?"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 111.5,
+            "end": 115.5,
+            "text": " Improve query performance by reducing the number of joints."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 115.5,
+            "end": 117.5,
+            "text": " In the interview, we just need to say this."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 117.5,
+            "end": 125.5,
+            "text": " We use DeNormalization to increase performance and reduce the number of joints."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 125.5,
+            "end": 127.5,
+            "text": " Introduce redundancy."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 127.5,
+            "end": 130.5,
+            "text": " We introduce duplicacy here."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 130.5,
+            "end": 133.5,
+            "text": " Our target duplicacy is not there."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 133.5,
+            "end": 140.5,
+            "text": " Commonly, data warehouses where fast data retrieval is priority."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 140.5,
+            "end": 144.5,
+            "text": " Data retrieval is our first priority."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 144.5,
+            "end": 149.5,
+            "text": " Data duplicacy is ignored here and is focused on data retrieval."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 149.5,
+            "end": 153.5,
+            "text": " That is why DeNormalization is used in all cases."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 153.5,
+            "end": 157.5,
+            "text": " Let's understand what I have said through the table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 157.5,
+            "end": 163.5,
+            "text": " In Normalization databases, you may have separate tables for each requirement."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 163.5,
+            "end": 166.5,
+            "text": " Here we have table 1, table 2, table 4."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 166.5,
+            "end": 168.5,
+            "text": " Here we have customer table where customer data is."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 168.5,
+            "end": 171.5,
+            "text": " Here we have orders table where orders are detailed."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 171.5,
+            "end": 173.5,
+            "text": " Now what we will do?"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 173.5,
+            "end": 175.5,
+            "text": " DeNormalize In Normalization table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 175.5,
+            "end": 180.5,
+            "text": " Merge customer and order details into a single table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 180.5,
+            "end": 182.5,
+            "text": " Which speed up queries."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 182.5,
+            "end": 185.5,
+            "text": " It will speed up queries but increase redundancy."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 185.5,
+            "end": 187.5,
+            "text": " But duplicacy will increase."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 187.5,
+            "end": 188.5,
+            "text": " How will we do?"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 188.5,
+            "end": 190.5,
+            "text": " Table 1 plus table 2."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 190.5,
+            "end": 192.5,
+            "text": " Merge DeNormalization."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 192.5,
+            "end": 194.5,
+            "text": " Here we have customer table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 194.5,
+            "end": 198.5,
+            "text": " Each customer's ID is unique."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 198.5,
+            "end": 201.5,
+            "text": " But the name of the customer can be the same."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 201.5,
+            "end": 203.5,
+            "text": " Here we have orders table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 203.5,
+            "end": 206.5,
+            "text": " In which we have orders of each customer."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 206.5,
+            "end": 210.5,
+            "text": " Here we have multiple orders of each customer."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 210.5,
+            "end": 212.5,
+            "text": " Here we have customer number ID1 and customer number Anku."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 212.5,
+            "end": 215.5,
+            "text": " Here we have one order of each customer."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 215.5,
+            "end": 219.5,
+            "text": " Here we have one order of ID2 and one order of ID3."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 219.5,
+            "end": 222.5,
+            "text": " Here we have customer ID1 and customer number Anku."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 222.5,
+            "end": 224.5,
+            "text": " But the address is different."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 224.5,
+            "end": 226.5,
+            "text": " The name can be the same."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 226.5,
+            "end": 228.5,
+            "text": " Here we have customer ID3."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 228.5,
+            "end": 229.5,
+            "text": " Now what we will do?"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 229.5,
+            "end": 231.5,
+            "text": " Merge these two tables."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 231.5,
+            "end": 234.5,
+            "text": " Because I have to fetch customer and order details in a single table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 234.5,
+            "end": 236.5,
+            "text": " What we will do?"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 236.5,
+            "end": 239.5,
+            "text": " Customer ID, customer name, customer address is first table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 239.5,
+            "end": 242.5,
+            "text": " Then we will have order number of the order."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 242.5,
+            "end": 245.5,
+            "text": " Then we will have second table column."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 245.5,
+            "end": 247.5,
+            "text": " How we performed this join?"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 247.5,
+            "end": 249.5,
+            "text": " Here we have primary column."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 249.5,
+            "end": 252.5,
+            "text": " This was the foreign column."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 252.5,
+            "end": 255.5,
+            "text": " Through this column we have joined this column."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 255.5,
+            "end": 257.5,
+            "text": " Now we have joined and merged the two tables."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 257.5,
+            "end": 259.5,
+            "text": " Now we will see the duplicacy."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 259.5,
+            "end": 261.5,
+            "text": " See how much duplicacy is coming out."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 261.5,
+            "end": 264.5,
+            "text": " Here we have Anku's name."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 264.5,
+            "end": 267.5,
+            "text": " Here we have duplicacy."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 267.5,
+            "end": 271.5,
+            "text": " Now we have kept both the tables in one table."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 271.5,
+            "end": 275.5,
+            "text": " The advantage here is that we can easily fetch data."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 275.5,
+            "end": 277.5,
+            "text": " I have to fetch the data."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 277.5,
+            "end": 281.5,
+            "text": " How many orders have the customer ID1 and what is the name of the order?"
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 281.5,
+            "end": 288.5,
+            "text": " We can query this table and fetch the order name and quantity through this ID."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 288.5,
+            "end": 290.5,
+            "text": " So the query has been speeded up."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 290.5,
+            "end": 292.5,
+            "text": " But the redundancy has increased."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 292.5,
+            "end": 294.5,
+            "text": " The data duplicacy has come here."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 294.5,
+            "end": 298.5,
+            "text": " So let's hope you have understood what denormalization is."
+        },
+        {
+            "number": "23",
+            "title": "lecture",
+            "start": 298.5,
+            "end": 303.5,
+            "text": " If you have come, then like the video, share it, subscribe to the channel."
+        }
+    ],
+    "text": " In DBMS, today's topic is DeNormalization. In full explanation, we will see what is DeNormalization. We will understand with practical examples what is its importance and why it is there. First, let's see its definition. DeNormalization is the process of combining multiple related tables into a single table to improve the table performance. If we have a table relating to another table and multiple tables, what can we do? We can create a single table of those multiple tables so that we can easily search and fetch data and increase the performance of our database. In that case, DeNormalization is used and that is why it is called DeNormalization. Here you have some points written, after that we will see practical examples. It is opposite of normalization. DeNormalization is opposite of normalization. In the last video, we read normalization. We saw where the goal was to reduce redundancy and ensure data integrity by splitting tables. The goal of normalization was to remove duplicacy. Data integrity was to be used to keep the data uniquely. This was happening in normalization. DeNormalization is opposite of normalization. We intentionally create data redundancy. We create data duplicacy by asking for the number of joints required to reduce the requirement of joining when querying the database. When we query for any data from the database so that we can easily fetch the data. We merge the table into multiple tables so that we can easily access the data from the single table. What are the key points to remember? Improve query performance by reducing the number of joints. In the interview, we just need to say this. We use DeNormalization to increase performance and reduce the number of joints. Introduce redundancy. We introduce duplicacy here. Our target duplicacy is not there. Commonly, data warehouses where fast data retrieval is priority. Data retrieval is our first priority. Data duplicacy is ignored here and is focused on data retrieval. That is why DeNormalization is used in all cases. Let's understand what I have said through the table. In Normalization databases, you may have separate tables for each requirement. Here we have table 1, table 2, table 4. Here we have customer table where customer data is. Here we have orders table where orders are detailed. Now what we will do? DeNormalize In Normalization table. Merge customer and order details into a single table. Which speed up queries. It will speed up queries but increase redundancy. But duplicacy will increase. How will we do? Table 1 plus table 2. Merge DeNormalization. Here we have customer table. Each customer's ID is unique. But the name of the customer can be the same. Here we have orders table. In which we have orders of each customer. Here we have multiple orders of each customer. Here we have customer number ID1 and customer number Anku. Here we have one order of each customer. Here we have one order of ID2 and one order of ID3. Here we have customer ID1 and customer number Anku. But the address is different. The name can be the same. Here we have customer ID3. Now what we will do? Merge these two tables. Because I have to fetch customer and order details in a single table. What we will do? Customer ID, customer name, customer address is first table. Then we will have order number of the order. Then we will have second table column. How we performed this join? Here we have primary column. This was the foreign column. Through this column we have joined this column. Now we have joined and merged the two tables. Now we will see the duplicacy. See how much duplicacy is coming out. Here we have Anku's name. Here we have duplicacy. Now we have kept both the tables in one table. The advantage here is that we can easily fetch data. I have to fetch the data. How many orders have the customer ID1 and what is the name of the order? We can query this table and fetch the order name and quantity through this ID. So the query has been speeded up. But the redundancy has increased. The data duplicacy has come here. So let's hope you have understood what denormalization is. If you have come, then like the video, share it, subscribe to the channel."
+}

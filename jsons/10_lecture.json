@@ -1,0 +1,2014 @@
+{
+    "chunks": [
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 4.46,
+            "text": " In the database management system, today's topic will be Relational Algebra."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 4.46,
+            "end": 7.8,
+            "text": " First we will discuss what is relational algebra."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 7.8,
+            "end": 13.6,
+            "text": " In full explanation, we will practically see how relational algebra is implemented in the database."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 13.6,
+            "end": 15.280000000000001,
+            "text": " And how many types of it are there."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 15.280000000000001,
+            "end": 17.080000000000002,
+            "text": " We will focus on all of them."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 17.080000000000002,
+            "end": 19.28,
+            "text": " So let's go with the theory part first."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 19.28,
+            "end": 23.2,
+            "text": " First, look at the definition so that you understand what this is."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 23.2,
+            "end": 27.36,
+            "text": " Relational algebra indicates the algebraic relation between tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 27.36,
+            "end": 33.96,
+            "text": " It means it takes one or two tables as an input and produces new table as an output."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 33.96,
+            "end": 37.72,
+            "text": " Here in the example, what does this do for input?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 37.72,
+            "end": 39.480000000000004,
+            "text": " It takes more than one table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 39.480000000000004,
+            "end": 43.24,
+            "text": " So table 1 is here, table 2 is here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 43.24,
+            "end": 44.56,
+            "text": " And what does this do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 44.56,
+            "end": 52.92,
+            "text": " It adds these two tables and creates a new table in the form of output in which the combined data is of the two tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 52.92,
+            "end": 54.96,
+            "text": " And this is a single table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 54.96,
+            "end": 57.4,
+            "text": " So this is called relational algebra."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 57.4,
+            "end": 60.72,
+            "text": " There are many types of relational algebra here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 60.72,
+            "end": 65.44,
+            "text": " There are some types in the basic operator that we will discuss with practical."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 65.44,
+            "end": 69.0,
+            "text": " After that, there are some advanced relational algebra topics."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 69.0,
+            "end": 72.0,
+            "text": " There are types in extended operators."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 72.0,
+            "end": 73.76,
+            "text": " So we will discuss this too."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 73.76,
+            "end": 78.28,
+            "text": " So let's discuss the basic operator one by one and its type."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 78.28,
+            "end": 82.4,
+            "text": " So here we will see the type number one of the basic operator, union."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 82.52000000000001,
+            "end": 83.56,
+            "text": " So what is union?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 83.56,
+            "end": 85.52000000000001,
+            "text": " What does this mean in the database?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 85.52000000000001,
+            "end": 87.4,
+            "text": " It is the combination of two relations."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 87.4,
+            "end": 89.92,
+            "text": " That is, this is the combination of two tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 89.92,
+            "end": 92.52000000000001,
+            "text": " Both tables should have the same type of attribute."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 92.52000000000001,
+            "end": 97.12,
+            "text": " The same type of attribute should be in both tables, that is, the column."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 97.12,
+            "end": 100.68,
+            "text": " Return those records which are either T1 or T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 100.68,
+            "end": 102.32000000000001,
+            "text": " Ignore duplicate records."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 102.32000000000001,
+            "end": 106.68,
+            "text": " The same data is returned to the union which is in both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 106.68,
+            "end": 108.04,
+            "text": " Unique record."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 108.04,
+            "end": 109.52000000000001,
+            "text": " The duplicate one will not return."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 109.52,
+            "end": 111.08,
+            "text": " So look at the example."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 111.08,
+            "end": 115.08,
+            "text": " One is table T1, role and name are attributed here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 115.08,
+            "end": 116.6,
+            "text": " Table T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 116.6,
+            "end": 118.96,
+            "text": " There is a role and name attribute in this."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 118.96,
+            "end": 122.47999999999999,
+            "text": " What will happen in the result when we do table 1, union table 2?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 122.47999999999999,
+            "end": 123.72,
+            "text": " What will be the result?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 123.72,
+            "end": 126.52,
+            "text": " Here, first I will explain table 1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 126.52,
+            "end": 128.04,
+            "text": " This is the first record."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 128.04,
+            "end": 129.28,
+            "text": " The second record."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 129.28,
+            "end": 130.64,
+            "text": " The third record."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 130.64,
+            "end": 133.76,
+            "text": " Look here, these three records are shown here in the output."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 133.76,
+            "end": 138.2,
+            "text": " But this fourth record was also printed here because this is unique."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 138.2,
+            "end": 142.11999999999998,
+            "text": " Then in table 2, this will be scanned."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 142.11999999999998,
+            "end": 146.51999999999998,
+            "text": " Look here, this record is existing in table 1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 146.51999999999998,
+            "end": 148.44,
+            "text": " It will be ignored."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 148.44,
+            "end": 150.28,
+            "text": " So this record will not return."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 150.28,
+            "end": 152.11999999999998,
+            "text": " The rest of these two records are unique."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 152.11999999999998,
+            "end": 153.67999999999998,
+            "text": " So what will happen?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 153.67999999999998,
+            "end": 156.28,
+            "text": " As a result, we will show here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 156.28,
+            "end": 160.64,
+            "text": " Now practically, we will implement the union in Oracle database."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 160.64,
+            "end": 161.28,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 161.28,
+            "end": 164.0,
+            "text": " For practical session, we have come to our screen."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 164.0,
+            "end": 167.04,
+            "text": " So here you can see in our Oracle database,"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 167.04,
+            "end": 169.35999999999999,
+            "text": " we have made a table called T1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 169.35999999999999,
+            "end": 172.35999999999999,
+            "text": " In which there are two columns by doing role and name."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 172.35999999999999,
+            "end": 174.4,
+            "text": " And this is the data of our table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 174.4,
+            "end": 176.95999999999998,
+            "text": " Then we have another table called T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 176.95999999999998,
+            "end": 179.35999999999999,
+            "text": " In which there are two columns by doing role and name."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 179.35999999999999,
+            "end": 181.6,
+            "text": " And this is the data of that table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 181.6,
+            "end": 184.88,
+            "text": " So here our first operator is union."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 184.88,
+            "end": 186.04,
+            "text": " So what does union do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 186.04,
+            "end": 191.92,
+            "text": " In union, we studied that we show the combined record of both tables in a single table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 191.92,
+            "end": 194.48,
+            "text": " This duplicate record is in both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 194.48,
+            "end": 196.68,
+            "text": " It only provides one time."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 196.68,
+            "end": 201.36,
+            "text": " So if we do a query here, select star from T1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 201.36,
+            "end": 204.12,
+            "text": " After that, we will have to write union here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 204.12,
+            "end": 208.04000000000002,
+            "text": " Then the second table, select star from T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 208.04000000000002,
+            "end": 211.48000000000002,
+            "text": " So as soon as we enter, you can see here a new table is made."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 211.48000000000002,
+            "end": 214.36,
+            "text": " In which there is a combined value of both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 214.36,
+            "end": 217.32,
+            "text": " This duplicate value is only one time."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 217.32,
+            "end": 217.88,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 217.88,
+            "end": 220.56,
+            "text": " Whereas here it was in both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 220.56,
+            "end": 225.04000000000002,
+            "text": " If you want a duplicate value, then you can use all with union."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 225.04,
+            "end": 230.67999999999998,
+            "text": " If you want a complete value of both tables, then look here, the duplicate value is also showing here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 230.67999999999998,
+            "end": 233.07999999999998,
+            "text": " So this is our union operator."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 233.07999999999998,
+            "end": 235.92,
+            "text": " The second type is the intersection of our basic operator."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 235.92,
+            "end": 236.56,
+            "text": " What is this?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 236.56,
+            "end": 240.51999999999998,
+            "text": " Returns those records which are in both T1 and T2 tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 240.51999999999998,
+            "end": 246.12,
+            "text": " So if we intersect table 1 and table 2, then we will get this result in the data."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 246.12,
+            "end": 248.6,
+            "text": " If you remember, you can follow the video."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 248.6,
+            "end": 249.79999999999998,
+            "text": " Look there."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 249.79999999999998,
+            "end": 252.39999999999998,
+            "text": " This record was present in both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 252.4,
+            "end": 255.16,
+            "text": " So common record comes in the intersection."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 255.16,
+            "end": 259.12,
+            "text": " So let's implement this practically and see if this is right or not."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 259.12,
+            "end": 261.2,
+            "text": " So we have come back to our screen."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 261.2,
+            "end": 263.0,
+            "text": " So what does the intersection do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 263.0,
+            "end": 266.76,
+            "text": " If we use the intersect in the union all."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 266.76,
+            "end": 268.2,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 268.2,
+            "end": 269.64,
+            "text": " So what did we study in theory?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 269.64,
+            "end": 273.96,
+            "text": " This provides us common record which is in both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 273.96,
+            "end": 275.6,
+            "text": " So what is in both tables?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 275.6,
+            "end": 278.36,
+            "text": " This record of 103 is in both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 278.36,
+            "end": 280.68,
+            "text": " So this will return the same value."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 280.68,
+            "end": 286.72,
+            "text": " So here you see, intersect is returning the common value which belongs in both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 286.72,
+            "end": 287.72,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 287.72,
+            "end": 289.28000000000003,
+            "text": " Now we will see the difference."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 289.28000000000003,
+            "end": 290.88,
+            "text": " What is the difference?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 290.88,
+            "end": 293.08,
+            "text": " Suppose we have table 1 and table 2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 293.08,
+            "end": 296.08,
+            "text": " So if table 1 minus table 2 is done, then what will be the return?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 296.08,
+            "end": 299.76,
+            "text": " Those records which are in T1 but not in T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 299.76,
+            "end": 301.6,
+            "text": " So the record of T1 will be returned."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 301.6,
+            "end": 302.84000000000003,
+            "text": " Look at the result here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 302.84000000000003,
+            "end": 308.2,
+            "text": " If table 1 minus table 2 is done, then we will get the record of table 1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 308.2,
+            "end": 310.76,
+            "text": " We will not get any data of table 2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 310.76,
+            "end": 313.96,
+            "text": " We will not get any even duplicate value in both tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 313.96,
+            "end": 318.08,
+            "text": " Only table 1 will be given because we are minusing T1 to T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 318.08,
+            "end": 319.08,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 319.08,
+            "end": 321.36,
+            "text": " So let's implement this practically and see."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 321.36,
+            "end": 322.88,
+            "text": " So now what we will do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 322.88,
+            "end": 325.0,
+            "text": " Let's see the practical of minus operator."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 325.0,
+            "end": 329.0,
+            "text": " So what we will do here is we will write minus instead of intersect."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 329.0,
+            "end": 330.12,
+            "text": " So what does minus do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 330.12,
+            "end": 336.24,
+            "text": " If we are doing T1 minus T2 here, then we will see all the records of T1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 336.24,
+            "end": 339.6,
+            "text": " Only that record will not be seen which belongs to T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 339.6,
+            "end": 341.92,
+            "text": " That is, this will not be seen by the record of T1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 341.92,
+            "end": 344.04,
+            "text": " The rest will be seen by the record of T1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 344.04,
+            "end": 347.48,
+            "text": " So here you see that this is the record of table 1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 347.48,
+            "end": 351.12,
+            "text": " Only this record of table 1 is not seen because it belongs to T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 351.12,
+            "end": 352.44,
+            "text": " So this is minus."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 352.44,
+            "end": 353.04,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 353.04,
+            "end": 358.28000000000003,
+            "text": " The rest of the records will not be seen because we have done T1 minus T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 358.28000000000003,
+            "end": 361.68,
+            "text": " If we do T2 minus T1, then the record of T2 will be seen."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 361.68,
+            "end": 363.12,
+            "text": " These two values will be seen."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 363.12,
+            "end": 364.32,
+            "text": " This will not be seen."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 364.4,
+            "end": 366.64,
+            "text": " If you want to test here, then you can do it."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 366.64,
+            "end": 367.12,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 367.76,
+            "end": 370.28,
+            "text": " So let's do T1 here and T2 here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 370.28,
+            "end": 372.36,
+            "text": " So see these two values have come here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 372.71999999999997,
+            "end": 373.2,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 373.2,
+            "end": 375.04,
+            "text": " I hope you understand."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 375.04,
+            "end": 376.8,
+            "text": " So now let's see our next."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 376.8,
+            "end": 379.88,
+            "text": " Our next operator is type number 4 cross product."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 379.88,
+            "end": 380.15999999999997,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 380.15999999999997,
+            "end": 381.32,
+            "text": " So what does this do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 381.32,
+            "end": 387.8,
+            "text": " Returns M into N records where M and N are the number of rows in T1 and T2 table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 387.8,
+            "end": 388.48,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 388.48,
+            "end": 392.84,
+            "text": " So here look at T1 table in which the number of rows is 3."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 392.84,
+            "end": 394.35999999999996,
+            "text": " How many are in T2 table?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 394.35999999999996,
+            "end": 395.0,
+            "text": " Two."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 395.0,
+            "end": 399.52,
+            "text": " So if we do T1 cross T2, that is, product, then what will this do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 399.52,
+            "end": 403.2,
+            "text": " This first record will be multiplied with this first."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 403.2,
+            "end": 404.47999999999996,
+            "text": " Then it will be with this."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 404.47999999999996,
+            "end": 407.12,
+            "text": " Here look at 101, 101 has two data."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 407.12,
+            "end": 408.88,
+            "text": " Max 50 and 60."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 408.88,
+            "end": 409.71999999999997,
+            "text": " Then what will happen?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 409.71999999999997,
+            "end": 411.88,
+            "text": " The same thing will be applied for 102."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 411.88,
+            "end": 413.4,
+            "text": " It will be a product with both."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 413.4,
+            "end": 415.44,
+            "text": " 103 will also be a product with both."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 415.44,
+            "end": 418.03999999999996,
+            "text": " So in this way we will see our data in output."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 418.03999999999996,
+            "end": 418.64,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 418.64,
+            "end": 422.35999999999996,
+            "text": " So let's implement it practically and see how it will be."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 422.36,
+            "end": 424.8,
+            "text": " Now we will see the practical of the cross product."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 424.8,
+            "end": 427.76,
+            "text": " So for that our query will be the same query."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 427.76,
+            "end": 430.8,
+            "text": " What will we do here in the place of minus?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 430.8,
+            "end": 432.96000000000004,
+            "text": " Cross, join here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 432.96000000000004,
+            "end": 434.0,
+            "text": " Okay."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 434.0,
+            "end": 437.64,
+            "text": " And this select star from, we will remove this concept from here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 437.64,
+            "end": 441.36,
+            "text": " We will do T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 441.36,
+            "end": 443.40000000000003,
+            "text": " And here our T1 will be."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 443.40000000000003,
+            "end": 448.52000000000004,
+            "text": " So this simple query is that select star from T1, then cross join T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 448.52000000000004,
+            "end": 451.64,
+            "text": " That is, join T1 from T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 451.64,
+            "end": 453.24,
+            "text": " Product all the data."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 453.24,
+            "end": 455.64,
+            "text": " Now here we will see 12 data."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 455.64,
+            "end": 457.4,
+            "text": " 12 is here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 457.4,
+            "end": 460.12,
+            "text": " So look at 101, which is the data of Akhil."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 460.12,
+            "end": 462.28,
+            "text": " It has been multiplied with three."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 462.28,
+            "end": 466.03999999999996,
+            "text": " So here look at 101, Akhil is with Vivek."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 466.03999999999996,
+            "end": 468.32,
+            "text": " Then here it is with this employee."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 468.32,
+            "end": 470.91999999999996,
+            "text": " And here it is with this employee."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 470.91999999999996,
+            "end": 475.2,
+            "text": " Similarly 102 is also multiplied with these three."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 475.2,
+            "end": 477.76,
+            "text": " So 4 into 3 is 12."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 477.76,
+            "end": 480.12,
+            "text": " So here we see 12 data."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 480.12,
+            "end": 482.24,
+            "text": " So this is our cross product."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 482.24,
+            "end": 487.0,
+            "text": " How we can do two table data productly in a single table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 487.0,
+            "end": 491.96,
+            "text": " In which every record is with every record of the other table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 491.96,
+            "end": 494.2,
+            "text": " Now we will see extended operator."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 494.2,
+            "end": 496.44,
+            "text": " The first type is selection."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 496.44,
+            "end": 497.52,
+            "text": " What does it do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 497.52,
+            "end": 499.96,
+            "text": " It selects records based on condition."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 499.96,
+            "end": 502.88,
+            "text": " Whatever we add condition, according to that what will it do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 502.88,
+            "end": 504.96,
+            "text": " It selects records and provides us."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 504.96,
+            "end": 508.56,
+            "text": " For example, if we know that there are some age groups in our table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 508.56,
+            "end": 513.28,
+            "text": " So if we add condition where age less than equal to 25."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 513.28,
+            "end": 517.48,
+            "text": " So we will get 25 or less age groups of people."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 517.48,
+            "end": 519.96,
+            "text": " So this is what selection operator does."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 519.96,
+            "end": 521.84,
+            "text": " So let's see this practically."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 521.84,
+            "end": 524.48,
+            "text": " So we will see selection operator here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 524.48,
+            "end": 528.44,
+            "text": " Practically, we have read that it gives us data based on condition."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 528.44,
+            "end": 536.24,
+            "text": " So if we write here select name from T1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 536.24,
+            "end": 544.32,
+            "text": " So where role equal to 1, 0, 3."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 544.32,
+            "end": 548.92,
+            "text": " So the role number 1, 0, 3 is the name we want."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 548.92,
+            "end": 550.36,
+            "text": " This is our condition."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 550.36,
+            "end": 552.4,
+            "text": " So we will select the name and give it to us."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 552.4,
+            "end": 554.6800000000001,
+            "text": " So this is the selection work."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 554.6800000000001,
+            "end": 559.08,
+            "text": " Based on certain condition it returns data."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 559.08,
+            "end": 561.28,
+            "text": " Type number 2 is our projection."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 561.28,
+            "end": 562.32,
+            "text": " So what does this do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 562.32,
+            "end": 563.52,
+            "text": " Project some columns."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 563.6,
+            "end": 566.6,
+            "text": " Suppose we have a table in which there are 2 columns."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 566.6,
+            "end": 568.6,
+            "text": " One is role and one is name."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 568.6,
+            "end": 572.4399999999999,
+            "text": " So now let me assume that we want to see the data of the column with name."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 572.4399999999999,
+            "end": 573.6,
+            "text": " So what will we do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 573.6,
+            "end": 575.3199999999999,
+            "text": " We will project this column."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 575.3199999999999,
+            "end": 576.1999999999999,
+            "text": " What will this do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 576.1999999999999,
+            "end": 578.6,
+            "text": " We will show the data of the same column in front of us."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 578.6,
+            "end": 580.68,
+            "text": " So let's implement it practically."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 580.68,
+            "end": 584.36,
+            "text": " Okay, so now we will verify the projection here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 584.36,
+            "end": 588.8,
+            "text": " So what we read in the projection theory is that it is applied on any particular column."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 588.88,
+            "end": 593.7199999999999,
+            "text": " So if we assume that we want the data of the name column of T2 table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 593.7199999999999,
+            "end": 596.4399999999999,
+            "text": " We only want the name and nothing else."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 596.4399999999999,
+            "end": 598.3199999999999,
+            "text": " So what will we do here?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 598.3199999999999,
+            "end": 603.28,
+            "text": " We will write here select name from T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 603.28,
+            "end": 608.04,
+            "text": " So here we are just returning the name from the T2 table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 608.04,
+            "end": 613.88,
+            "text": " So what we have done is that we have projected the name column of T2 table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 613.96,
+            "end": 618.6,
+            "text": " We only want the value of this name column."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 618.6,
+            "end": 621.04,
+            "text": " Okay, what does division do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 621.04,
+            "end": 623.72,
+            "text": " Division operator T1 divides T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 623.72,
+            "end": 628.16,
+            "text": " If we divide table 1 from table 2, what will it do?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 628.16,
+            "end": 632.72,
+            "text": " It will do the same thing which is associated with every record of T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 632.72,
+            "end": 636.68,
+            "text": " So we will get the same record of T1 which is associated with T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 636.68,
+            "end": 639.12,
+            "text": " That is the opposite of difference is division."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 639.12,
+            "end": 641.48,
+            "text": " Let's implement it practically."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 641.48,
+            "end": 644.64,
+            "text": " So we will do the practical of division operator here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 644.64,
+            "end": 646.76,
+            "text": " So will we verify for that?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 646.76,
+            "end": 650.64,
+            "text": " Select T1's role here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 650.64,
+            "end": 653.5600000000001,
+            "text": " We will write the name of T1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 653.5600000000001,
+            "end": 656.8000000000001,
+            "text": " We are writing the column of table 1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 656.8000000000001,
+            "end": 657.64,
+            "text": " Where will it come from?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 657.64,
+            "end": 658.72,
+            "text": " From T1."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 658.72,
+            "end": 661.6800000000001,
+            "text": " Okay, after that we will apply the wear condition here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 661.6800000000001,
+            "end": 664.6800000000001,
+            "text": " Wear T1's role."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 664.6800000000001,
+            "end": 669.08,
+            "text": " We will find it in T2 that is it associated with T2?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 669.08,
+            "end": 670.16,
+            "text": " This value."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 670.24,
+            "end": 674.92,
+            "text": " So we will write in this and in the query we will write in what?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 674.92,
+            "end": 680.04,
+            "text": " Select role from T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 680.04,
+            "end": 683.16,
+            "text": " Okay, this is our simple query."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 683.16,
+            "end": 684.92,
+            "text": " We will enter it."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 684.92,
+            "end": 686.92,
+            "text": " So here see what is the record?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 686.92,
+            "end": 688.16,
+            "text": " 103, Vivek."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 688.16,
+            "end": 689.92,
+            "text": " In theory what we have studied?"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 689.92,
+            "end": 695.76,
+            "text": " The same record will be written with T1 which is associated with T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 695.76,
+            "end": 700.36,
+            "text": " So here the same record is associated with T2."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 700.36,
+            "end": 702.64,
+            "text": " Okay, so this is a simple query."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 702.64,
+            "end": 704.36,
+            "text": " We will explain it to you."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 704.36,
+            "end": 708.76,
+            "text": " If we consider here instead of T1.name,"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 708.76,
+            "end": 712.24,
+            "text": " instead of T1.rail role, we will apply a star."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 712.24,
+            "end": 713.64,
+            "text": " So this value will also come."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 713.64,
+            "end": 717.88,
+            "text": " Okay, so the simple of the query here means that first of all,"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 717.88,
+            "end": 720.88,
+            "text": " find the role number in T2 table."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 720.88,
+            "end": 724.8,
+            "text": " The number associated with T1,"
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 724.8,
+            "end": 727.36,
+            "text": " if it is, then return the same data."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 727.36,
+            "end": 728.96,
+            "text": " This is the division."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 728.96,
+            "end": 730.88,
+            "text": " Okay, this is called division."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 730.88,
+            "end": 731.96,
+            "text": " You can find the division here."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 731.96,
+            "end": 735.56,
+            "text": " There is no word that can be used to find the query."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 735.56,
+            "end": 737.96,
+            "text": " This is the way to find you."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 737.96,
+            "end": 740.36,
+            "text": " Okay, so let's hope you have understood."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 740.36,
+            "end": 742.96,
+            "text": " Now let's see our next."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 742.96,
+            "end": 744.68,
+            "text": " The last is our joining."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 744.68,
+            "end": 747.96,
+            "text": " So the most important joining is."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 747.96,
+            "end": 749.96,
+            "text": " This is a very big topic in itself."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 749.96,
+            "end": 752.2800000000001,
+            "text": " We have made a separate video on it."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 752.2800000000001,
+            "end": 754.96,
+            "text": " But here you see the long story short."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 754.96,
+            "end": 758.5600000000001,
+            "text": " It allows us to combine two tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 758.5600000000001,
+            "end": 760.84,
+            "text": " Or combine more than two tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 760.84,
+            "end": 763.88,
+            "text": " We provide a single table joining."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 763.88,
+            "end": 768.84,
+            "text": " Okay, so here joining always needs a common attribute to join two tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 768.84,
+            "end": 772.12,
+            "text": " One common attribute is that in both the tables."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 772.12,
+            "end": 774.88,
+            "text": " We want to join them together."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 774.88,
+            "end": 776.2800000000001,
+            "text": " So this is joining."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 776.2800000000001,
+            "end": 778.52,
+            "text": " Now there are many types of joining."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 778.52,
+            "end": 780.92,
+            "text": " And how to implement it practically."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 780.92,
+            "end": 783.12,
+            "text": " This is a very big concept in itself."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 783.12,
+            "end": 784.96,
+            "text": " And the topic is SQL limit."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 784.96,
+            "end": 786.16,
+            "text": " And in DBMS too."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 786.16,
+            "end": 788.4399999999999,
+            "text": " So on this we have created a theory and practically."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 788.4399999999999,
+            "end": 791.1999999999999,
+            "text": " A very good video is created."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 791.1999999999999,
+            "end": 792.96,
+            "text": " You will get a link in the description."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 792.96,
+            "end": 795.1999999999999,
+            "text": " You can understand the details in detail."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 795.1999999999999,
+            "end": 797.12,
+            "text": " Okay, so that's all in this video."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 797.12,
+            "end": 800.04,
+            "text": " If you liked this video, then like the video."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 800.04,
+            "end": 800.8,
+            "text": " Share it."
+        },
+        {
+            "number": "10",
+            "title": "lecture",
+            "start": 800.8,
+            "end": 803.0,
+            "text": " Subscribe to the channel."
+        }
+    ],
+    "text": " In the database management system, today's topic will be Relational Algebra. First we will discuss what is relational algebra. In full explanation, we will practically see how relational algebra is implemented in the database. And how many types of it are there. We will focus on all of them. So let's go with the theory part first. First, look at the definition so that you understand what this is. Relational algebra indicates the algebraic relation between tables. It means it takes one or two tables as an input and produces new table as an output. Here in the example, what does this do for input? It takes more than one table. So table 1 is here, table 2 is here. And what does this do? It adds these two tables and creates a new table in the form of output in which the combined data is of the two tables. And this is a single table. So this is called relational algebra. There are many types of relational algebra here. There are some types in the basic operator that we will discuss with practical. After that, there are some advanced relational algebra topics. There are types in extended operators. So we will discuss this too. So let's discuss the basic operator one by one and its type. So here we will see the type number one of the basic operator, union. So what is union? What does this mean in the database? It is the combination of two relations. That is, this is the combination of two tables. Both tables should have the same type of attribute. The same type of attribute should be in both tables, that is, the column. Return those records which are either T1 or T2. Ignore duplicate records. The same data is returned to the union which is in both tables. Unique record. The duplicate one will not return. So look at the example. One is table T1, role and name are attributed here. Table T2. There is a role and name attribute in this. What will happen in the result when we do table 1, union table 2? What will be the result? Here, first I will explain table 1. This is the first record. The second record. The third record. Look here, these three records are shown here in the output. But this fourth record was also printed here because this is unique. Then in table 2, this will be scanned. Look here, this record is existing in table 1. It will be ignored. So this record will not return. The rest of these two records are unique. So what will happen? As a result, we will show here. Now practically, we will implement the union in Oracle database. Okay. For practical session, we have come to our screen. So here you can see in our Oracle database, we have made a table called T1. In which there are two columns by doing role and name. And this is the data of our table. Then we have another table called T2. In which there are two columns by doing role and name. And this is the data of that table. So here our first operator is union. So what does union do? In union, we studied that we show the combined record of both tables in a single table. This duplicate record is in both tables. It only provides one time. So if we do a query here, select star from T1. After that, we will have to write union here. Then the second table, select star from T2. So as soon as we enter, you can see here a new table is made. In which there is a combined value of both tables. This duplicate value is only one time. Okay. Whereas here it was in both tables. If you want a duplicate value, then you can use all with union. If you want a complete value of both tables, then look here, the duplicate value is also showing here. So this is our union operator. The second type is the intersection of our basic operator. What is this? Returns those records which are in both T1 and T2 tables. So if we intersect table 1 and table 2, then we will get this result in the data. If you remember, you can follow the video. Look there. This record was present in both tables. So common record comes in the intersection. So let's implement this practically and see if this is right or not. So we have come back to our screen. So what does the intersection do? If we use the intersect in the union all. Okay. So what did we study in theory? This provides us common record which is in both tables. So what is in both tables? This record of 103 is in both tables. So this will return the same value. So here you see, intersect is returning the common value which belongs in both tables. Okay. Now we will see the difference. What is the difference? Suppose we have table 1 and table 2. So if table 1 minus table 2 is done, then what will be the return? Those records which are in T1 but not in T2. So the record of T1 will be returned. Look at the result here. If table 1 minus table 2 is done, then we will get the record of table 1. We will not get any data of table 2. We will not get any even duplicate value in both tables. Only table 1 will be given because we are minusing T1 to T2. Okay. So let's implement this practically and see. So now what we will do? Let's see the practical of minus operator. So what we will do here is we will write minus instead of intersect. So what does minus do? If we are doing T1 minus T2 here, then we will see all the records of T1. Only that record will not be seen which belongs to T2. That is, this will not be seen by the record of T1. The rest will be seen by the record of T1. So here you see that this is the record of table 1. Only this record of table 1 is not seen because it belongs to T2. So this is minus. Okay. The rest of the records will not be seen because we have done T1 minus T2. If we do T2 minus T1, then the record of T2 will be seen. These two values will be seen. This will not be seen. If you want to test here, then you can do it. Okay. So let's do T1 here and T2 here. So see these two values have come here. Okay. I hope you understand. So now let's see our next. Our next operator is type number 4 cross product. Okay. So what does this do? Returns M into N records where M and N are the number of rows in T1 and T2 table. Okay. So here look at T1 table in which the number of rows is 3. How many are in T2 table? Two. So if we do T1 cross T2, that is, product, then what will this do? This first record will be multiplied with this first. Then it will be with this. Here look at 101, 101 has two data. Max 50 and 60. Then what will happen? The same thing will be applied for 102. It will be a product with both. 103 will also be a product with both. So in this way we will see our data in output. Okay. So let's implement it practically and see how it will be. Now we will see the practical of the cross product. So for that our query will be the same query. What will we do here in the place of minus? Cross, join here. Okay. And this select star from, we will remove this concept from here. We will do T2. And here our T1 will be. So this simple query is that select star from T1, then cross join T2. That is, join T1 from T2. Product all the data. Now here we will see 12 data. 12 is here. So look at 101, which is the data of Akhil. It has been multiplied with three. So here look at 101, Akhil is with Vivek. Then here it is with this employee. And here it is with this employee. Similarly 102 is also multiplied with these three. So 4 into 3 is 12. So here we see 12 data. So this is our cross product. How we can do two table data productly in a single table. In which every record is with every record of the other table. Now we will see extended operator. The first type is selection. What does it do? It selects records based on condition. Whatever we add condition, according to that what will it do? It selects records and provides us. For example, if we know that there are some age groups in our table. So if we add condition where age less than equal to 25. So we will get 25 or less age groups of people. So this is what selection operator does. So let's see this practically. So we will see selection operator here. Practically, we have read that it gives us data based on condition. So if we write here select name from T1. So where role equal to 1, 0, 3. So the role number 1, 0, 3 is the name we want. This is our condition. So we will select the name and give it to us. So this is the selection work. Based on certain condition it returns data. Type number 2 is our projection. So what does this do? Project some columns. Suppose we have a table in which there are 2 columns. One is role and one is name. So now let me assume that we want to see the data of the column with name. So what will we do? We will project this column. What will this do? We will show the data of the same column in front of us. So let's implement it practically. Okay, so now we will verify the projection here. So what we read in the projection theory is that it is applied on any particular column. So if we assume that we want the data of the name column of T2 table. We only want the name and nothing else. So what will we do here? We will write here select name from T2. So here we are just returning the name from the T2 table. So what we have done is that we have projected the name column of T2 table. We only want the value of this name column. Okay, what does division do? Division operator T1 divides T2. If we divide table 1 from table 2, what will it do? It will do the same thing which is associated with every record of T2. So we will get the same record of T1 which is associated with T2. That is the opposite of difference is division. Let's implement it practically. So we will do the practical of division operator here. So will we verify for that? Select T1's role here. We will write the name of T1. We are writing the column of table 1. Where will it come from? From T1. Okay, after that we will apply the wear condition here. Wear T1's role. We will find it in T2 that is it associated with T2? This value. So we will write in this and in the query we will write in what? Select role from T2. Okay, this is our simple query. We will enter it. So here see what is the record? 103, Vivek. In theory what we have studied? The same record will be written with T1 which is associated with T2. So here the same record is associated with T2. Okay, so this is a simple query. We will explain it to you. If we consider here instead of T1.name, instead of T1.rail role, we will apply a star. So this value will also come. Okay, so the simple of the query here means that first of all, find the role number in T2 table. The number associated with T1, if it is, then return the same data. This is the division. Okay, this is called division. You can find the division here. There is no word that can be used to find the query. This is the way to find you. Okay, so let's hope you have understood. Now let's see our next. The last is our joining. So the most important joining is. This is a very big topic in itself. We have made a separate video on it. But here you see the long story short. It allows us to combine two tables. Or combine more than two tables. We provide a single table joining. Okay, so here joining always needs a common attribute to join two tables. One common attribute is that in both the tables. We want to join them together. So this is joining. Now there are many types of joining. And how to implement it practically. This is a very big concept in itself. And the topic is SQL limit. And in DBMS too. So on this we have created a theory and practically. A very good video is created. You will get a link in the description. You can understand the details in detail. Okay, so that's all in this video. If you liked this video, then like the video. Share it. Subscribe to the channel."
+}

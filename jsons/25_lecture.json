@@ -1,0 +1,1230 @@
+{
+    "chunks": [
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 4.16,
+            "text": " In the database management system, today's topic is ER model"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 4.16,
+            "end": 10.68,
+            "text": " In this video, we will tell you about the ER model, what it is, how it is created in full explanation"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 10.68,
+            "end": 15.88,
+            "text": " What are the symbols and notations in it, what form we will use, all these things that we will see"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 15.88,
+            "end": 20.48,
+            "text": " So you can call it as ER designing and conceptual model"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 20.48,
+            "end": 31.92,
+            "text": " ER stands for entity relationship model, it is also known as conceptual framework used to describe and design the structure of the database"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 31.92,
+            "end": 37.2,
+            "text": " Before understanding the ER model, it is very important to know the diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 37.2,
+            "end": 42.72,
+            "text": " So before going to the ER model, you should know about the diagram, what is the ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 42.72,
+            "end": 47.28,
+            "text": " The graphical representation of relationship of table is called ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 47.44,
+            "end": 51.92,
+            "text": " And the model through which we can describe the relationship called ER model"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 51.92,
+            "end": 57.44,
+            "text": " To show the relationship of table graphically, we use the ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 57.44,
+            "end": 66.56,
+            "text": " And the model we use for the ER diagram is called ER model, entity relationship model"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 66.56,
+            "end": 73.76,
+            "text": " In ER diagram, the logical structure of the object, that is table, are grouped together called relationship"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 73.76,
+            "end": 81.52000000000001,
+            "text": " In ER diagram, we have a lot of objects, a lot of objects connected to each other"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 81.52000000000001,
+            "end": 84.48,
+            "text": " In the form of relationship, the relationship is called relationship"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 84.48,
+            "end": 89.52000000000001,
+            "text": " So in the note, what you will remember, the relationship of ER diagram is of three types"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 89.52000000000001,
+            "end": 94.48,
+            "text": " We can do one to one, one to many and many to many, what can we do with these three types"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 94.48,
+            "end": 99.2,
+            "text": " Through the ER diagram, we can create a relationship between the tables and objects"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 99.2,
+            "end": 106.32000000000001,
+            "text": " While constructing the ER diagram, we have to use some graphical symbols"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 106.32000000000001,
+            "end": 109.76,
+            "text": " We use some symbols to make the ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 109.76,
+            "end": 113.92,
+            "text": " If you see this rectangle symbol, we call it entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 113.92,
+            "end": 118.96000000000001,
+            "text": " If we want to show the table in our diagram, we will use this symbol"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 118.96000000000001,
+            "end": 122.72,
+            "text": " If we want to show the attribute, we will use this"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 122.72,
+            "end": 124.88,
+            "text": " We call it ellipse"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 125.83999999999999,
+            "end": 129.35999999999999,
+            "text": " Attribute means to show the column of the table"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 129.35999999999999,
+            "end": 135.12,
+            "text": " If we want to show the relationship between the two tables or objects, we will use this diamond symbol"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 135.12,
+            "end": 141.04,
+            "text": " And for primary key, the underline will be in this ellipse"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 141.04,
+            "end": 146.96,
+            "text": " So if this symbol is used in any column or attribute, it means that the primary key is in that column"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 146.96,
+            "end": 150.48,
+            "text": " There are some other advances here like weak entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 150.56,
+            "end": 157.35999999999999,
+            "text": " In a table where there is no record or the relationship is not important, we call it weak entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 157.35999999999999,
+            "end": 159.44,
+            "text": " We denote it as double rectangle"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 159.44,
+            "end": 163.28,
+            "text": " We denote it as weak entity relationship with double diamond"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 163.28,
+            "end": 167.83999999999997,
+            "text": " There are not many special data links between these objects"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 167.83999999999997,
+            "end": 172.39999999999998,
+            "text": " After that, we use multi-valued attribute, double ellipse"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 173.12,
+            "end": 182.16,
+            "text": " And to join many attribute columns, we use this symbol"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 182.16,
+            "end": 183.36,
+            "text": " These are some symbols"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 183.36,
+            "end": 187.36,
+            "text": " We will make our ER diagram using these symbols"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 187.36,
+            "end": 193.12,
+            "text": " But first, we will show you some rules to make the ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 193.12,
+            "end": 196.48000000000002,
+            "text": " Then we will follow those rules and draw our diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 196.48,
+            "end": 203.35999999999999,
+            "text": " Now we will see the rules for design ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 203.35999999999999,
+            "end": 207.35999999999999,
+            "text": " Rule number 1 is to identify the active element of organization"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 207.35999999999999,
+            "end": 213.35999999999999,
+            "text": " We have to select the active element for our organization"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 213.35999999999999,
+            "end": 217.35999999999999,
+            "text": " Second is to identify all the relationships among entities"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 217.35999999999999,
+            "end": 222.39999999999998,
+            "text": " We have to identify the relationships between entities"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 222.39999999999998,
+            "end": 226.16,
+            "text": " Third is to find the key attribute of entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 226.24,
+            "end": 232.24,
+            "text": " We have to find out the key attribute of entity in the third rule"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 232.24,
+            "end": 237.12,
+            "text": " After that, we have to identify other attribute of entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 237.12,
+            "end": 242.16,
+            "text": " We have to see what other attribute can be"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 242.16,
+            "end": 247.2,
+            "text": " We are talking about entity, so we have to draw the complete ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 247.2,
+            "end": 252.16,
+            "text": " After following the four rules, we have a requirement"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 252.16,
+            "end": 254.8,
+            "text": " Now we can draw the diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 255.76000000000002,
+            "end": 259.76,
+            "text": " Step number 6 is to check the review and check the ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 259.76,
+            "end": 262.96000000000004,
+            "text": " We have to check whether we have made the correct or not"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 262.96000000000004,
+            "end": 267.52000000000004,
+            "text": " Now let us show you the exact question"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 267.52000000000004,
+            "end": 271.52,
+            "text": " The main question is to construct ER diagrams of the university"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 271.52,
+            "end": 273.52,
+            "text": " The topic can be anything"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 273.52,
+            "end": 276.32,
+            "text": " But the question will come in the same way"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 276.32,
+            "end": 279.76,
+            "text": " You will be asked to make an ER diagram on any topic"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 279.76,
+            "end": 285.76,
+            "text": " We have told you so many rules so that you can easily make it"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 285.76,
+            "end": 288.48,
+            "text": " And understand any given topic"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 288.48,
+            "end": 291.28,
+            "text": " We are making the university diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 291.28,
+            "end": 294.48,
+            "text": " Let us follow the rule"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 294.48,
+            "end": 299.52,
+            "text": " In rule number 1, we discussed to identify the active element of entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 299.52,
+            "end": 303.03999999999996,
+            "text": " Who can be the active element in the university?"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 303.03999999999996,
+            "end": 305.76,
+            "text": " The entity is our university"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 305.76,
+            "end": 311.28,
+            "text": " In the university, we can have active element like department, teacher, course, student"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 311.28,
+            "end": 315.28,
+            "text": " We have come to know that we are going to the rule number 2"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 315.28,
+            "end": 317.28,
+            "text": " It is raining heavily here"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 317.28,
+            "end": 319.28,
+            "text": " We will record it"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 319.28,
+            "end": 323.28,
+            "text": " Rule number 2 is to identify all the relationship among entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 323.28,
+            "end": 327.28,
+            "text": " We have to see how many relationships we can create in the entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 327.28,
+            "end": 333.28,
+            "text": " You also know that all the active elements are in the rule number 1"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 333.28,
+            "end": 338.79999999999995,
+            "text": " First of all, we have removed all the entities from the university entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 338.79999999999995,
+            "end": 342.79999999999995,
+            "text": " Now we have to see how many relationships are there between these entities"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 342.79999999999995,
+            "end": 346.79999999999995,
+            "text": " Here we have to see that a department can be the main teacher"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 346.79999999999995,
+            "end": 350.79999999999995,
+            "text": " A department can be the head teacher"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 350.79999999999995,
+            "end": 353.59999999999997,
+            "text": " There can be many courses in a department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 353.59999999999997,
+            "end": 357.59999999999997,
+            "text": " Many courses can be controlled by many students"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 357.59999999999997,
+            "end": 360.79999999999995,
+            "text": " Many courses can be taught by a teacher"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 360.8,
+            "end": 364.8,
+            "text": " These can be the relationships"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 364.8,
+            "end": 366.8,
+            "text": " This is our rule number 2"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 366.8,
+            "end": 370.8,
+            "text": " Rule number 3 is to find the key attribute of entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 370.8,
+            "end": 372.8,
+            "text": " What is the key attribute of any entity?"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 372.8,
+            "end": 376.8,
+            "text": " The primary key or the unique key"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 376.8,
+            "end": 378.8,
+            "text": " We have an entity or department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 378.8,
+            "end": 380.8,
+            "text": " The key attribute of the department is the primary key"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 380.8,
+            "end": 382.8,
+            "text": " The department id is the teacher"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 382.8,
+            "end": 384.8,
+            "text": " The key attribute of the teacher is the teacher id"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 384.8,
+            "end": 386.8,
+            "text": " We have a course id"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 386.8,
+            "end": 388.8,
+            "text": " The course id is the unique key id"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 388.8,
+            "end": 390.8,
+            "text": " We have a student entity"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 390.8,
+            "end": 394.8,
+            "text": " The key attribute of the student is the student's rule number"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 394.8,
+            "end": 396.8,
+            "text": " We have to see all the attributes here"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 396.8,
+            "end": 400.8,
+            "text": " In which there will be a unique value and no duplicate"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 400.8,
+            "end": 404.8,
+            "text": " We have told you in the rule number 4 that identify other attributes"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 404.8,
+            "end": 408.8,
+            "text": " What attributes can be done except key attributes?"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 408.8,
+            "end": 410.8,
+            "text": " The department can have a name"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 410.8,
+            "end": 412.8,
+            "text": " The contact of the department, the address of the department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 412.8,
+            "end": 414.8,
+            "text": " The email id of the department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 414.8,
+            "end": 416.8,
+            "text": " The teacher can have a name, phone number, address"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 416.8,
+            "end": 418.8,
+            "text": " The course name, fees, duration"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 418.8,
+            "end": 422.8,
+            "text": " The student's name, address, phone, date of birth"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 422.8,
+            "end": 424.8,
+            "text": " These can be all"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 424.8,
+            "end": 426.8,
+            "text": " There can be more but we have taken so much"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 426.8,
+            "end": 428.8,
+            "text": " So this is our rule number 4"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 428.8,
+            "end": 432.8,
+            "text": " Now we have to do the rule number 5"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 432.8,
+            "end": 436.8,
+            "text": " We have gathered all the requirements from rule 1 to 4"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 436.8,
+            "end": 440.8,
+            "text": " Now we have to design the final ER diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 440.8,
+            "end": 444.8,
+            "text": " Now we can do it because we have known everything"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 447.8,
+            "end": 449.8,
+            "text": " Now let's make the final diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 449.8,
+            "end": 451.8,
+            "text": " We have to take our requirements"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 451.8,
+            "end": 453.8,
+            "text": " First of all, what will be here?"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 453.8,
+            "end": 454.8,
+            "text": " Department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 454.8,
+            "end": 458.8,
+            "text": " We represent the department as an entity from the rectangle"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 458.8,
+            "end": 462.8,
+            "text": " In the department, the department id is our attribute"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 462.8,
+            "end": 465.8,
+            "text": " The key attribute is the primary key"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 465.8,
+            "end": 468.8,
+            "text": " Department email, department name, department address"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 468.8,
+            "end": 469.8,
+            "text": " This is done"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 469.8,
+            "end": 470.8,
+            "text": " So here we come in this way"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 470.8,
+            "end": 474.8,
+            "text": " There can be many teachers in one department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 474.8,
+            "end": 476.8,
+            "text": " So here we come"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 476.8,
+            "end": 480.8,
+            "text": " So the teacher's id is our attribute"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 480.8,
+            "end": 482.8,
+            "text": " The teacher's address, name, phone number"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 482.8,
+            "end": 483.8,
+            "text": " This is done"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 483.8,
+            "end": 486.8,
+            "text": " And in this way, if we look again"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 486.8,
+            "end": 488.8,
+            "text": " We will come to the department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 488.8,
+            "end": 492.8,
+            "text": " We will offer many courses in one department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 492.8,
+            "end": 493.8,
+            "text": " In this way"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 493.8,
+            "end": 497.8,
+            "text": " So in the courses, the id of the course, the fees of the course"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 497.8,
+            "end": 499.8,
+            "text": " The course name, the duration of the course"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 499.8,
+            "end": 501.8,
+            "text": " After that, a course"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 501.8,
+            "end": 504.8,
+            "text": " A course can be controlled by many students"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 504.8,
+            "end": 507.8,
+            "text": " One course is controlled by many students"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 507.8,
+            "end": 510.8,
+            "text": " So the key attribute of the student is the student's number"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 510.8,
+            "end": 513.8,
+            "text": " Then the rest of the attributes are name, phone number, date of birth"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 513.8,
+            "end": 515.8,
+            "text": " This is done"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 515.8,
+            "end": 517.8,
+            "text": " And in this way, if we look here"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 517.8,
+            "end": 519.8,
+            "text": " What will be the course and teacher"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 519.8,
+            "end": 522.8,
+            "text": " So one course is controlled by many teachers"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 522.8,
+            "end": 525.8,
+            "text": " Or we can do it like this"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 525.8,
+            "end": 528.8,
+            "text": " Many teachers are controlled by one course"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 528.8,
+            "end": 529.8,
+            "text": " It can be done like this"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 529.8,
+            "end": 531.8,
+            "text": " So now you all tell me"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 531.8,
+            "end": 533.8,
+            "text": " Did I create the right relation?"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 533.8,
+            "end": 534.8,
+            "text": " No"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 534.8,
+            "end": 536.8,
+            "text": " You will come to know by yourself"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 536.8,
+            "end": 538.8,
+            "text": " That a teacher can teach many courses"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 538.8,
+            "end": 542.8,
+            "text": " A teacher is controlled by many courses"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 542.8,
+            "end": 544.8,
+            "text": " Okay, controlled by many courses"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 544.8,
+            "end": 548.8,
+            "text": " So imagine yourself and think what can happen"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 548.8,
+            "end": 550.8,
+            "text": " Draw the same thing here"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 550.8,
+            "end": 552.8,
+            "text": " You should have the knowledge of these symbols"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 552.8,
+            "end": 555.8,
+            "text": " Which symbols are you using"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 555.8,
+            "end": 558.8,
+            "text": " This is the entity, this is the relationship"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 558.8,
+            "end": 560.8,
+            "text": " This is our attribute"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 560.8,
+            "end": 564.8,
+            "text": " And in this way, we have to denote you"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 564.8,
+            "end": 566.8,
+            "text": " Which flow is going in which direction"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 566.8,
+            "end": 568.8,
+            "text": " Like here, the head of the department"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 568.8,
+            "end": 571.8,
+            "text": " Can be a teacher"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 571.8,
+            "end": 573.8,
+            "text": " So what will happen here?"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 573.8,
+            "end": 575.8,
+            "text": " The head of the department can be a teacher"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 575.8,
+            "end": 576.8,
+            "text": " One to one"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 576.8,
+            "end": 578.8,
+            "text": " So think like this"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 578.8,
+            "end": 582.8,
+            "text": " And if you get to know every rule of the year diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 582.8,
+            "end": 584.8,
+            "text": " You can make any diagram"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 584.8,
+            "end": 586.8,
+            "text": " Now you have to do step 6"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 586.8,
+            "end": 589.8,
+            "text": " And check all the relationships and attributes"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 589.8,
+            "end": 592.8,
+            "text": " Are drawn or not"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 592.8,
+            "end": 594.8,
+            "text": " You have to review and check"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 594.8,
+            "end": 596.8,
+            "text": " If you have made the right one or not"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 596.8,
+            "end": 598.8,
+            "text": " If you review it, you will know"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 598.8,
+            "end": 601.8,
+            "text": " So this is how the ER diagram is designed"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 601.8,
+            "end": 603.8,
+            "text": " On any given topic"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 603.8,
+            "end": 605.8,
+            "text": " So let's hope you have understood"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 605.8,
+            "end": 607.8,
+            "text": " If you have come, then like the video"
+        },
+        {
+            "number": "25",
+            "title": "lecture",
+            "start": 607.8,
+            "end": 609.8,
+            "text": " Share it on the channel and subscribe"
+        }
+    ],
+    "text": " In the database management system, today's topic is ER model In this video, we will tell you about the ER model, what it is, how it is created in full explanation What are the symbols and notations in it, what form we will use, all these things that we will see So you can call it as ER designing and conceptual model ER stands for entity relationship model, it is also known as conceptual framework used to describe and design the structure of the database Before understanding the ER model, it is very important to know the diagram So before going to the ER model, you should know about the diagram, what is the ER diagram The graphical representation of relationship of table is called ER diagram And the model through which we can describe the relationship called ER model To show the relationship of table graphically, we use the ER diagram And the model we use for the ER diagram is called ER model, entity relationship model In ER diagram, the logical structure of the object, that is table, are grouped together called relationship In ER diagram, we have a lot of objects, a lot of objects connected to each other In the form of relationship, the relationship is called relationship So in the note, what you will remember, the relationship of ER diagram is of three types We can do one to one, one to many and many to many, what can we do with these three types Through the ER diagram, we can create a relationship between the tables and objects While constructing the ER diagram, we have to use some graphical symbols We use some symbols to make the ER diagram If you see this rectangle symbol, we call it entity If we want to show the table in our diagram, we will use this symbol If we want to show the attribute, we will use this We call it ellipse Attribute means to show the column of the table If we want to show the relationship between the two tables or objects, we will use this diamond symbol And for primary key, the underline will be in this ellipse So if this symbol is used in any column or attribute, it means that the primary key is in that column There are some other advances here like weak entity In a table where there is no record or the relationship is not important, we call it weak entity We denote it as double rectangle We denote it as weak entity relationship with double diamond There are not many special data links between these objects After that, we use multi-valued attribute, double ellipse And to join many attribute columns, we use this symbol These are some symbols We will make our ER diagram using these symbols But first, we will show you some rules to make the ER diagram Then we will follow those rules and draw our diagram Now we will see the rules for design ER diagram Rule number 1 is to identify the active element of organization We have to select the active element for our organization Second is to identify all the relationships among entities We have to identify the relationships between entities Third is to find the key attribute of entity We have to find out the key attribute of entity in the third rule After that, we have to identify other attribute of entity We have to see what other attribute can be We are talking about entity, so we have to draw the complete ER diagram After following the four rules, we have a requirement Now we can draw the diagram Step number 6 is to check the review and check the ER diagram We have to check whether we have made the correct or not Now let us show you the exact question The main question is to construct ER diagrams of the university The topic can be anything But the question will come in the same way You will be asked to make an ER diagram on any topic We have told you so many rules so that you can easily make it And understand any given topic We are making the university diagram Let us follow the rule In rule number 1, we discussed to identify the active element of entity Who can be the active element in the university? The entity is our university In the university, we can have active element like department, teacher, course, student We have come to know that we are going to the rule number 2 It is raining heavily here We will record it Rule number 2 is to identify all the relationship among entity We have to see how many relationships we can create in the entity You also know that all the active elements are in the rule number 1 First of all, we have removed all the entities from the university entity Now we have to see how many relationships are there between these entities Here we have to see that a department can be the main teacher A department can be the head teacher There can be many courses in a department Many courses can be controlled by many students Many courses can be taught by a teacher These can be the relationships This is our rule number 2 Rule number 3 is to find the key attribute of entity What is the key attribute of any entity? The primary key or the unique key We have an entity or department The key attribute of the department is the primary key The department id is the teacher The key attribute of the teacher is the teacher id We have a course id The course id is the unique key id We have a student entity The key attribute of the student is the student's rule number We have to see all the attributes here In which there will be a unique value and no duplicate We have told you in the rule number 4 that identify other attributes What attributes can be done except key attributes? The department can have a name The contact of the department, the address of the department The email id of the department The teacher can have a name, phone number, address The course name, fees, duration The student's name, address, phone, date of birth These can be all There can be more but we have taken so much So this is our rule number 4 Now we have to do the rule number 5 We have gathered all the requirements from rule 1 to 4 Now we have to design the final ER diagram Now we can do it because we have known everything Now let's make the final diagram We have to take our requirements First of all, what will be here? Department We represent the department as an entity from the rectangle In the department, the department id is our attribute The key attribute is the primary key Department email, department name, department address This is done So here we come in this way There can be many teachers in one department So here we come So the teacher's id is our attribute The teacher's address, name, phone number This is done And in this way, if we look again We will come to the department We will offer many courses in one department In this way So in the courses, the id of the course, the fees of the course The course name, the duration of the course After that, a course A course can be controlled by many students One course is controlled by many students So the key attribute of the student is the student's number Then the rest of the attributes are name, phone number, date of birth This is done And in this way, if we look here What will be the course and teacher So one course is controlled by many teachers Or we can do it like this Many teachers are controlled by one course It can be done like this So now you all tell me Did I create the right relation? No You will come to know by yourself That a teacher can teach many courses A teacher is controlled by many courses Okay, controlled by many courses So imagine yourself and think what can happen Draw the same thing here You should have the knowledge of these symbols Which symbols are you using This is the entity, this is the relationship This is our attribute And in this way, we have to denote you Which flow is going in which direction Like here, the head of the department Can be a teacher So what will happen here? The head of the department can be a teacher One to one So think like this And if you get to know every rule of the year diagram You can make any diagram Now you have to do step 6 And check all the relationships and attributes Are drawn or not You have to review and check If you have made the right one or not If you review it, you will know So this is how the ER diagram is designed On any given topic So let's hope you have understood If you have come, then like the video Share it on the channel and subscribe"
+}

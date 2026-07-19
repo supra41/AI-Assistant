@@ -1,0 +1,957 @@
+{
+    "chunks": [
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 4.0,
+            "text": " Today's topic is Transaction in the database management system."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 4.0,
+            "end": 5.0,
+            "text": " What is Transaction?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 5.0,
+            "end": 10.0,
+            "text": " We will discuss its properties, advantages, disadvantages in the full explanation."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 10.0,
+            "end": 13.0,
+            "text": " But first of all, we understand what it is."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 13.0,
+            "end": 19.0,
+            "text": " Transaction is a collection of operations that are executed as a single unit of work."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 19.0,
+            "end": 25.0,
+            "text": " Transactions perform on many operations which are completed with a single unit."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 25.0,
+            "end": 28.0,
+            "text": " Transaction do not violate any database constant."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 28.0,
+            "end": 33.0,
+            "text": " The data based rules of the transaction do not violate it."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 33.0,
+            "end": 40.0,
+            "text": " This transaction ensures that these operations are either all completed successfully or rolled back."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 40.0,
+            "end": 47.0,
+            "text": " When the transaction starts, it will either be successfully completed or it will be cancelled or failed."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 47.0,
+            "end": 55.0,
+            "text": " In the same time, we feel that the complete operations are done in a single unit."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 55.0,
+            "end": 64.0,
+            "text": " Sometimes when the transaction is initiated, it is in the state of initiation, it is in the pending, it is cancelled, it is failed, it is successful."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 64.0,
+            "end": 67.0,
+            "text": " So, all these collections of operations are done in the same unit."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 67.0,
+            "end": 73.0,
+            "text": " When we initiate the transaction, we feel that it is done in a single unit."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 73.0,
+            "end": 75.0,
+            "text": " There are many things behind the scene."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 75.0,
+            "end": 79.0,
+            "text": " Now, let us tell you about the properties of the asset."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 79.0,
+            "end": 86.0,
+            "text": " Transaction is a very small unit of the program and it contains several low-level tasks."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 86.0,
+            "end": 93.0,
+            "text": " Transaction is a very small unit of the program but there are many low-level tasks performed behind the scene."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 93.0,
+            "end": 98.0,
+            "text": " In DBM, the transactions are defined as four key properties called asset properties."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 98.0,
+            "end": 106.0,
+            "text": " The four properties of the transaction are called asset properties."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 106.0,
+            "end": 108.0,
+            "text": " So, what is A4?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 108.0,
+            "end": 109.0,
+            "text": " Atomicity."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 109.0,
+            "end": 110.0,
+            "text": " What does this mean?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 110.0,
+            "end": 113.0,
+            "text": " The transaction must be completed entirely or not."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 113.0,
+            "end": 116.0,
+            "text": " Either the transaction will be complete or not."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 116.0,
+            "end": 120.0,
+            "text": " If any part of the transaction fails, the entire is rolled back."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 120.0,
+            "end": 124.0,
+            "text": " If the transaction fails somewhere, the work will also be stopped there."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 124.0,
+            "end": 129.0,
+            "text": " For example, if you want to transfer money to someone from your bank,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 129.0,
+            "end": 134.0,
+            "text": " if money is deviated from the account but cannot be credited to other accounts,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 134.0,
+            "end": 137.0,
+            "text": " the entire transaction should be failed or cancelled."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 137.0,
+            "end": 143.0,
+            "text": " If you transfer money to someone, they will not receive the money from your account."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 143.0,
+            "end": 144.0,
+            "text": " So, what happens in this state?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 144.0,
+            "end": 147.0,
+            "text": " The transaction fails or is cancelled."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 147.0,
+            "end": 150.0,
+            "text": " And your money comes back to your account."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 150.0,
+            "end": 153.0,
+            "text": " C stands for consistency."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 153.0,
+            "end": 154.0,
+            "text": " What does this mean?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 154.0,
+            "end": 159.0,
+            "text": " Ensure that a transaction brings the database from one consistent state to another."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 159.0,
+            "end": 163.0,
+            "text": " Maintaining all predefined rules and constraints."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 163.0,
+            "end": 164.0,
+            "text": " What does this mean?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 164.0,
+            "end": 170.0,
+            "text": " That whatever the database rules or communication with the database should be consistent in this state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 170.0,
+            "end": 171.0,
+            "text": " Proper."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 171.0,
+            "end": 177.0,
+            "text": " For example, if there is a constraint that account violence cannot be negative,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 177.0,
+            "end": 179.0,
+            "text": " a transaction should never violate this rule."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 179.0,
+            "end": 184.0,
+            "text": " If we have put a rule in our bank balance that it should not be negative,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 184.0,
+            "end": 187.0,
+            "text": " the data should not be constant, it should not be negative,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 187.0,
+            "end": 189.0,
+            "text": " then that rule should not violate."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 189.0,
+            "end": 191.0,
+            "text": " The transaction will not violate that rule."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 191.0,
+            "end": 193.0,
+            "text": " It will follow that rule."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 193.0,
+            "end": 195.0,
+            "text": " This is our consistency."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 195.0,
+            "end": 196.0,
+            "text": " Isolation."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 196.0,
+            "end": 198.0,
+            "text": " I stands for isolation."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 198.0,
+            "end": 199.0,
+            "text": " What does this mean?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 199.0,
+            "end": 205.0,
+            "text": " Ensure that transactions are executed independently without interference from each transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 205.0,
+            "end": 209.0,
+            "text": " The transaction should be independent."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 209.0,
+            "end": 211.0,
+            "text": " It should not depend on any other transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 211.0,
+            "end": 217.0,
+            "text": " For example, two transactions trying to update the same account violence simultaneously should not impact each other."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 217.0,
+            "end": 222.0,
+            "text": " If someone sends me some money and I have sent someone money,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 222.0,
+            "end": 225.0,
+            "text": " then both the updates will be on my account violence."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 225.0,
+            "end": 229.0,
+            "text": " Even if I have done more than one transaction with different people,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 229.0,
+            "end": 231.0,
+            "text": " but this update will be on my account."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 231.0,
+            "end": 233.0,
+            "text": " It should not be on someone else's account."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 233.0,
+            "end": 234.0,
+            "text": " Durability."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 234.0,
+            "end": 241.0,
+            "text": " Once a transaction is committed, the changes are permanently saved in the database even in the case of system failure."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 241.0,
+            "end": 245.0,
+            "text": " If I have sent someone money from a bank account,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 245.0,
+            "end": 247.0,
+            "text": " then the transaction is successful."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 247.0,
+            "end": 252.0,
+            "text": " Then the updated account violence will be saved permanently in the database."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 252.0,
+            "end": 254.0,
+            "text": " Even if the system crashes,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 254.0,
+            "end": 259.0,
+            "text": " our bank balance will be seen as a total updated balance."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 259.0,
+            "end": 262.0,
+            "text": " This is our asset property of the transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 262.0,
+            "end": 265.0,
+            "text": " Now let's tell you the state of the transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 265.0,
+            "end": 267.0,
+            "text": " What is a transaction state?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 267.0,
+            "end": 269.0,
+            "text": " You understand the state of the transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 269.0,
+            "end": 271.0,
+            "text": " How many states are completed?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 271.0,
+            "end": 277.0,
+            "text": " In DBMS, the state of the transaction refers to its current status within its life cycle."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 277.0,
+            "end": 281.0,
+            "text": " Transactions go through several states from the moment they start"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 281.0,
+            "end": 285.0,
+            "text": " until they are either complete, successful or terminated."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 285.0,
+            "end": 290.0,
+            "text": " Whenever a transaction starts, it passes through many states."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 290.0,
+            "end": 292.0,
+            "text": " There are five states of the transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 292.0,
+            "end": 294.0,
+            "text": " The first is the active state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 294.0,
+            "end": 296.0,
+            "text": " When we initiate the transaction,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 296.0,
+            "end": 300.0,
+            "text": " then we have to do a transaction in a partially committed state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 300.0,
+            "end": 301.0,
+            "text": " Then the committed state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 301.0,
+            "end": 303.0,
+            "text": " The transaction is successful and completed."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 303.0,
+            "end": 306.0,
+            "text": " If the transaction is not completed, then it is a failed state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 306.0,
+            "end": 308.0,
+            "text": " If we want to cancel the transaction,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 308.0,
+            "end": 310.0,
+            "text": " then we have to commit it or fail it."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 310.0,
+            "end": 313.0,
+            "text": " We just have to stop the transaction from happening in the abort state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 313.0,
+            "end": 315.0,
+            "text": " There are five states of the transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 315.0,
+            "end": 317.0,
+            "text": " What is written in the active state?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 317.0,
+            "end": 321.0,
+            "text": " The transaction is in progress, executing its operation."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 321.0,
+            "end": 323.0,
+            "text": " The transaction is in progress."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 323.0,
+            "end": 327.0,
+            "text": " It is performing its operations and what to do next?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 327.0,
+            "end": 329.0,
+            "text": " Partially committed."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 329.0,
+            "end": 334.0,
+            "text": " The transaction has completed its final step and is ready to commit changes."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 334.0,
+            "end": 336.0,
+            "text": " What happens in the partially state?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 336.0,
+            "end": 338.0,
+            "text": " The transaction is ready to complete."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 338.0,
+            "end": 343.0,
+            "text": " The partially completed work is ready to go to this state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 343.0,
+            "end": 344.0,
+            "text": " What happens in the committed state?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 344.0,
+            "end": 348.0,
+            "text": " The transaction has successfully saved changes to the database permanently."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 348.0,
+            "end": 351.0,
+            "text": " This means that the transaction has been successfully completed."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 351.0,
+            "end": 353.0,
+            "text": " The database has also been saved."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 353.0,
+            "end": 355.0,
+            "text": " What is in the failed state?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 355.0,
+            "end": 359.0,
+            "text": " An error has occurred and the transaction cannot continue."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 359.0,
+            "end": 362.0,
+            "text": " If there is an error, then we cannot continue the transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 362.0,
+            "end": 366.0,
+            "text": " Because of some server issues or any system failure,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 366.0,
+            "end": 367.0,
+            "text": " then it has failed."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 367.0,
+            "end": 369.0,
+            "text": " What happens in the aborted state?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 369.0,
+            "end": 372.0,
+            "text": " The transaction has been rolled back and all changes are undone."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 372.0,
+            "end": 375.0,
+            "text": " It may be terminated or restarted."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 375.0,
+            "end": 378.0,
+            "text": " Suppose I have to send someone 100 rupees."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 378.0,
+            "end": 380.0,
+            "text": " I have typed it and it is 200 rupees."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 380.0,
+            "end": 383.0,
+            "text": " What I have to do is cancel it and abort it."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 383.0,
+            "end": 385.0,
+            "text": " This happens in the aborted state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 385.0,
+            "end": 389.0,
+            "text": " I have to restart it again and not complete this transaction."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 389.0,
+            "end": 391.0,
+            "text": " Let us show the diagram of this."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 391.0,
+            "end": 394.0,
+            "text": " This is the diagram of the transaction state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 394.0,
+            "end": 397.0,
+            "text": " In the starting, the active state has started from here."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 397.0,
+            "end": 399.0,
+            "text": " It has been initiated."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 399.0,
+            "end": 401.0,
+            "text": " It has been committed here."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 401.0,
+            "end": 403.0,
+            "text": " This is the second time."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 403.0,
+            "end": 406.0,
+            "text": " We have decided to send the transaction ahead or not."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 406.0,
+            "end": 408.0,
+            "text": " Everything is ready and everything is okay."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 408.0,
+            "end": 410.0,
+            "text": " We go to the committed state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 410.0,
+            "end": 414.0,
+            "text": " If this is completed, then the transaction ends."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 414.0,
+            "end": 418.0,
+            "text": " If the transaction has started and it has failed,"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 418.0,
+            "end": 420.0,
+            "text": " then the aborted state will end."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 420.0,
+            "end": 423.0,
+            "text": " What happens if the transaction has started and it has been in the partially state?"
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 423.0,
+            "end": 425.0,
+            "text": " Everything has been seen here."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 425.0,
+            "end": 427.0,
+            "text": " Now the transaction is failing."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 427.0,
+            "end": 429.0,
+            "text": " The transaction can come from here."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 429.0,
+            "end": 431.0,
+            "text": " We can come here and also here."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 431.0,
+            "end": 433.0,
+            "text": " Then it will be aborted and end."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 433.0,
+            "end": 435.0,
+            "text": " This is the diagram of the transaction state."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 435.0,
+            "end": 438.0,
+            "text": " I hope you have understood the architecture."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 438.0,
+            "end": 441.0,
+            "text": " If you liked this complete video, then like the video."
+        },
+        {
+            "number": "13",
+            "title": "lecture",
+            "start": 441.0,
+            "end": 443.0,
+            "text": " Share it on the channel and subscribe to the channel."
+        }
+    ],
+    "text": " Today's topic is Transaction in the database management system. What is Transaction? We will discuss its properties, advantages, disadvantages in the full explanation. But first of all, we understand what it is. Transaction is a collection of operations that are executed as a single unit of work. Transactions perform on many operations which are completed with a single unit. Transaction do not violate any database constant. The data based rules of the transaction do not violate it. This transaction ensures that these operations are either all completed successfully or rolled back. When the transaction starts, it will either be successfully completed or it will be cancelled or failed. In the same time, we feel that the complete operations are done in a single unit. Sometimes when the transaction is initiated, it is in the state of initiation, it is in the pending, it is cancelled, it is failed, it is successful. So, all these collections of operations are done in the same unit. When we initiate the transaction, we feel that it is done in a single unit. There are many things behind the scene. Now, let us tell you about the properties of the asset. Transaction is a very small unit of the program and it contains several low-level tasks. Transaction is a very small unit of the program but there are many low-level tasks performed behind the scene. In DBM, the transactions are defined as four key properties called asset properties. The four properties of the transaction are called asset properties. So, what is A4? Atomicity. What does this mean? The transaction must be completed entirely or not. Either the transaction will be complete or not. If any part of the transaction fails, the entire is rolled back. If the transaction fails somewhere, the work will also be stopped there. For example, if you want to transfer money to someone from your bank, if money is deviated from the account but cannot be credited to other accounts, the entire transaction should be failed or cancelled. If you transfer money to someone, they will not receive the money from your account. So, what happens in this state? The transaction fails or is cancelled. And your money comes back to your account. C stands for consistency. What does this mean? Ensure that a transaction brings the database from one consistent state to another. Maintaining all predefined rules and constraints. What does this mean? That whatever the database rules or communication with the database should be consistent in this state. Proper. For example, if there is a constraint that account violence cannot be negative, a transaction should never violate this rule. If we have put a rule in our bank balance that it should not be negative, the data should not be constant, it should not be negative, then that rule should not violate. The transaction will not violate that rule. It will follow that rule. This is our consistency. Isolation. I stands for isolation. What does this mean? Ensure that transactions are executed independently without interference from each transaction. The transaction should be independent. It should not depend on any other transaction. For example, two transactions trying to update the same account violence simultaneously should not impact each other. If someone sends me some money and I have sent someone money, then both the updates will be on my account violence. Even if I have done more than one transaction with different people, but this update will be on my account. It should not be on someone else's account. Durability. Once a transaction is committed, the changes are permanently saved in the database even in the case of system failure. If I have sent someone money from a bank account, then the transaction is successful. Then the updated account violence will be saved permanently in the database. Even if the system crashes, our bank balance will be seen as a total updated balance. This is our asset property of the transaction. Now let's tell you the state of the transaction. What is a transaction state? You understand the state of the transaction. How many states are completed? In DBMS, the state of the transaction refers to its current status within its life cycle. Transactions go through several states from the moment they start until they are either complete, successful or terminated. Whenever a transaction starts, it passes through many states. There are five states of the transaction. The first is the active state. When we initiate the transaction, then we have to do a transaction in a partially committed state. Then the committed state. The transaction is successful and completed. If the transaction is not completed, then it is a failed state. If we want to cancel the transaction, then we have to commit it or fail it. We just have to stop the transaction from happening in the abort state. There are five states of the transaction. What is written in the active state? The transaction is in progress, executing its operation. The transaction is in progress. It is performing its operations and what to do next? Partially committed. The transaction has completed its final step and is ready to commit changes. What happens in the partially state? The transaction is ready to complete. The partially completed work is ready to go to this state. What happens in the committed state? The transaction has successfully saved changes to the database permanently. This means that the transaction has been successfully completed. The database has also been saved. What is in the failed state? An error has occurred and the transaction cannot continue. If there is an error, then we cannot continue the transaction. Because of some server issues or any system failure, then it has failed. What happens in the aborted state? The transaction has been rolled back and all changes are undone. It may be terminated or restarted. Suppose I have to send someone 100 rupees. I have typed it and it is 200 rupees. What I have to do is cancel it and abort it. This happens in the aborted state. I have to restart it again and not complete this transaction. Let us show the diagram of this. This is the diagram of the transaction state. In the starting, the active state has started from here. It has been initiated. It has been committed here. This is the second time. We have decided to send the transaction ahead or not. Everything is ready and everything is okay. We go to the committed state. If this is completed, then the transaction ends. If the transaction has started and it has failed, then the aborted state will end. What happens if the transaction has started and it has been in the partially state? Everything has been seen here. Now the transaction is failing. The transaction can come from here. We can come here and also here. Then it will be aborted and end. This is the diagram of the transaction state. I hope you have understood the architecture. If you liked this complete video, then like the video. Share it on the channel and subscribe to the channel."
+}

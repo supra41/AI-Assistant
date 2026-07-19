@@ -1,0 +1,418 @@
+{
+    "chunks": [
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 5.92,
+            "text": " In today's video, we will see what is the difference between SQL and PL SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 5.92,
+            "end": 8.96,
+            "text": " So, we have written the difference between SQL and PL SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 11.96,
+            "end": 14.32,
+            "text": " So, let's first look at SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 14.32,
+            "end": 18.080000000000002,
+            "text": " SQL is a query execution and structure language."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 18.080000000000002,
+            "end": 21.0,
+            "text": " SQL is a query language."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 21.0,
+            "end": 24.64,
+            "text": " PL SQL is a complete programming language."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 24.64,
+            "end": 26.76,
+            "text": " PL SQL is a programming language."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 26.76,
+            "end": 29.84,
+            "text": " And SQL is our structured query language."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 30.8,
+            "end": 32.6,
+            "text": " It is a declarative nature."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 32.6,
+            "end": 35.6,
+            "text": " Our SQL is a declarative nature."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 35.6,
+            "end": 38.36,
+            "text": " Whereas PL SQL is a procedural nature."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 38.36,
+            "end": 41.16,
+            "text": " In other words, we can create a function and code it."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 41.16,
+            "end": 44.88,
+            "text": " Execute a single statement at a time."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 44.88,
+            "end": 49.6,
+            "text": " In SQL, we can run a single statement at a time."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 49.6,
+            "end": 54.879999999999995,
+            "text": " While in PL SQL, we can execute a block of a statement at a time."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 54.879999999999995,
+            "end": 56.519999999999996,
+            "text": " Because this is a programming language."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 56.52,
+            "end": 59.080000000000005,
+            "text": " We allow the whole code to be executed at a time."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 59.080000000000005,
+            "end": 60.720000000000006,
+            "text": " Then we can run it."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 60.720000000000006,
+            "end": 64.44,
+            "text": " Fourth point is we can use SQL in PL SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 64.44,
+            "end": 67.68,
+            "text": " We can use SQL in PL SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 67.68,
+            "end": 71.0,
+            "text": " But we can't use PL SQL in SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 71.0,
+            "end": 75.0,
+            "text": " Fifth point is it is used to maintain data."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 75.0,
+            "end": 78.2,
+            "text": " SQL is used to maintain data."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 78.2,
+            "end": 80.68,
+            "text": " So that data will remain maintained in the database."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 80.68,
+            "end": 83.88,
+            "text": " It is used to create applications."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 84.03999999999999,
+            "end": 87.16,
+            "text": " PL SQL is used for application creation."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 87.16,
+            "end": 89.88,
+            "text": " Because you know this is a language."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 91.19999999999999,
+            "end": 94.84,
+            "text": " Sixth point is it directly interacts with the database server."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 94.84,
+            "end": 97.88,
+            "text": " SQL interacts directly with the database."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 98.88,
+            "end": 101.28,
+            "text": " It does not directly interact with the server."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 102.64,
+            "end": 105.47999999999999,
+            "text": " Seventh point is SQL is used for writing query,"
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 105.47999999999999,
+            "end": 110.67999999999999,
+            "text": " create and execute DDL, DML, TCL, DQL statements."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 110.84,
+            "end": 114.44000000000001,
+            "text": " To write a query for SQL, it is used to write a query for table creation,"
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 114.44000000000001,
+            "end": 118.60000000000001,
+            "text": " to execute a query, to perform all these operations."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 118.60000000000001,
+            "end": 122.0,
+            "text": " While PL SQL is used for writing programs like"
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 122.0,
+            "end": 126.68,
+            "text": " create variables, function, procedure, trigger and packages."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 128.08,
+            "end": 132.32,
+            "text": " The next point is what to do with SQL tells the database."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 132.32,
+            "end": 135.8,
+            "text": " It tells the SQL database what to do."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 135.8,
+            "end": 139.04000000000002,
+            "text": " PL SQL tells the database how to do."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 139.04,
+            "end": 142.79999999999998,
+            "text": " PL SQL tells the database how to do."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 142.79999999999998,
+            "end": 146.16,
+            "text": " Because in PL SQL, we write complete logic."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 146.16,
+            "end": 150.35999999999999,
+            "text": " What logic we have to perform, what logic will be used on this data."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 150.35999999999999,
+            "end": 153.84,
+            "text": " What condition will be there, we write all that in PL SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 154.95999999999998,
+            "end": 156.72,
+            "text": " It has basic error handling."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 156.72,
+            "end": 160.79999999999998,
+            "text": " SQL has a simple error handling mechanism."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 160.79999999999998,
+            "end": 164.51999999999998,
+            "text": " While PL SQL has advanced error handling concept"
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 164.51999999999998,
+            "end": 166.2,
+            "text": " with exception block."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 166.2,
+            "end": 169.48,
+            "text": " We can handle the error in PL SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 169.48,
+            "end": 174.07999999999998,
+            "text": " We have created a complete course of SQL and PL SQL."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 174.07999999999998,
+            "end": 178.48,
+            "text": " You will get the link in the description if you want to learn in detail."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 178.48,
+            "end": 182.88,
+            "text": " Our concept in this video is that it tells you the difference."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 182.88,
+            "end": 186.0,
+            "text": " Because many people think that SQL and PL SQL are the same."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 186.0,
+            "end": 187.44,
+            "text": " While it is not."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 187.44,
+            "end": 189.72,
+            "text": " SQL is a query language."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 189.72,
+            "end": 192.64,
+            "text": " We use it to work with the database."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 192.64,
+            "end": 195.39999999999998,
+            "text": " To retrieve data, to create data."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 195.4,
+            "end": 199.36,
+            "text": " PL SQL is a complete programming language just like Java and Python."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 199.36,
+            "end": 203.68,
+            "text": " If you have understood, do like and share the video."
+        },
+        {
+            "number": "16",
+            "title": "lecture",
+            "start": 203.68,
+            "end": 205.8,
+            "text": " Subscribe to the channel."
+        }
+    ],
+    "text": " In today's video, we will see what is the difference between SQL and PL SQL. So, we have written the difference between SQL and PL SQL. So, let's first look at SQL. SQL is a query execution and structure language. SQL is a query language. PL SQL is a complete programming language. PL SQL is a programming language. And SQL is our structured query language. It is a declarative nature. Our SQL is a declarative nature. Whereas PL SQL is a procedural nature. In other words, we can create a function and code it. Execute a single statement at a time. In SQL, we can run a single statement at a time. While in PL SQL, we can execute a block of a statement at a time. Because this is a programming language. We allow the whole code to be executed at a time. Then we can run it. Fourth point is we can use SQL in PL SQL. We can use SQL in PL SQL. But we can't use PL SQL in SQL. Fifth point is it is used to maintain data. SQL is used to maintain data. So that data will remain maintained in the database. It is used to create applications. PL SQL is used for application creation. Because you know this is a language. Sixth point is it directly interacts with the database server. SQL interacts directly with the database. It does not directly interact with the server. Seventh point is SQL is used for writing query, create and execute DDL, DML, TCL, DQL statements. To write a query for SQL, it is used to write a query for table creation, to execute a query, to perform all these operations. While PL SQL is used for writing programs like create variables, function, procedure, trigger and packages. The next point is what to do with SQL tells the database. It tells the SQL database what to do. PL SQL tells the database how to do. PL SQL tells the database how to do. Because in PL SQL, we write complete logic. What logic we have to perform, what logic will be used on this data. What condition will be there, we write all that in PL SQL. It has basic error handling. SQL has a simple error handling mechanism. While PL SQL has advanced error handling concept with exception block. We can handle the error in PL SQL. We have created a complete course of SQL and PL SQL. You will get the link in the description if you want to learn in detail. Our concept in this video is that it tells you the difference. Because many people think that SQL and PL SQL are the same. While it is not. SQL is a query language. We use it to work with the database. To retrieve data, to create data. PL SQL is a complete programming language just like Java and Python. If you have understood, do like and share the video. Subscribe to the channel."
+}

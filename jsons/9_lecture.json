@@ -1,0 +1,852 @@
+{
+    "chunks": [
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 5.0,
+            "text": " In the database management system, today's topic will be recovery technique and backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 5.0,
+            "end": 11.0,
+            "text": " How can we use recovery technique in our database, implement it and how can we take backup?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 11.0,
+            "end": 13.0,
+            "text": " Any failure."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 13.0,
+            "end": 16.0,
+            "text": " In full explanation, we will discuss all things."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 16.0,
+            "end": 20.0,
+            "text": " First, we will talk about recovery technique and how we will do it."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 20.0,
+            "end": 26.0,
+            "text": " Recovery techniques are essential to ensure data integrity and consistency in case of system failure and crashes."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 26.0,
+            "end": 29.0,
+            "text": " Whether the system is failure or crash."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 29.0,
+            "end": 33.0,
+            "text": " In that case, we will discuss all the data and transactions that were going on."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 33.0,
+            "end": 37.0,
+            "text": " If we want any recovery related to that, how can we do it?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 37.0,
+            "end": 39.0,
+            "text": " Here, we have some techniques."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 39.0,
+            "end": 41.0,
+            "text": " The first one is undo."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 41.0,
+            "end": 42.0,
+            "text": " What is this?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 42.0,
+            "end": 47.0,
+            "text": " Undo is a technique used to roll back the changes made by an active transaction."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 47.0,
+            "end": 51.0,
+            "text": " But not committed at the time of failure."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 51.0,
+            "end": 55.0,
+            "text": " Suppose we initiated any transaction, it has been active."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 55.0,
+            "end": 57.0,
+            "text": " But it has not been committed yet."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 57.0,
+            "end": 60.0,
+            "text": " And before that, system failure."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 60.0,
+            "end": 64.0,
+            "text": " All its changes are reverted to their original state."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 64.0,
+            "end": 72.0,
+            "text": " We will revert the original state to the original state."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 72.0,
+            "end": 75.0,
+            "text": " We will do it again and revert it."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 75.0,
+            "end": 78.0,
+            "text": " Because system failure is before committing."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 78.0,
+            "end": 80.0,
+            "text": " Second is our redo."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 80.0,
+            "end": 81.0,
+            "text": " What it does?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 81.0,
+            "end": 85.0,
+            "text": " For all the transactions that were committed or successfully completed."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 85.0,
+            "end": 90.0,
+            "text": " Suppose we initiated any transaction, it has been committed and successfully completed."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 90.0,
+            "end": 97.0,
+            "text": " After the failure of the system, we have a successful system failure."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 97.0,
+            "end": 101.0,
+            "text": " But whose changes were not fully written in the disk."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 101.0,
+            "end": 108.0,
+            "text": " But the changes in the transaction or history, have not been saved in our disk or database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 108.0,
+            "end": 110.0,
+            "text": " What we will do?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 110.0,
+            "end": 118.0,
+            "text": " Their operations are written to ensure all intents and modifications are applied."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 118.0,
+            "end": 119.0,
+            "text": " What we will do?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 119.0,
+            "end": 124.0,
+            "text": " We will modify and apply all the changes."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 124.0,
+            "end": 126.0,
+            "text": " Through redo techniques."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 126.0,
+            "end": 129.0,
+            "text": " The last one is logging."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 129.0,
+            "end": 132.0,
+            "text": " There is nothing but logging file."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 132.0,
+            "end": 135.0,
+            "text": " There is a log file which is generated."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 135.0,
+            "end": 142.0,
+            "text": " It is used to record all the changes made by the transaction before they are applied to the database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 142.0,
+            "end": 145.0,
+            "text": " Whenever we start any transaction."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 145.0,
+            "end": 150.0,
+            "text": " Every transaction stored in the database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 150.0,
+            "end": 154.0,
+            "text": " Before the database is stored, we generate a file."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 154.0,
+            "end": 156.0,
+            "text": " We can download it and see."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 156.0,
+            "end": 159.0,
+            "text": " The log file also contains the history of the transaction."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 159.0,
+            "end": 165.0,
+            "text": " The log file includes all the transactions like update, insert, delete, etc."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 165.0,
+            "end": 167.0,
+            "text": " This is the log file."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 167.0,
+            "end": 169.0,
+            "text": " What can we do?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 169.0,
+            "end": 173.0,
+            "text": " If we take all the transactions, changes, and save in the database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 173.0,
+            "end": 176.0,
+            "text": " After that, our system fails and crashes in the database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 176.0,
+            "end": 178.0,
+            "text": " Now how will we get the recovery?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 178.0,
+            "end": 180.0,
+            "text": " What can we do through this log file?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 180.0,
+            "end": 185.0,
+            "text": " We can read it back and start the work from there."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 185.0,
+            "end": 187.0,
+            "text": " We can see what was the last transaction."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 187.0,
+            "end": 189.0,
+            "text": " How we performed the last transaction."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 189.0,
+            "end": 192.0,
+            "text": " What was the last transaction we performed."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 192.0,
+            "end": 194.0,
+            "text": " After which our system crashed."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 194.0,
+            "end": 197.0,
+            "text": " We can take the recovery from the log file."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 197.0,
+            "end": 200.0,
+            "text": " The second is our backup procedure."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 200.0,
+            "end": 207.0,
+            "text": " It is essential to ensure data availability, integrity, and resilience against failure and data loss."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 207.0,
+            "end": 210.0,
+            "text": " Whether the system fails or the data is lost."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 210.0,
+            "end": 213.0,
+            "text": " We need the availability of the data."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 213.0,
+            "end": 215.0,
+            "text": " How will the data be available?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 215.0,
+            "end": 219.0,
+            "text": " These procedures involve creating copies of the data backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 219.0,
+            "end": 223.0,
+            "text": " We have a backup procedure."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 223.0,
+            "end": 229.0,
+            "text": " What we do first is to take all the data of the database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 229.0,
+            "end": 233.0,
+            "text": " We take the backup and put it in a particular place."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 233.0,
+            "end": 237.0,
+            "text": " So that when we have a requirement, failure or data loss."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 237.0,
+            "end": 241.0,
+            "text": " We can restore the data from these copies when necessary."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 241.0,
+            "end": 243.0,
+            "text": " From that particular space."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 243.0,
+            "end": 245.0,
+            "text": " Here you can see the note."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 245.0,
+            "end": 248.0,
+            "text": " Backup can be full backup and incremental backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 248.0,
+            "end": 250.0,
+            "text": " What happens in full backup?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 250.0,
+            "end": 254.0,
+            "text": " Captures the entire database at a specific point of time."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 254.0,
+            "end": 257.0,
+            "text": " We take the backup of the entire database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 257.0,
+            "end": 259.0,
+            "text": " Which takes a lot of time consuming."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 259.0,
+            "end": 263.0,
+            "text": " Because taking the entire database is a big task."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 263.0,
+            "end": 264.0,
+            "text": " It takes time."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 264.0,
+            "end": 266.0,
+            "text": " It requires substantial storage space."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 266.0,
+            "end": 268.0,
+            "text": " It also requires a lot of storage space."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 268.0,
+            "end": 271.0,
+            "text": " This is the history of the entire database in full backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 271.0,
+            "end": 274.0,
+            "text": " It is current date from the beginning."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 274.0,
+            "end": 276.0,
+            "text": " What is incremental backup?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 276.0,
+            "end": 279.0,
+            "text": " Since the last backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 279.0,
+            "end": 283.0,
+            "text": " Where it was full and incremental reducing the backup time."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 283.0,
+            "end": 284.0,
+            "text": " What happens in this?"
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 284.0,
+            "end": 287.0,
+            "text": " This is the backup of the entire database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 287.0,
+            "end": 288.0,
+            "text": " And incremental."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 288.0,
+            "end": 293.0,
+            "text": " Suppose we took the entire database back up 5 days ago."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 293.0,
+            "end": 296.0,
+            "text": " Now we need the backup of the entire database from 5 days to date."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 296.0,
+            "end": 299.0,
+            "text": " What we will do is increase the backup time."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 299.0,
+            "end": 301.0,
+            "text": " The backup of the entire database will be 5 days."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 301.0,
+            "end": 305.0,
+            "text": " Suppose the customer comes to us and says that he wants the last 5 days of the database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 305.0,
+            "end": 307.0,
+            "text": " We will make a backup of the entire database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 307.0,
+            "end": 310.0,
+            "text": " And if he wants the full database back up."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 310.0,
+            "end": 313.0,
+            "text": " We will give him the backup of the entire database."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 313.0,
+            "end": 316.0,
+            "text": " Let's show you a real world image."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 316.0,
+            "end": 325.0,
+            "text": " In which both the backup techniques will show you how the industry works."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 325.0,
+            "end": 328.0,
+            "text": " Here you can see the image."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 328.0,
+            "end": 333.0,
+            "text": " The yellow line marked in this image is incremental backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 333.0,
+            "end": 337.0,
+            "text": " Which was created on 13th March, 2025."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 337.0,
+            "end": 338.0,
+            "text": " Around 4 o'clock."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 338.0,
+            "end": 340.0,
+            "text": " And it took 2 hours to do this."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 340.0,
+            "end": 343.0,
+            "text": " If any client or customer comes."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 343.0,
+            "end": 345.0,
+            "text": " They will say that they want the backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 345.0,
+            "end": 348.0,
+            "text": " From 13th March to 14th March."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 348.0,
+            "end": 353.0,
+            "text": " What we will do is create incremental backup for that particular time period."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 353.0,
+            "end": 357.0,
+            "text": " And we will provide the last incremental backup file."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 357.0,
+            "end": 361.0,
+            "text": " But if we want to take the complete database backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 361.0,
+            "end": 366.0,
+            "text": " Then we will write full in the incremental backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 366.0,
+            "end": 369.0,
+            "text": " So it takes more time."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 369.0,
+            "end": 376.0,
+            "text": " It takes less time because we create this backup according to the client's requirement."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 376.0,
+            "end": 381.0,
+            "text": " And the archived log is running in the real time backup process."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 381.0,
+            "end": 383.0,
+            "text": " When the work is complete."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 383.0,
+            "end": 386.0,
+            "text": " If the client's requirement comes."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 386.0,
+            "end": 388.0,
+            "text": " That I want the latest backup."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 388.0,
+            "end": 391.0,
+            "text": " Then we can create another incremental backup and give it to him."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 391.0,
+            "end": 393.0,
+            "text": " So this was our simple image."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 393.0,
+            "end": 395.0,
+            "text": " Through which we will try to tell you."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 395.0,
+            "end": 398.0,
+            "text": " This real world image works in the industry."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 398.0,
+            "end": 400.0,
+            "text": " If you have understood."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 400.0,
+            "end": 401.0,
+            "text": " Then like our video."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 401.0,
+            "end": 402.0,
+            "text": " Share it."
+        },
+        {
+            "number": "9",
+            "title": "lecture",
+            "start": 402.0,
+            "end": 405.0,
+            "text": " Subscribe to the channel."
+        }
+    ],
+    "text": " In the database management system, today's topic will be recovery technique and backup. How can we use recovery technique in our database, implement it and how can we take backup? Any failure. In full explanation, we will discuss all things. First, we will talk about recovery technique and how we will do it. Recovery techniques are essential to ensure data integrity and consistency in case of system failure and crashes. Whether the system is failure or crash. In that case, we will discuss all the data and transactions that were going on. If we want any recovery related to that, how can we do it? Here, we have some techniques. The first one is undo. What is this? Undo is a technique used to roll back the changes made by an active transaction. But not committed at the time of failure. Suppose we initiated any transaction, it has been active. But it has not been committed yet. And before that, system failure. All its changes are reverted to their original state. We will revert the original state to the original state. We will do it again and revert it. Because system failure is before committing. Second is our redo. What it does? For all the transactions that were committed or successfully completed. Suppose we initiated any transaction, it has been committed and successfully completed. After the failure of the system, we have a successful system failure. But whose changes were not fully written in the disk. But the changes in the transaction or history, have not been saved in our disk or database. What we will do? Their operations are written to ensure all intents and modifications are applied. What we will do? We will modify and apply all the changes. Through redo techniques. The last one is logging. There is nothing but logging file. There is a log file which is generated. It is used to record all the changes made by the transaction before they are applied to the database. Whenever we start any transaction. Every transaction stored in the database. Before the database is stored, we generate a file. We can download it and see. The log file also contains the history of the transaction. The log file includes all the transactions like update, insert, delete, etc. This is the log file. What can we do? If we take all the transactions, changes, and save in the database. After that, our system fails and crashes in the database. Now how will we get the recovery? What can we do through this log file? We can read it back and start the work from there. We can see what was the last transaction. How we performed the last transaction. What was the last transaction we performed. After which our system crashed. We can take the recovery from the log file. The second is our backup procedure. It is essential to ensure data availability, integrity, and resilience against failure and data loss. Whether the system fails or the data is lost. We need the availability of the data. How will the data be available? These procedures involve creating copies of the data backup. We have a backup procedure. What we do first is to take all the data of the database. We take the backup and put it in a particular place. So that when we have a requirement, failure or data loss. We can restore the data from these copies when necessary. From that particular space. Here you can see the note. Backup can be full backup and incremental backup. What happens in full backup? Captures the entire database at a specific point of time. We take the backup of the entire database. Which takes a lot of time consuming. Because taking the entire database is a big task. It takes time. It requires substantial storage space. It also requires a lot of storage space. This is the history of the entire database in full backup. It is current date from the beginning. What is incremental backup? Since the last backup. Where it was full and incremental reducing the backup time. What happens in this? This is the backup of the entire database. And incremental. Suppose we took the entire database back up 5 days ago. Now we need the backup of the entire database from 5 days to date. What we will do is increase the backup time. The backup of the entire database will be 5 days. Suppose the customer comes to us and says that he wants the last 5 days of the database. We will make a backup of the entire database. And if he wants the full database back up. We will give him the backup of the entire database. Let's show you a real world image. In which both the backup techniques will show you how the industry works. Here you can see the image. The yellow line marked in this image is incremental backup. Which was created on 13th March, 2025. Around 4 o'clock. And it took 2 hours to do this. If any client or customer comes. They will say that they want the backup. From 13th March to 14th March. What we will do is create incremental backup for that particular time period. And we will provide the last incremental backup file. But if we want to take the complete database backup. Then we will write full in the incremental backup. So it takes more time. It takes less time because we create this backup according to the client's requirement. And the archived log is running in the real time backup process. When the work is complete. If the client's requirement comes. That I want the latest backup. Then we can create another incremental backup and give it to him. So this was our simple image. Through which we will try to tell you. This real world image works in the industry. If you have understood. Then like our video. Share it. Subscribe to the channel."
+}

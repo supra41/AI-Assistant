@@ -2,7 +2,7 @@ import whisper
 import json
 import os
 
-model = whisper.load_model("small")
+model = whisper.load_model("small") 
 
 os.makedirs("chunks", exist_ok=True)
 

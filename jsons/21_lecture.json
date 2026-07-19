@@ -1,0 +1,4387 @@
+{
+    "chunks": [
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 4.0,
+            "text": " In today's video we will talk about what is DBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 4.0,
+            "end": 5.0,
+            "text": " What is DBMS?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 5.0,
+            "end": 8.0,
+            "text": " In full explanation we will see why DBMS was brought,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 8.0,
+            "end": 11.0,
+            "text": " types of DBMS, advantages, disadvantages,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 11.0,
+            "end": 14.0,
+            "text": " and what is the difference between database and DBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 14.0,
+            "end": 16.0,
+            "text": " We will discuss all these things."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 16.0,
+            "end": 19.0,
+            "text": " This is our first video of database management system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 19.0,
+            "end": 22.0,
+            "text": " in which we will cover all important things."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 22.0,
+            "end": 24.0,
+            "text": " So, first of all, before starting,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 24.0,
+            "end": 27.0,
+            "text": " you should know what is data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 27.0,
+            "end": 30.0,
+            "text": " Because by using this data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 30.0,
+            "end": 32.0,
+            "text": " we will store it in the database,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 32.0,
+            "end": 34.0,
+            "text": " how to manage it through DBMS,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 34.0,
+            "end": 36.0,
+            "text": " how to handle it, we will see all this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 36.0,
+            "end": 38.0,
+            "text": " So, you should know the data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 38.0,
+            "end": 40.0,
+            "text": " that is why you will understand DBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 40.0,
+            "end": 41.0,
+            "text": " So, what is data?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 41.0,
+            "end": 43.0,
+            "text": " Data is a collection of raw facts."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 43.0,
+            "end": 45.0,
+            "text": " The collection of raw facts is called data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 45.0,
+            "end": 49.0,
+            "text": " like numbers, text, your name, address,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 49.0,
+            "end": 51.0,
+            "text": " all this is data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 51.0,
+            "end": 53.0,
+            "text": " If we write a name here, Ankus,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 53.0,
+            "end": 54.0,
+            "text": " then what is Ankus?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 54.0,
+            "end": 55.0,
+            "text": " It is data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 55.0,
+            "end": 57.0,
+            "text": " If we write an address here,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 57.0,
+            "end": 60.0,
+            "text": " like our address is Mumbai,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 60.0,
+            "end": 61.0,
+            "text": " then what is Mumbai?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 61.0,
+            "end": 62.0,
+            "text": " It is data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 62.0,
+            "end": 65.0,
+            "text": " Now, where we will store this data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 65.0,
+            "end": 66.0,
+            "text": " will be the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 66.0,
+            "end": 69.0,
+            "text": " And how to manage this data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 69.0,
+            "end": 71.0,
+            "text": " which way to store it,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 71.0,
+            "end": 73.0,
+            "text": " which form to store,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 73.0,
+            "end": 74.0,
+            "text": " which database to do,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 74.0,
+            "end": 75.0,
+            "text": " which file to do,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 75.0,
+            "end": 76.0,
+            "text": " which book file to do,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 76.0,
+            "end": 78.0,
+            "text": " that will tell us DBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 78.0,
+            "end": 80.0,
+            "text": " Which technique we will handle it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 80.0,
+            "end": 82.0,
+            "text": " So, now, what is the database?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 82.0,
+            "end": 83.0,
+            "text": " You should understand this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 83.0,
+            "end": 85.0,
+            "text": " After that, we will tell you DBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 85.0,
+            "end": 87.0,
+            "text": " The organized collection of structured data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 87.0,
+            "end": 90.0,
+            "text": " that is stored and accessed electronically,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 90.0,
+            "end": 92.0,
+            "text": " to manage more efficiently,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 92.0,
+            "end": 93.0,
+            "text": " called database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 93.0,
+            "end": 94.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 94.0,
+            "end": 95.0,
+            "text": " Database is a place,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 95.0,
+            "end": 97.0,
+            "text": " where we store our data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 97.0,
+            "end": 98.0,
+            "text": " that is called database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 98.0,
+            "end": 99.0,
+            "text": " And when we need it,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 99.0,
+            "end": 101.0,
+            "text": " we can access that data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 101.0,
+            "end": 102.0,
+            "text": " And we can manage it,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 102.0,
+            "end": 104.0,
+            "text": " we can perform modifications in it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 104.0,
+            "end": 106.0,
+            "text": " That is called database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 106.0,
+            "end": 107.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 107.0,
+            "end": 108.0,
+            "text": " Electronically, that is why it is written,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 108.0,
+            "end": 110.0,
+            "text": " because it is stored in the computer system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 110.0,
+            "end": 111.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 111.0,
+            "end": 113.0,
+            "text": " So, this is the database data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 113.0,
+            "end": 114.0,
+            "text": " Example, look here,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 114.0,
+            "end": 115.0,
+            "text": " there are student details."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 115.0,
+            "end": 116.0,
+            "text": " So, its name,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 116.0,
+            "end": 117.0,
+            "text": " roll number, address,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 117.0,
+            "end": 119.0,
+            "text": " contact, age, gender."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 119.0,
+            "end": 120.0,
+            "text": " So, take this much information,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 120.0,
+            "end": 122.0,
+            "text": " we have to store it in the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 122.0,
+            "end": 123.0,
+            "text": " So, what we will do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 123.0,
+            "end": 125.0,
+            "text": " First, we will prepare a structure,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 125.0,
+            "end": 126.0,
+            "text": " in our database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 126.0,
+            "end": 128.0,
+            "text": " After that, we will store this information."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 128.0,
+            "end": 129.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 129.0,
+            "end": 131.0,
+            "text": " So, we will practically show you,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 131.0,
+            "end": 133.0,
+            "text": " how we will do this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 133.0,
+            "end": 134.0,
+            "text": " But first, let's move ahead."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 134.0,
+            "end": 135.0,
+            "text": " And we will tell you,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 135.0,
+            "end": 136.0,
+            "text": " why the database came."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 136.0,
+            "end": 137.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 137.0,
+            "end": 139.0,
+            "text": " Take this, we have this data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 139.0,
+            "end": 140.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 140.0,
+            "end": 142.0,
+            "text": " Name it, take this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 142.0,
+            "end": 143.0,
+            "text": " Ankus."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 143.0,
+            "end": 145.0,
+            "text": " Roll number, 1."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 145.0,
+            "end": 147.0,
+            "text": " And here, gender."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 147.0,
+            "end": 148.0,
+            "text": " Mail."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 148.0,
+            "end": 149.0,
+            "text": " Now, take this data, we have it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 149.0,
+            "end": 150.0,
+            "text": " What we have to do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 150.0,
+            "end": 152.0,
+            "text": " Save it, keep it in our system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 152.0,
+            "end": 153.0,
+            "text": " so that when it is loaded,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 153.0,
+            "end": 154.0,
+            "text": " we can access it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 154.0,
+            "end": 155.0,
+            "text": " So, what we will do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 155.0,
+            "end": 157.0,
+            "text": " We will use the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 157.0,
+            "end": 159.0,
+            "text": " First, what we will do with our data?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 159.0,
+            "end": 161.0,
+            "text": " We will store it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 161.0,
+            "end": 162.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 162.0,
+            "end": 164.0,
+            "text": " We will store it in the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 164.0,
+            "end": 165.0,
+            "text": " Now, the database has come,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 165.0,
+            "end": 167.0,
+            "text": " so what can we do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 167.0,
+            "end": 169.0,
+            "text": " What can we do with it?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 169.0,
+            "end": 171.0,
+            "text": " We can access it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 171.0,
+            "end": 173.0,
+            "text": " And this is the work of the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 173.0,
+            "end": 174.0,
+            "text": " And with this data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 174.0,
+            "end": 177.0,
+            "text": " we can perform changes in our database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 177.0,
+            "end": 178.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 178.0,
+            "end": 179.0,
+            "text": " That is why we have brought the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 179.0,
+            "end": 181.0,
+            "text": " And this is secured."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 181.0,
+            "end": 183.0,
+            "text": " Our data is secured."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 183.0,
+            "end": 184.0,
+            "text": " When it is loaded,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 184.0,
+            "end": 185.0,
+            "text": " we will access it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 185.0,
+            "end": 187.0,
+            "text": " We can perform modifications."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 187.0,
+            "end": 188.0,
+            "text": " We can update it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 188.0,
+            "end": 189.0,
+            "text": " We can perform all the things"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 189.0,
+            "end": 191.0,
+            "text": " through our database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 191.0,
+            "end": 193.0,
+            "text": " Now, we will discuss,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 193.0,
+            "end": 194.0,
+            "text": " why the database came."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 194.0,
+            "end": 195.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 195.0,
+            "end": 196.0,
+            "text": " Why we brought the database?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 196.0,
+            "end": 197.0,
+            "text": " First of all,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 197.0,
+            "end": 199.0,
+            "text": " you should know the technique of data storage."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 199.0,
+            "end": 201.0,
+            "text": " What is the technique of data storage?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 201.0,
+            "end": 202.0,
+            "text": " That is,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 202.0,
+            "end": 204.0,
+            "text": " how much we can store our data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 204.0,
+            "end": 206.0,
+            "text": " So, the first method is,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 206.0,
+            "end": 208.0,
+            "text": " which was the first one,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 208.0,
+            "end": 210.0,
+            "text": " books and file system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 210.0,
+            "end": 212.0,
+            "text": " In books and file system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 212.0,
+            "end": 214.0,
+            "text": " we store data in the form of books,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 214.0,
+            "end": 215.0,
+            "text": " in a notebook."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 215.0,
+            "end": 217.0,
+            "text": " Then, we have a flat file system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 217.0,
+            "end": 218.0,
+            "text": " because there was some drawback in it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 218.0,
+            "end": 220.0,
+            "text": " So, what happened in the flat file system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 220.0,
+            "end": 223.0,
+            "text": " that we kept data in the form of file in the computer."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 223.0,
+            "end": 225.0,
+            "text": " Then, there was some drawback in it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 225.0,
+            "end": 226.0,
+            "text": " Then, we brought the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 226.0,
+            "end": 227.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 227.0,
+            "end": 229.0,
+            "text": " So, that is why we brought the database,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 229.0,
+            "end": 231.0,
+            "text": " because there was some drawback in it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 231.0,
+            "end": 233.0,
+            "text": " Now, let us tell you,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 233.0,
+            "end": 235.0,
+            "text": " what is the books and file system?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 235.0,
+            "end": 237.0,
+            "text": " It was the earlier mechanism,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 237.0,
+            "end": 239.0,
+            "text": " adopted by the organization,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 239.0,
+            "end": 240.0,
+            "text": " to storing the information."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 240.0,
+            "end": 242.0,
+            "text": " The organization used to use"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 242.0,
+            "end": 244.0,
+            "text": " the book and file system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 244.0,
+            "end": 245.0,
+            "text": " to store their information."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 245.0,
+            "end": 247.0,
+            "text": " Because we did not have a computer."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 247.0,
+            "end": 249.0,
+            "text": " So, when we did not have a computer,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 249.0,
+            "end": 250.0,
+            "text": " what we used to do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 250.0,
+            "end": 252.0,
+            "text": " We used to store data in the notebook."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 252.0,
+            "end": 254.0,
+            "text": " Practically, we used to show how we used to do it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 254.0,
+            "end": 256.0,
+            "text": " But, currently, it is not in use,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 256.0,
+            "end": 258.0,
+            "text": " due to following drawbacks."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 258.0,
+            "end": 260.0,
+            "text": " Now, it is not used."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 260.0,
+            "end": 261.0,
+            "text": " Why not?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 261.0,
+            "end": 262.0,
+            "text": " Because there is a maintenance problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 262.0,
+            "end": 264.0,
+            "text": " There is a security problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 264.0,
+            "end": 266.0,
+            "text": " Required more main power."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 266.0,
+            "end": 268.0,
+            "text": " Costly in maintenance."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 268.0,
+            "end": 270.0,
+            "text": " Here, you can say,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 270.0,
+            "end": 272.0,
+            "text": " there is a problem in the retriever."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 272.0,
+            "end": 274.0,
+            "text": " There is a problem in retrieving the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 274.0,
+            "end": 276.0,
+            "text": " Because of all these problems,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 276.0,
+            "end": 278.0,
+            "text": " the book and file system was closed."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 278.0,
+            "end": 280.0,
+            "text": " So, now, let us practically show you"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 280.0,
+            "end": 281.0,
+            "text": " these drawbacks,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 281.0,
+            "end": 282.0,
+            "text": " why this was closed."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 282.0,
+            "end": 284.0,
+            "text": " Here, you can see the student details."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 284.0,
+            "end": 286.0,
+            "text": " We have some student details."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 286.0,
+            "end": 288.0,
+            "text": " How to store the book and file system?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 288.0,
+            "end": 290.0,
+            "text": " In this way, in the notebook,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 290.0,
+            "end": 292.0,
+            "text": " we used to keep serial number,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 292.0,
+            "end": 293.0,
+            "text": " their name,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 293.0,
+            "end": 294.0,
+            "text": " roll number,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 294.0,
+            "end": 296.0,
+            "text": " email, course, whatever we had data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 296.0,
+            "end": 298.0,
+            "text": " In this way, we used to keep it in the notebook."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 298.0,
+            "end": 300.0,
+            "text": " In the books."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 300.0,
+            "end": 301.0,
+            "text": " In the books."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 301.0,
+            "end": 303.0,
+            "text": " That is why it is called the book and file system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 303.0,
+            "end": 304.0,
+            "text": " So, what is the drawback in this?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 304.0,
+            "end": 306.0,
+            "text": " Let us assume that we have to retrieve the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 306.0,
+            "end": 307.0,
+            "text": " There are many data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 307.0,
+            "end": 309.0,
+            "text": " So, it was difficult to find."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 309.0,
+            "end": 311.0,
+            "text": " Now, let us assume that"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 311.0,
+            "end": 313.0,
+            "text": " we have forgotten the book."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 313.0,
+            "end": 314.0,
+            "text": " We lost it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 314.0,
+            "end": 316.0,
+            "text": " So, we will lose the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 316.0,
+            "end": 318.0,
+            "text": " Or, assume that"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 318.0,
+            "end": 320.0,
+            "text": " any type of the page"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 320.0,
+            "end": 322.0,
+            "text": " we have kept the data in this page."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 322.0,
+            "end": 324.0,
+            "text": " Someone removed this page from the book."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 324.0,
+            "end": 326.0,
+            "text": " So, our data will go like this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 326.0,
+            "end": 328.0,
+            "text": " And, there was a problem in the maintenance."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 328.0,
+            "end": 330.0,
+            "text": " That we have to modify something in this data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " So, we had to cut this way"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 332.0,
+            "end": 334.0,
+            "text": " and modify it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 334.0,
+            "end": 336.0,
+            "text": " So, because of all these reasons,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 336.0,
+            "end": 338.0,
+            "text": " the book and file system is not used now."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 338.0,
+            "end": 340.0,
+            "text": " Because, there are many drawbacks in this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 340.0,
+            "end": 342.0,
+            "text": " And, this data was stored in the register."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 342.0,
+            "end": 344.0,
+            "text": " If you have seen in old movies,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 344.0,
+            "end": 346.0,
+            "text": " when there was an enquiry in the reception,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 346.0,
+            "end": 348.0,
+            "text": " it was given by the register."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 348.0,
+            "end": 350.0,
+            "text": " Details were accessed from there."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 350.0,
+            "end": 352.0,
+            "text": " Now, we will talk about the flat file system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 352.0,
+            "end": 354.0,
+            "text": " This is our second technique of storing data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 354.0,
+            "end": 356.0,
+            "text": " What is this?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 356.0,
+            "end": 358.0,
+            "text": " When computer comes into the picture,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 358.0,
+            "end": 360.0,
+            "text": " to overcome the problem,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 360.0,
+            "end": 362.0,
+            "text": " we have to take a lot of time."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 362.0,
+            "end": 364.0,
+            "text": " So, we have to take a lot of time."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 364.0,
+            "end": 366.0,
+            "text": " So, we have to take a lot of time."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 366.0,
+            "end": 368.0,
+            "text": " To overcome the problem, we have to take a lot of time."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 368.0,
+            "end": 370.0,
+            "text": " To overcome the problem, we have to take a lot of time."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 370.0,
+            "end": 372.0,
+            "text": " In the book and file system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 372.0,
+            "end": 374.0,
+            "text": " we store data in the register."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 374.0,
+            "end": 376.0,
+            "text": " So, when the computer comes,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 376.0,
+            "end": 378.0,
+            "text": " we have to remove this problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 378.0,
+            "end": 380.0,
+            "text": " We have to remove this problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 380.0,
+            "end": 382.0,
+            "text": " And, people started using this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 382.0,
+            "end": 384.0,
+            "text": " They started storing their data in the computer."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 384.0,
+            "end": 386.0,
+            "text": " So, the advantage of this was"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 386.0,
+            "end": 388.0,
+            "text": " that we could easily take back up data"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 388.0,
+            "end": 390.0,
+            "text": " in the computer."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 390.0,
+            "end": 392.0,
+            "text": " We could edit it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 392.0,
+            "end": 394.0,
+            "text": " We could access the remote."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 394.0,
+            "end": 396.0,
+            "text": " We could carry the data"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 396.0,
+            "end": 398.0,
+            "text": " through the pen type."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 398.0,
+            "end": 400.0,
+            "text": " It was a facility of sharing and portability."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 400.0,
+            "end": 402.0,
+            "text": " Because the data was in our device."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 402.0,
+            "end": 404.0,
+            "text": " But, there were some drawbacks in this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 404.0,
+            "end": 406.0,
+            "text": " Like, security problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 406.0,
+            "end": 408.0,
+            "text": " Data redundancy problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 408.0,
+            "end": 410.0,
+            "text": " That is, duplicacy problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 410.0,
+            "end": 412.0,
+            "text": " If we keep duplicate data,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 412.0,
+            "end": 414.0,
+            "text": " it seems that it is only one person's data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 414.0,
+            "end": 416.0,
+            "text": " It was an indexing problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 416.0,
+            "end": 418.0,
+            "text": " It was not fast searching."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 418.0,
+            "end": 420.0,
+            "text": " It was a data retrieval problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 420.0,
+            "end": 422.0,
+            "text": " So, how we keep data in this?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 422.0,
+            "end": 424.0,
+            "text": " If you open the Notepad in your system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 424.0,
+            "end": 426.0,
+            "text": " if you store any person's"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 426.0,
+            "end": 428.0,
+            "text": " information in the Notepad,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 428.0,
+            "end": 430.0,
+            "text": " we will show you practically."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 430.0,
+            "end": 432.0,
+            "text": " That example will be of our"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 432.0,
+            "end": 434.0,
+            "text": " Flat file system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 434.0,
+            "end": 436.0,
+            "text": " If we keep data in the computer"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 436.0,
+            "end": 438.0,
+            "text": " after creating the file,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 438.0,
+            "end": 440.0,
+            "text": " that will be the Flat file system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 440.0,
+            "end": 442.0,
+            "text": " Let's see this practical."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 442.0,
+            "end": 444.0,
+            "text": " This is our example of the Flat file system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 444.0,
+            "end": 446.0,
+            "text": " Look, here in the Flat file system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 446.0,
+            "end": 448.0,
+            "text": " the data is in our computer."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 448.0,
+            "end": 450.0,
+            "text": " But, what we have done to this data"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 450.0,
+            "end": 452.0,
+            "text": " is, we have created a file."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 452.0,
+            "end": 454.0,
+            "text": " And in that file,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 454.0,
+            "end": 456.0,
+            "text": " we have created a text file in the computer."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 456.0,
+            "end": 458.0,
+            "text": " And in this text file,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 458.0,
+            "end": 460.0,
+            "text": " our data is in this form."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 460.0,
+            "end": 462.0,
+            "text": " In the Book and File system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 462.0,
+            "end": 464.0,
+            "text": " this data was in our Notebook,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 464.0,
+            "end": 466.0,
+            "text": " in the Register."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 466.0,
+            "end": 468.0,
+            "text": " And in the Flat file system,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 468.0,
+            "end": 470.0,
+            "text": " we kept the data in this form."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 470.0,
+            "end": 472.0,
+            "text": " So, there were some drawbacks in this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 472.0,
+            "end": 474.0,
+            "text": " Like, there was a data retrieval problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 474.0,
+            "end": 476.0,
+            "text": " And there was security problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 476.0,
+            "end": 478.0,
+            "text": " But, we got some advantages here."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 478.0,
+            "end": 480.0,
+            "text": " We got some advantages here."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 480.0,
+            "end": 482.0,
+            "text": " We could take data back up."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 482.0,
+            "end": 484.0,
+            "text": " We could share it through the network."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 484.0,
+            "end": 486.0,
+            "text": " There was a sharing here."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 486.0,
+            "end": 488.0,
+            "text": " So, this is our Flat file system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 488.0,
+            "end": 490.0,
+            "text": " Now, what we will do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 490.0,
+            "end": 492.0,
+            "text": " Now, we will see our next one."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 492.0,
+            "end": 494.0,
+            "text": " Look, here in the Disadvantages,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 494.0,
+            "end": 496.0,
+            "text": " we discussed about the Flat file."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 496.0,
+            "end": 498.0,
+            "text": " Retrieval problem, security problem,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 498.0,
+            "end": 500.0,
+            "text": " redundancy, or duplicacy problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 500.0,
+            "end": 502.0,
+            "text": " Searching, fast searching problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 502.0,
+            "end": 504.0,
+            "text": " And integrity means"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 504.0,
+            "end": 506.0,
+            "text": " that the data is not maintained properly."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 506.0,
+            "end": 508.0,
+            "text": " Now, we will talk about"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 508.0,
+            "end": 510.0,
+            "text": " the Third Technique of data storage."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 510.0,
+            "end": 512.0,
+            "text": " Which is used by professional"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 512.0,
+            "end": 514.0,
+            "text": " people during today's time."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 514.0,
+            "end": 516.0,
+            "text": " The first method"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 516.0,
+            "end": 518.0,
+            "text": " of using the database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 518.0,
+            "end": 520.0,
+            "text": " is that it is secure."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 520.0,
+            "end": 522.0,
+            "text": " It provides security."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 522.0,
+            "end": 524.0,
+            "text": " Second method is that"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 524.0,
+            "end": 526.0,
+            "text": " you should have proper knowledge"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 526.0,
+            "end": 528.0,
+            "text": " so that you can use the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 528.0,
+            "end": 530.0,
+            "text": " Because, it uses"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 530.0,
+            "end": 532.0,
+            "text": " SQL language, query."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 532.0,
+            "end": 534.0,
+            "text": " So, professional and technical person"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 534.0,
+            "end": 536.0,
+            "text": " for those who are non-technical,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 536.0,
+            "end": 538.0,
+            "text": " Flat file and book file system is still there."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 538.0,
+            "end": 540.0,
+            "text": " So, what is this database?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 540.0,
+            "end": 542.0,
+            "text": " Guess what we have."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 542.0,
+            "end": 544.0,
+            "text": " We had told you a while ago."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 544.0,
+            "end": 546.0,
+            "text": " If we want to store them,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 546.0,
+            "end": 548.0,
+            "text": " we will use the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 548.0,
+            "end": 550.0,
+            "text": " Data base can be anything."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 550.0,
+            "end": 552.0,
+            "text": " And SQL, MongoDB, etc."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 552.0,
+            "end": 554.0,
+            "text": " So, we will store them."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 554.0,
+            "end": 556.0,
+            "text": " And when needed, we will access the data from here."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 556.0,
+            "end": 558.0,
+            "text": " And, it provides security in the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 558.0,
+            "end": 560.0,
+            "text": " So, look at the advantage."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 560.0,
+            "end": 562.0,
+            "text": " Retrieval problem is very easy."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 562.0,
+            "end": 564.0,
+            "text": " You can query."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 564.0,
+            "end": 566.0,
+            "text": " You can retrieve a data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 566.0,
+            "end": 568.0,
+            "text": " You can retrieve all the data at once."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 568.0,
+            "end": 570.0,
+            "text": " It is secure."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 570.0,
+            "end": 572.0,
+            "text": " You have to connect with the database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 572.0,
+            "end": 574.0,
+            "text": " before the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 574.0,
+            "end": 576.0,
+            "text": " Then, you can access the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 576.0,
+            "end": 578.0,
+            "text": " The problem of redundancy is gone."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 578.0,
+            "end": 580.0,
+            "text": " You can store duplicate data"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 580.0,
+            "end": 582.0,
+            "text": " in the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 582.0,
+            "end": 584.0,
+            "text": " And, you can access it uniquely."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 584.0,
+            "end": 586.0,
+            "text": " The data will remain the same."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 586.0,
+            "end": 588.0,
+            "text": " Integrity means, the data is maintained in the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 588.0,
+            "end": 590.0,
+            "text": " When we do practical,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 590.0,
+            "end": 592.0,
+            "text": " it is in the proper structure way."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 592.0,
+            "end": 594.0,
+            "text": " Indexing means,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 594.0,
+            "end": 596.0,
+            "text": " the technique of fast searching"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 596.0,
+            "end": 598.0,
+            "text": " is with the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 598.0,
+            "end": 600.0,
+            "text": " So, this is the advantage of the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 600.0,
+            "end": 602.0,
+            "text": " And remember, what is the database?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 602.0,
+            "end": 604.0,
+            "text": " Where we store the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 604.0,
+            "end": 606.0,
+            "text": " And, what is Dbms?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 606.0,
+            "end": 608.0,
+            "text": " Dbms is a management system"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 608.0,
+            "end": 610.0,
+            "text": " which tells us"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 610.0,
+            "end": 612.0,
+            "text": " how to handle the database,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 612.0,
+            "end": 614.0,
+            "text": " how to work with it,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 614.0,
+            "end": 616.0,
+            "text": " how to manage it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 616.0,
+            "end": 618.0,
+            "text": " That is what Dbms tells."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 618.0,
+            "end": 620.0,
+            "text": " You will get the database to listen to you again and again."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 620.0,
+            "end": 622.0,
+            "text": " So, you don't have to be confused"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 622.0,
+            "end": 624.0,
+            "text": " in the database and Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 624.0,
+            "end": 626.0,
+            "text": " Now, we will discuss"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 626.0,
+            "end": 628.0,
+            "text": " what is Dbms?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 628.0,
+            "end": 630.0,
+            "text": " This is our main topic."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 630.0,
+            "end": 632.0,
+            "text": " Till now, we have told you"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 632.0,
+            "end": 634.0,
+            "text": " about the database and how much"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 634.0,
+            "end": 636.0,
+            "text": " we could store the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 636.0,
+            "end": 638.0,
+            "text": " We discussed all that so that you"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 638.0,
+            "end": 640.0,
+            "text": " don't have any problem in understanding Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 640.0,
+            "end": 642.0,
+            "text": " So, this is Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 642.0,
+            "end": 644.0,
+            "text": " In simple words, remember,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 644.0,
+            "end": 646.0,
+            "text": " this is a way which tells us"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 646.0,
+            "end": 648.0,
+            "text": " how to manage the database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 648.0,
+            "end": 650.0,
+            "text": " to store the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 650.0,
+            "end": 652.0,
+            "text": " So, every database has a different way"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 652.0,
+            "end": 654.0,
+            "text": " to manage it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 654.0,
+            "end": 656.0,
+            "text": " So, Dbms is"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 656.0,
+            "end": 658.0,
+            "text": " to manage those databases."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 658.0,
+            "end": 660.0,
+            "text": " So, look at the full name of Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 660.0,
+            "end": 662.0,
+            "text": " Dbms stands for"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 662.0,
+            "end": 664.0,
+            "text": " Database Management System."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 664.0,
+            "end": 666.0,
+            "text": " It is a software designed to"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 666.0,
+            "end": 668.0,
+            "text": " create, manage and interact with"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 668.0,
+            "end": 670.0,
+            "text": " databases."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 670.0,
+            "end": 672.0,
+            "text": " To interact with databases,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 672.0,
+            "end": 674.0,
+            "text": " to design and create"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 674.0,
+            "end": 676.0,
+            "text": " a database, a software is"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 676.0,
+            "end": 678.0,
+            "text": " called Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 678.0,
+            "end": 680.0,
+            "text": " And all the databases"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 680.0,
+            "end": 682.0,
+            "text": " come in Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 682.0,
+            "end": 684.0,
+            "text": " We will discuss that in a while."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 684.0,
+            "end": 686.0,
+            "text": " Now, you will remember"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 686.0,
+            "end": 688.0,
+            "text": " it provides a systematic way"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 688.0,
+            "end": 690.0,
+            "text": " to store, retrieve and manipulate"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 690.0,
+            "end": 692.0,
+            "text": " data by ensuring"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 692.0,
+            "end": 694.0,
+            "text": " data integrity, security and accessibility."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 694.0,
+            "end": 696.0,
+            "text": " Dbms"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 696.0,
+            "end": 698.0,
+            "text": " provides a systematic approach"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 698.0,
+            "end": 700.0,
+            "text": " which allows us to"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 700.0,
+            "end": 702.0,
+            "text": " store and retrieve"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 702.0,
+            "end": 704.0,
+            "text": " data by ensuring"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 704.0,
+            "end": 706.0,
+            "text": " data integrity, security and accessibility."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 706.0,
+            "end": 708.0,
+            "text": " Now,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 708.0,
+            "end": 710.0,
+            "text": " while the Dbms"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 710.0,
+            "end": 712.0,
+            "text": " introduce a set of"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 712.0,
+            "end": 714.0,
+            "text": " data models and arrive"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 714.0,
+            "end": 716.0,
+            "text": " in the market, they are listed below."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 716.0,
+            "end": 718.0,
+            "text": " When Dbms"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 718.0,
+            "end": 720.0,
+            "text": " is introduced in the market,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 720.0,
+            "end": 722.0,
+            "text": " there are many models of Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 722.0,
+            "end": 724.0,
+            "text": " The first model was"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 724.0,
+            "end": 726.0,
+            "text": " RDBMS, Relational"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 726.0,
+            "end": 728.0,
+            "text": " Database Management System."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 728.0,
+            "end": 730.0,
+            "text": " Second was"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 730.0,
+            "end": 732.0,
+            "text": " NoSQL Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 732.0,
+            "end": 734.0,
+            "text": " Then,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 734.0,
+            "end": 736.0,
+            "text": " our HDBMS, Heretical Database Management System."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 736.0,
+            "end": 738.0,
+            "text": " And Dbms Network Database Management System."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 738.0,
+            "end": 740.0,
+            "text": " And Object-Oriented"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 740.0,
+            "end": 742.0,
+            "text": " Database Management System."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 742.0,
+            "end": 744.0,
+            "text": " These are the"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 744.0,
+            "end": 746.0,
+            "text": " five models of Dbms."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 746.0,
+            "end": 748.0,
+            "text": " So, what we will do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 748.0,
+            "end": 750.0,
+            "text": " We will discuss the first"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 750.0,
+            "end": 752.0,
+            "text": " of all RDBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 752.0,
+            "end": 754.0,
+            "text": " Here, we will see the full name of"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 754.0,
+            "end": 756.0,
+            "text": " RDBMS, Relational Database Management System."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 756.0,
+            "end": 758.0,
+            "text": " What does this do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 758.0,
+            "end": 760.0,
+            "text": " Dbms is"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 760.0,
+            "end": 762.0,
+            "text": " stored in tabular format,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 762.0,
+            "end": 764.0,
+            "text": " in row and column form."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 764.0,
+            "end": 766.0,
+            "text": " For example,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 766.0,
+            "end": 768.0,
+            "text": " if you use"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 768.0,
+            "end": 770.0,
+            "text": " MySQL, PostgreSQL,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 770.0,
+            "end": 772.0,
+            "text": " you will notice"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 772.0,
+            "end": 774.0,
+            "text": " that the data is stored"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 774.0,
+            "end": 776.0,
+            "text": " in table form."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 776.0,
+            "end": 778.0,
+            "text": " So, there are different types of"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 778.0,
+            "end": 780.0,
+            "text": " database and"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 780.0,
+            "end": 782.0,
+            "text": " Dbms is used to manage"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 782.0,
+            "end": 784.0,
+            "text": " these different types of database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 784.0,
+            "end": 786.0,
+            "text": " So, what will we do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 786.0,
+            "end": 788.0,
+            "text": " Before storing,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 788.0,
+            "end": 790.0,
+            "text": " we will have to connect with"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 790.0,
+            "end": 792.0,
+            "text": " our database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 792.0,
+            "end": 794.0,
+            "text": " So, we have connected"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 794.0,
+            "end": 796.0,
+            "text": " our username and password"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 796.0,
+            "end": 798.0,
+            "text": " with Oracle Database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 798.0,
+            "end": 800.0,
+            "text": " So, we are using Oracle Database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 800.0,
+            "end": 802.0,
+            "text": " to store our database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 802.0,
+            "end": 804.0,
+            "text": " So, first we have to create a table"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 804.0,
+            "end": 806.0,
+            "text": " in database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 806.0,
+            "end": 808.0,
+            "text": " We will have to make a structure"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 808.0,
+            "end": 810.0,
+            "text": " and in the same structure form,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 810.0,
+            "end": 812.0,
+            "text": " we can store the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 812.0,
+            "end": 814.0,
+            "text": " So, here we have made a table"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 814.0,
+            "end": 816.0,
+            "text": " called DESC student."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 816.0,
+            "end": 818.0,
+            "text": " We can see the name of the table."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 818.0,
+            "end": 820.0,
+            "text": " This is the structure of our table."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 820.0,
+            "end": 822.0,
+            "text": " Now, by using this structure,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 822.0,
+            "end": 824.0,
+            "text": " we can insert the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 824.0,
+            "end": 826.0,
+            "text": " For insert,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 826.0,
+            "end": 828.0,
+            "text": " we will have to fire the query."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 828.0,
+            "end": 830.0,
+            "text": " So, here is our insert query."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 832.0,
+            "end": 834.0,
+            "text": " So, here is the one row created."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 834.0,
+            "end": 836.0,
+            "text": " Now, we can insert"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 836.0,
+            "end": 838.0,
+            "text": " more records in this way."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 838.0,
+            "end": 840.0,
+            "text": " So, second record."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 840.0,
+            "end": 842.0,
+            "text": " So, to insert more records,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 842.0,
+            "end": 844.0,
+            "text": " here is the query"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 844.0,
+            "end": 846.0,
+            "text": " of our insert."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 846.0,
+            "end": 848.0,
+            "text": " So, what will we do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 848.0,
+            "end": 850.0,
+            "text": " This is the third record."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 850.0,
+            "end": 852.0,
+            "text": " Now, if we want to see"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 852.0,
+            "end": 854.0,
+            "text": " how many records are in our table,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 854.0,
+            "end": 856.0,
+            "text": " then what can we do?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 856.0,
+            "end": 858.0,
+            "text": " We can see the table name of the table."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 858.0,
+            "end": 860.0,
+            "text": " So, here we have"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 860.0,
+            "end": 862.0,
+            "text": " stored the data in a structured way."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 862.0,
+            "end": 864.0,
+            "text": " So, the advantage of the database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 864.0,
+            "end": 866.0,
+            "text": " is that it is completely secured."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 866.0,
+            "end": 868.0,
+            "text": " We will connect with the database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 868.0,
+            "end": 870.0,
+            "text": " and give it our own credential."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 870.0,
+            "end": 872.0,
+            "text": " Then, we can access the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 872.0,
+            "end": 874.0,
+            "text": " After connecting,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 874.0,
+            "end": 876.0,
+            "text": " if the table is there,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 876.0,
+            "end": 878.0,
+            "text": " we can retrieve the data through the query."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 878.0,
+            "end": 880.0,
+            "text": " If we want to perform some modifications,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 880.0,
+            "end": 882.0,
+            "text": " we can do all that."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 882.0,
+            "end": 884.0,
+            "text": " If you want to read the database oracle,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 884.0,
+            "end": 886.0,
+            "text": " then you can see our complete playlist"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 886.0,
+            "end": 888.0,
+            "text": " in the description."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 888.0,
+            "end": 890.0,
+            "text": " The advantage of this video is that"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 890.0,
+            "end": 892.0,
+            "text": " it is stored in the database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 892.0,
+            "end": 894.0,
+            "text": " So, we used oracle"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 894.0,
+            "end": 896.0,
+            "text": " to tell you that"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 896.0,
+            "end": 898.0,
+            "text": " in the column form,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 898.0,
+            "end": 900.0,
+            "text": " we store the data in the tabular."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 900.0,
+            "end": 902.0,
+            "text": " Now, we will talk about"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 902.0,
+            "end": 904.0,
+            "text": " NoSQL DBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 904.0,
+            "end": 906.0,
+            "text": " What is this?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 906.0,
+            "end": 908.0,
+            "text": " In this, it is stored in an unstructured format."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 908.0,
+            "end": 910.0,
+            "text": " You should have just the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 910.0,
+            "end": 912.0,
+            "text": " You take the data and store it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 912.0,
+            "end": 914.0,
+            "text": " So, we have the MongoDB,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 914.0,
+            "end": 916.0,
+            "text": " the NoSQL database,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 916.0,
+            "end": 918.0,
+            "text": " the best example is ready."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 918.0,
+            "end": 920.0,
+            "text": " There are many more."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 920.0,
+            "end": 922.0,
+            "text": " The main advantage of all these databases"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 922.0,
+            "end": 924.0,
+            "text": " is that you will not"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 924.0,
+            "end": 926.0,
+            "text": " define a proper structure"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 926.0,
+            "end": 928.0,
+            "text": " and then store the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 928.0,
+            "end": 930.0,
+            "text": " You can directly store the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 930.0,
+            "end": 932.0,
+            "text": " Third is our"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 932.0,
+            "end": 934.0,
+            "text": " HDBMS. What is this?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 934.0,
+            "end": 936.0,
+            "text": " Herarical database management system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 936.0,
+            "end": 938.0,
+            "text": " In the tree form,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 938.0,
+            "end": 940.0,
+            "text": " we store the organizational structure."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 940.0,
+            "end": 942.0,
+            "text": " As you can see,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 942.0,
+            "end": 944.0,
+            "text": " if any organization does"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 944.0,
+            "end": 946.0,
+            "text": " any work,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 946.0,
+            "end": 948.0,
+            "text": " then the employee is hierarchy."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 948.0,
+            "end": 950.0,
+            "text": " Let's assume that this is the manager."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 950.0,
+            "end": 952.0,
+            "text": " Many employees are working under this manager."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 952.0,
+            "end": 954.0,
+            "text": " Many employees are working"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 954.0,
+            "end": 956.0,
+            "text": " under this manager."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 956.0,
+            "end": 958.0,
+            "text": " Many employees are working"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 958.0,
+            "end": 960.0,
+            "text": " under this employee."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 960.0,
+            "end": 962.0,
+            "text": " So, this is a hierarchy."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 962.0,
+            "end": 964.0,
+            "text": " So, in the tree form,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 964.0,
+            "end": 966.0,
+            "text": " we store the data in the hierarchical way."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 966.0,
+            "end": 968.0,
+            "text": " That is HDBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 968.0,
+            "end": 970.0,
+            "text": " So, what you will remember here is"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 970.0,
+            "end": 972.0,
+            "text": " on the basis of HDBMS,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 972.0,
+            "end": 974.0,
+            "text": " IBM launched the first"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 974.0,
+            "end": 976.0,
+            "text": " HDBMS software."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 976.0,
+            "end": 978.0,
+            "text": " In IBM, there is an organization"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 978.0,
+            "end": 980.0,
+            "text": " called HDBMS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 980.0,
+            "end": 982.0,
+            "text": " It was the software that"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 982.0,
+            "end": 984.0,
+            "text": " brought in the information management system in 1960."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 984.0,
+            "end": 986.0,
+            "text": " We use this to"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 986.0,
+            "end": 988.0,
+            "text": " store the data in hierarchical form."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 988.0,
+            "end": 990.0,
+            "text": " So, the disadvantage of this"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 990.0,
+            "end": 992.0,
+            "text": " is that it provides"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 992.0,
+            "end": 994.0,
+            "text": " data retrieval problem."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 994.0,
+            "end": 996.0,
+            "text": " It was based on one-to-many"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 996.0,
+            "end": 998.0,
+            "text": " relationship."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 998.0,
+            "end": 1000.0,
+            "text": " The structural hierarchical data model"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1000.0,
+            "end": 1002.0,
+            "text": " is very complex to implement."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1002.0,
+            "end": 1004.0,
+            "text": " It is complex to implement."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1004.0,
+            "end": 1006.0,
+            "text": " It was difficult to retrieve data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1006.0,
+            "end": 1008.0,
+            "text": " It has one-to-many relationship."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1008.0,
+            "end": 1010.0,
+            "text": " So, look at the hierarchy"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1010.0,
+            "end": 1012.0,
+            "text": " that was formed."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1012.0,
+            "end": 1014.0,
+            "text": " There are many employees working under this manager."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1014.0,
+            "end": 1016.0,
+            "text": " Many people are working under this manager."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1016.0,
+            "end": 1018.0,
+            "text": " It is very difficult to maintain this hierarchy."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1018.0,
+            "end": 1020.0,
+            "text": " This is the disadvantage of"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1020.0,
+            "end": 1022.0,
+            "text": " the hierarchy database management system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1022.0,
+            "end": 1024.0,
+            "text": " Now, we will talk"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1024.0,
+            "end": 1026.0,
+            "text": " about the network database management system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1026.0,
+            "end": 1028.0,
+            "text": " What is this?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1028.0,
+            "end": 1030.0,
+            "text": " Stored data in graphical structure."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1030.0,
+            "end": 1032.0,
+            "text": " In the graph form,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1032.0,
+            "end": 1034.0,
+            "text": " the data is stored in our network database management system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1034.0,
+            "end": 1036.0,
+            "text": " Where nodes are directly connected"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1036.0,
+            "end": 1038.0,
+            "text": " to each other."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1038.0,
+            "end": 1040.0,
+            "text": " Every node is connected directly"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1040.0,
+            "end": 1042.0,
+            "text": " from the other node."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1042.0,
+            "end": 1044.0,
+            "text": " As you can see, there is a graph"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1044.0,
+            "end": 1046.0,
+            "text": " in the university."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1046.0,
+            "end": 1048.0,
+            "text": " Every department is connected"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1048.0,
+            "end": 1050.0,
+            "text": " directly from each other."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1050.0,
+            "end": 1052.0,
+            "text": " Computer department is connected"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1052.0,
+            "end": 1054.0,
+            "text": " from the computer lab."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1054.0,
+            "end": 1056.0,
+            "text": " The library is connected"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1056.0,
+            "end": 1058.0,
+            "text": " from this way."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1058.0,
+            "end": 1060.0,
+            "text": " This can also be connected from this way."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1060.0,
+            "end": 1062.0,
+            "text": " Not like this."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1062.0,
+            "end": 1064.0,
+            "text": " So, every department is connected"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1064.0,
+            "end": 1066.0,
+            "text": " from one to another"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1066.0,
+            "end": 1068.0,
+            "text": " in an organization."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1068.0,
+            "end": 1070.0,
+            "text": " That is our network database management system."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1070.0,
+            "end": 1072.0,
+            "text": " What happened for this problem"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1072.0,
+            "end": 1074.0,
+            "text": " is that an organization"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1074.0,
+            "end": 1076.0,
+            "text": " CODA SEAL launched a software"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1076.0,
+            "end": 1078.0,
+            "text": " to maintain this hierarchy."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1078.0,
+            "end": 1080.0,
+            "text": " On the basis of"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1080.0,
+            "end": 1082.0,
+            "text": " this model"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1082.0,
+            "end": 1084.0,
+            "text": " network database management system model"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1084.0,
+            "end": 1086.0,
+            "text": " CODA SEAL standard organization"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1086.0,
+            "end": 1088.0,
+            "text": " provides us IDS."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1088.0,
+            "end": 1090.0,
+            "text": " IDS is an integrated database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1090.0,
+            "end": 1092.0,
+            "text": " to store data based software."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1092.0,
+            "end": 1094.0,
+            "text": " In 1964,"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1094.0,
+            "end": 1096.0,
+            "text": " it launched."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1096.0,
+            "end": 1098.0,
+            "text": " What we used to do"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1098.0,
+            "end": 1100.0,
+            "text": " through NDBMS"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1100.0,
+            "end": 1102.0,
+            "text": " was to store our data"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1102.0,
+            "end": 1104.0,
+            "text": " and manage it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1104.0,
+            "end": 1106.0,
+            "text": " But the problem was that"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1106.0,
+            "end": 1108.0,
+            "text": " we had to use pointer"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1108.0,
+            "end": 1110.0,
+            "text": " to maintain all the records"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1110.0,
+            "end": 1112.0,
+            "text": " through which our complete"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1112.0,
+            "end": 1114.0,
+            "text": " NDBMS structure"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1114.0,
+            "end": 1116.0,
+            "text": " becomes complex."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1116.0,
+            "end": 1118.0,
+            "text": " After that, we had to perform"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1118.0,
+            "end": 1120.0,
+            "text": " insertion, deletion"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1120.0,
+            "end": 1122.0,
+            "text": " and NDBMS was very complex"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1122.0,
+            "end": 1124.0,
+            "text": " because we had to"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1124.0,
+            "end": 1126.0,
+            "text": " adjust the pointer."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1126.0,
+            "end": 1128.0,
+            "text": " If we had to insert or delete"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1128.0,
+            "end": 1130.0,
+            "text": " some records, it would be difficult."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1130.0,
+            "end": 1132.0,
+            "text": " And structural change"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1132.0,
+            "end": 1134.0,
+            "text": " to the database is very difficult."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1134.0,
+            "end": 1136.0,
+            "text": " If we have a structure"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1136.0,
+            "end": 1138.0,
+            "text": " or a graph of our data"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1138.0,
+            "end": 1140.0,
+            "text": " and it is stored in the database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1140.0,
+            "end": 1142.0,
+            "text": " then it would be difficult to change it."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1142.0,
+            "end": 1144.0,
+            "text": " So, this is our NDBMS"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1144.0,
+            "end": 1146.0,
+            "text": " and some drawbacks."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1146.0,
+            "end": 1148.0,
+            "text": " Let's recap"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1148.0,
+            "end": 1150.0,
+            "text": " NDBMS"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1150.0,
+            "end": 1152.0,
+            "text": " is the database"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1152.0,
+            "end": 1154.0,
+            "text": " and data comes in both."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1154.0,
+            "end": 1156.0,
+            "text": " You should know about both."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1156.0,
+            "end": 1158.0,
+            "text": " Data is the name of"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1158.0,
+            "end": 1160.0,
+            "text": " the raw facts."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1160.0,
+            "end": 1162.0,
+            "text": " Like the address of the data."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1162.0,
+            "end": 1164.0,
+            "text": " Data is"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1164.0,
+            "end": 1166.0,
+            "text": " a place to store"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1166.0,
+            "end": 1168.0,
+            "text": " the data"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1168.0,
+            "end": 1170.0,
+            "text": " which is called a database."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1170.0,
+            "end": 1172.0,
+            "text": " And what is NDBMS?"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1172.0,
+            "end": 1174.0,
+            "text": " It is a management system"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1174.0,
+            "end": 1176.0,
+            "text": " which tells us"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1176.0,
+            "end": 1178.0,
+            "text": " how to manage"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1178.0,
+            "end": 1180.0,
+            "text": " the different databases"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1180.0,
+            "end": 1182.0,
+            "text": " like Oracle, MySQL, MongoDB"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1182.0,
+            "end": 1184.0,
+            "text": " and other databases."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1184.0,
+            "end": 1186.0,
+            "text": " How we can interact"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1186.0,
+            "end": 1188.0,
+            "text": " with them."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1188.0,
+            "end": 1190.0,
+            "text": " That is why, in NDBMS"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1190.0,
+            "end": 1192.0,
+            "text": " you will get data and databases"
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1192.0,
+            "end": 1194.0,
+            "text": " to listen to both the words."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1194.0,
+            "end": 1196.0,
+            "text": " So, let's hope you liked our video."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1196.0,
+            "end": 1198.0,
+            "text": " If you did, then like and share the video."
+        },
+        {
+            "number": "21",
+            "title": "lecture",
+            "start": 1198.0,
+            "end": 1200.0,
+            "text": " Subscribe to the channel."
+        }
+    ],
+    "text": " In today's video we will talk about what is DBMS. What is DBMS? In full explanation we will see why DBMS was brought, types of DBMS, advantages, disadvantages, and what is the difference between database and DBMS. We will discuss all these things. This is our first video of database management system, in which we will cover all important things. So, first of all, before starting, you should know what is data. Because by using this data, we will store it in the database, how to manage it through DBMS, how to handle it, we will see all this. So, you should know the data, that is why you will understand DBMS. So, what is data? Data is a collection of raw facts. The collection of raw facts is called data, like numbers, text, your name, address, all this is data. If we write a name here, Ankus, then what is Ankus? It is data. If we write an address here, like our address is Mumbai, then what is Mumbai? It is data. Now, where we will store this data, will be the database. And how to manage this data, which way to store it, which form to store, which database to do, which file to do, which book file to do, that will tell us DBMS. Which technique we will handle it. So, now, what is the database? You should understand this. After that, we will tell you DBMS. The organized collection of structured data, that is stored and accessed electronically, to manage more efficiently, called database. Okay? Database is a place, where we store our data, that is called database. And when we need it, we can access that data. And we can manage it, we can perform modifications in it. That is called database. Okay? Electronically, that is why it is written, because it is stored in the computer system. Okay? So, this is the database data. Example, look here, there are student details. So, its name, roll number, address, contact, age, gender. So, take this much information, we have to store it in the database. So, what we will do? First, we will prepare a structure, in our database. After that, we will store this information. Okay? So, we will practically show you, how we will do this. But first, let's move ahead. And we will tell you, why the database came. Okay? Take this, we have this data. Okay? Name it, take this. Ankus. Roll number, 1. And here, gender. Mail. Now, take this data, we have it. What we have to do? Save it, keep it in our system, so that when it is loaded, we can access it. So, what we will do? We will use the database. First, what we will do with our data? We will store it. Okay? We will store it in the database. Now, the database has come, so what can we do? What can we do with it? We can access it. And this is the work of the database. And with this data, we can perform changes in our database. Okay? That is why we have brought the database. And this is secured. Our data is secured. When it is loaded, we will access it. We can perform modifications. We can update it. We can perform all the things through our database. Now, we will discuss, why the database came. Okay? Why we brought the database? First of all, you should know the technique of data storage. What is the technique of data storage? That is, how much we can store our data. So, the first method is, which was the first one, books and file system. In books and file system, we store data in the form of books, in a notebook. Then, we have a flat file system, because there was some drawback in it. So, what happened in the flat file system, that we kept data in the form of file in the computer. Then, there was some drawback in it. Then, we brought the database. Okay? So, that is why we brought the database, because there was some drawback in it. Now, let us tell you, what is the books and file system? It was the earlier mechanism, adopted by the organization, to storing the information. The organization used to use the book and file system, to store their information. Because we did not have a computer. So, when we did not have a computer, what we used to do? We used to store data in the notebook. Practically, we used to show how we used to do it. But, currently, it is not in use, due to following drawbacks. Now, it is not used. Why not? Because there is a maintenance problem. There is a security problem. Required more main power. Costly in maintenance. Here, you can say, there is a problem in the retriever. There is a problem in retrieving the data. Because of all these problems, the book and file system was closed. So, now, let us practically show you these drawbacks, why this was closed. Here, you can see the student details. We have some student details. How to store the book and file system? In this way, in the notebook, we used to keep serial number, their name, roll number, email, course, whatever we had data. In this way, we used to keep it in the notebook. In the books. In the books. That is why it is called the book and file system. So, what is the drawback in this? Let us assume that we have to retrieve the data. There are many data. So, it was difficult to find. Now, let us assume that we have forgotten the book. We lost it. So, we will lose the data. Or, assume that any type of the page we have kept the data in this page. Someone removed this page from the book. So, our data will go like this. And, there was a problem in the maintenance. That we have to modify something in this data. So, we had to cut this way and modify it. So, because of all these reasons, the book and file system is not used now. Because, there are many drawbacks in this. And, this data was stored in the register. If you have seen in old movies, when there was an enquiry in the reception, it was given by the register. Details were accessed from there. Now, we will talk about the flat file system. This is our second technique of storing data. What is this? When computer comes into the picture, to overcome the problem, we have to take a lot of time. So, we have to take a lot of time. So, we have to take a lot of time. To overcome the problem, we have to take a lot of time. To overcome the problem, we have to take a lot of time. In the book and file system, we store data in the register. So, when the computer comes, we have to remove this problem. We have to remove this problem. And, people started using this. They started storing their data in the computer. So, the advantage of this was that we could easily take back up data in the computer. We could edit it. We could access the remote. We could carry the data through the pen type. It was a facility of sharing and portability. Because the data was in our device. But, there were some drawbacks in this. Like, security problem. Data redundancy problem. That is, duplicacy problem. If we keep duplicate data, it seems that it is only one person's data. It was an indexing problem. It was not fast searching. It was a data retrieval problem. So, how we keep data in this? If you open the Notepad in your system, if you store any person's information in the Notepad, we will show you practically. That example will be of our Flat file system. If we keep data in the computer after creating the file, that will be the Flat file system. Let's see this practical. This is our example of the Flat file system. Look, here in the Flat file system, the data is in our computer. But, what we have done to this data is, we have created a file. And in that file, we have created a text file in the computer. And in this text file, our data is in this form. In the Book and File system, this data was in our Notebook, in the Register. And in the Flat file system, we kept the data in this form. So, there were some drawbacks in this. Like, there was a data retrieval problem. And there was security problem. But, we got some advantages here. We got some advantages here. We could take data back up. We could share it through the network. There was a sharing here. So, this is our Flat file system. Now, what we will do? Now, we will see our next one. Look, here in the Disadvantages, we discussed about the Flat file. Retrieval problem, security problem, redundancy, or duplicacy problem. Searching, fast searching problem. And integrity means that the data is not maintained properly. Now, we will talk about the Third Technique of data storage. Which is used by professional people during today's time. The first method of using the database is that it is secure. It provides security. Second method is that you should have proper knowledge so that you can use the database. Because, it uses SQL language, query. So, professional and technical person for those who are non-technical, Flat file and book file system is still there. So, what is this database? Guess what we have. We had told you a while ago. If we want to store them, we will use the database. Data base can be anything. And SQL, MongoDB, etc. So, we will store them. And when needed, we will access the data from here. And, it provides security in the database. So, look at the advantage. Retrieval problem is very easy. You can query. You can retrieve a data. You can retrieve all the data at once. It is secure. You have to connect with the database before the database. Then, you can access the database. The problem of redundancy is gone. You can store duplicate data in the database. And, you can access it uniquely. The data will remain the same. Integrity means, the data is maintained in the database. When we do practical, it is in the proper structure way. Indexing means, the technique of fast searching is with the database. So, this is the advantage of the database. And remember, what is the database? Where we store the data. And, what is Dbms? Dbms is a management system which tells us how to handle the database, how to work with it, how to manage it. That is what Dbms tells. You will get the database to listen to you again and again. So, you don't have to be confused in the database and Dbms. Now, we will discuss what is Dbms? This is our main topic. Till now, we have told you about the database and how much we could store the data. We discussed all that so that you don't have any problem in understanding Dbms. So, this is Dbms. In simple words, remember, this is a way which tells us how to manage the database to store the data. So, every database has a different way to manage it. So, Dbms is to manage those databases. So, look at the full name of Dbms. Dbms stands for Database Management System. It is a software designed to create, manage and interact with databases. To interact with databases, to design and create a database, a software is called Dbms. And all the databases come in Dbms. We will discuss that in a while. Now, you will remember it provides a systematic way to store, retrieve and manipulate data by ensuring data integrity, security and accessibility. Dbms provides a systematic approach which allows us to store and retrieve data by ensuring data integrity, security and accessibility. Now, while the Dbms introduce a set of data models and arrive in the market, they are listed below. When Dbms is introduced in the market, there are many models of Dbms. The first model was RDBMS, Relational Database Management System. Second was NoSQL Dbms. Then, our HDBMS, Heretical Database Management System. And Dbms Network Database Management System. And Object-Oriented Database Management System. These are the five models of Dbms. So, what we will do? We will discuss the first of all RDBMS. Here, we will see the full name of RDBMS, Relational Database Management System. What does this do? Dbms is stored in tabular format, in row and column form. For example, if you use MySQL, PostgreSQL, you will notice that the data is stored in table form. So, there are different types of database and Dbms is used to manage these different types of database. So, what will we do? Before storing, we will have to connect with our database. So, we have connected our username and password with Oracle Database. So, we are using Oracle Database to store our database. So, first we have to create a table in database. We will have to make a structure and in the same structure form, we can store the data. So, here we have made a table called DESC student. We can see the name of the table. This is the structure of our table. Now, by using this structure, we can insert the data. For insert, we will have to fire the query. So, here is our insert query. So, here is the one row created. Now, we can insert more records in this way. So, second record. So, to insert more records, here is the query of our insert. So, what will we do? This is the third record. Now, if we want to see how many records are in our table, then what can we do? We can see the table name of the table. So, here we have stored the data in a structured way. So, the advantage of the database is that it is completely secured. We will connect with the database and give it our own credential. Then, we can access the database. After connecting, if the table is there, we can retrieve the data through the query. If we want to perform some modifications, we can do all that. If you want to read the database oracle, then you can see our complete playlist in the description. The advantage of this video is that it is stored in the database. So, we used oracle to tell you that in the column form, we store the data in the tabular. Now, we will talk about NoSQL DBMS. What is this? In this, it is stored in an unstructured format. You should have just the data. You take the data and store it. So, we have the MongoDB, the NoSQL database, the best example is ready. There are many more. The main advantage of all these databases is that you will not define a proper structure and then store the data. You can directly store the data. Third is our HDBMS. What is this? Herarical database management system. In the tree form, we store the organizational structure. As you can see, if any organization does any work, then the employee is hierarchy. Let's assume that this is the manager. Many employees are working under this manager. Many employees are working under this manager. Many employees are working under this employee. So, this is a hierarchy. So, in the tree form, we store the data in the hierarchical way. That is HDBMS. So, what you will remember here is on the basis of HDBMS, IBM launched the first HDBMS software. In IBM, there is an organization called HDBMS. It was the software that brought in the information management system in 1960. We use this to store the data in hierarchical form. So, the disadvantage of this is that it provides data retrieval problem. It was based on one-to-many relationship. The structural hierarchical data model is very complex to implement. It is complex to implement. It was difficult to retrieve data. It has one-to-many relationship. So, look at the hierarchy that was formed. There are many employees working under this manager. Many people are working under this manager. It is very difficult to maintain this hierarchy. This is the disadvantage of the hierarchy database management system. Now, we will talk about the network database management system. What is this? Stored data in graphical structure. In the graph form, the data is stored in our network database management system. Where nodes are directly connected to each other. Every node is connected directly from the other node. As you can see, there is a graph in the university. Every department is connected directly from each other. Computer department is connected from the computer lab. The library is connected from this way. This can also be connected from this way. Not like this. So, every department is connected from one to another in an organization. That is our network database management system. What happened for this problem is that an organization CODA SEAL launched a software to maintain this hierarchy. On the basis of this model network database management system model CODA SEAL standard organization provides us IDS. IDS is an integrated database to store data based software. In 1964, it launched. What we used to do through NDBMS was to store our data and manage it. But the problem was that we had to use pointer to maintain all the records through which our complete NDBMS structure becomes complex. After that, we had to perform insertion, deletion and NDBMS was very complex because we had to adjust the pointer. If we had to insert or delete some records, it would be difficult. And structural change to the database is very difficult. If we have a structure or a graph of our data and it is stored in the database then it would be difficult to change it. So, this is our NDBMS and some drawbacks. Let's recap NDBMS is the database and data comes in both. You should know about both. Data is the name of the raw facts. Like the address of the data. Data is a place to store the data which is called a database. And what is NDBMS? It is a management system which tells us how to manage the different databases like Oracle, MySQL, MongoDB and other databases. How we can interact with them. That is why, in NDBMS you will get data and databases to listen to both the words. So, let's hope you liked our video. If you did, then like and share the video. Subscribe to the channel."
+}

@@ -1,0 +1,488 @@
+{
+    "chunks": [
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 5.0,
+            "text": " Today's topic is Data Abstruction in ER Model"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 5.0,
+            "end": 10.0,
+            "text": " In ER model, we will see what is Data Abstruction"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 13.0,
+            "end": 17.0,
+            "text": " Data Abstruction is used to represent complex relationship between entities"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 17.0,
+            "end": 22.0,
+            "text": " If you want to create complex relationship between entities"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 22.0,
+            "end": 27.0,
+            "text": " Data Abstruction is introduced to reduce complexity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 27.0,
+            "end": 34.0,
+            "text": " It means we can create complex relationship between entities"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 34.0,
+            "end": 36.0,
+            "text": " With the help of Data Abstruction"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 36.0,
+            "end": 39.0,
+            "text": " In the last video, we covered ER Model"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 39.0,
+            "end": 42.0,
+            "text": " In which we created an ER diagram on a topic"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 42.0,
+            "end": 44.0,
+            "text": " On the University Management System"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 44.0,
+            "end": 48.0,
+            "text": " There were many complexities in making ER Diagram"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 48.0,
+            "end": 53.0,
+            "text": " In which we did without Data Abstruction"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 53.0,
+            "end": 61.0,
+            "text": " But if a big project comes up, we can define ER Model"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 61.0,
+            "end": 64.0,
+            "text": " There are many entities where there is a problem"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 64.0,
+            "end": 68.0,
+            "text": " To deal with that problem, there are three mechanisms in Data Abstruction"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 68.0,
+            "end": 73.0,
+            "text": " Which are generalization, aggregation and specialization"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 73.0,
+            "end": 75.0,
+            "text": " What does generalization do?"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 75.0,
+            "end": 80.0,
+            "text": " It is a process of converting low-level entity to high-level entity called generalization"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 80.0,
+            "end": 85.0,
+            "text": " It is called generalization"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 85.0,
+            "end": 88.0,
+            "text": " Suppose we have three entities"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 88.0,
+            "end": 90.0,
+            "text": " Teacher, Employee, Student"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 90.0,
+            "end": 92.0,
+            "text": " We have three tables"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 92.0,
+            "end": 95.0,
+            "text": " Teacher, Employee and Student"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 95.0,
+            "end": 98.0,
+            "text": " With similar attributes like name and age"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 98.0,
+            "end": 101.0,
+            "text": " Name and age will be in the three"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 101.0,
+            "end": 103.0,
+            "text": " These are common attributes"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 103.0,
+            "end": 109.0,
+            "text": " Generalization would combine these low-level entity into a generalized entity called person"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 109.0,
+            "end": 113.0,
+            "text": " The low-level entity we have here is a student, employee"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 113.0,
+            "end": 118.0,
+            "text": " By combining these three, we have created a generalized entity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 118.0,
+            "end": 124.0,
+            "text": " In which we have common attributes like name and age"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 124.0,
+            "end": 127.0,
+            "text": " It is called bottom-up approach"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 127.0,
+            "end": 131.0,
+            "text": " It is called generalization to create a high-level entity from a low-level entity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 131.0,
+            "end": 133.0,
+            "text": " What can we do now?"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 133.0,
+            "end": 136.0,
+            "text": " We can design a model of the previous entity through this generalized entity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 136.0,
+            "end": 138.0,
+            "text": " We have reduced complexity here"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 138.0,
+            "end": 143.0,
+            "text": " We have created a high-level entity by removing common attributes from these three low-level entities"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 143.0,
+            "end": 146.0,
+            "text": " So complexity is over here"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 146.0,
+            "end": 148.0,
+            "text": " This is generalization"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 148.0,
+            "end": 152.0,
+            "text": " The second type of data abstraction is specialization"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 152.0,
+            "end": 154.0,
+            "text": " It is a positive generalization"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 154.0,
+            "end": 157.0,
+            "text": " It creates sub-entity from a high-level entity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 157.0,
+            "end": 160.0,
+            "text": " For example, an employee is a high-level entity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 160.0,
+            "end": 165.0,
+            "text": " It can specialize it into sub-entities like manager and developer based on attributes"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 165.0,
+            "end": 168.0,
+            "text": " Here we have an employee's ID"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 168.0,
+            "end": 173.0,
+            "text": " We are creating a low-level entity from a high-level entity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 173.0,
+            "end": 175.0,
+            "text": " Manager and developer"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 175.0,
+            "end": 177.0,
+            "text": " This is also an ID"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 177.0,
+            "end": 179.0,
+            "text": " The manager is an employee in himself"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 179.0,
+            "end": 181.0,
+            "text": " The developer is also an employee in himself"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 181.0,
+            "end": 184.0,
+            "text": " If we are creating a low-level entity from a high-level entity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 184.0,
+            "end": 187.0,
+            "text": " We call it specialization"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 187.0,
+            "end": 190.0,
+            "text": " This is our top-down approach"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 190.0,
+            "end": 192.0,
+            "text": " The third type is aggregation"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 192.0,
+            "end": 199.0,
+            "text": " Aggregation is a process when a relation between two entities is treated as a single entity"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 199.0,
+            "end": 201.0,
+            "text": " There are two entities here"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 201.0,
+            "end": 203.0,
+            "text": " Learn coding and course"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 203.0,
+            "end": 207.0,
+            "text": " If we treat these two entities as a single entity like visitors"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 207.0,
+            "end": 211.0,
+            "text": " If any of the visitors are coming to our channel on learn coding"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 211.0,
+            "end": 214.0,
+            "text": " They are the only entity on our channel"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 214.0,
+            "end": 217.0,
+            "text": " But here we get to read a lot of courses"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 217.0,
+            "end": 219.0,
+            "text": " CEC++, Java, Python"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 219.0,
+            "end": 221.0,
+            "text": " They are the only learning coding channel"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 221.0,
+            "end": 222.0,
+            "text": " They are single entities"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 222.0,
+            "end": 224.0,
+            "text": " But there are a lot of courses"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 224.0,
+            "end": 228.0,
+            "text": " Single entity is treated in a lot of entities"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 228.0,
+            "end": 230.0,
+            "text": " Through these visitors"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 230.0,
+            "end": 234.0,
+            "text": " You are studying different courses on the channel by enquiring"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 234.0,
+            "end": 238.0,
+            "text": " Single entity is offering multiple courses"
+        },
+        {
+            "number": "2",
+            "title": "lecture",
+            "start": 238.0,
+            "end": 242.0,
+            "text": " This is called aggregation"
+        }
+    ],
+    "text": " Today's topic is Data Abstruction in ER Model In ER model, we will see what is Data Abstruction Data Abstruction is used to represent complex relationship between entities If you want to create complex relationship between entities Data Abstruction is introduced to reduce complexity It means we can create complex relationship between entities With the help of Data Abstruction In the last video, we covered ER Model In which we created an ER diagram on a topic On the University Management System There were many complexities in making ER Diagram In which we did without Data Abstruction But if a big project comes up, we can define ER Model There are many entities where there is a problem To deal with that problem, there are three mechanisms in Data Abstruction Which are generalization, aggregation and specialization What does generalization do? It is a process of converting low-level entity to high-level entity called generalization It is called generalization Suppose we have three entities Teacher, Employee, Student We have three tables Teacher, Employee and Student With similar attributes like name and age Name and age will be in the three These are common attributes Generalization would combine these low-level entity into a generalized entity called person The low-level entity we have here is a student, employee By combining these three, we have created a generalized entity In which we have common attributes like name and age It is called bottom-up approach It is called generalization to create a high-level entity from a low-level entity What can we do now? We can design a model of the previous entity through this generalized entity We have reduced complexity here We have created a high-level entity by removing common attributes from these three low-level entities So complexity is over here This is generalization The second type of data abstraction is specialization It is a positive generalization It creates sub-entity from a high-level entity For example, an employee is a high-level entity It can specialize it into sub-entities like manager and developer based on attributes Here we have an employee's ID We are creating a low-level entity from a high-level entity Manager and developer This is also an ID The manager is an employee in himself The developer is also an employee in himself If we are creating a low-level entity from a high-level entity We call it specialization This is our top-down approach The third type is aggregation Aggregation is a process when a relation between two entities is treated as a single entity There are two entities here Learn coding and course If we treat these two entities as a single entity like visitors If any of the visitors are coming to our channel on learn coding They are the only entity on our channel But here we get to read a lot of courses CEC++, Java, Python They are the only learning coding channel They are single entities But there are a lot of courses Single entity is treated in a lot of entities Through these visitors You are studying different courses on the channel by enquiring Single entity is offering multiple courses This is called aggregation"
+}

@@ -1,0 +1,3295 @@
+{
+    "chunks": [
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 0.0,
+            "end": 4.0,
+            "text": " In the database management system, today's topic is Key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 4.0,
+            "end": 9.0,
+            "text": " We will see what is Key in DBMS, full explanation, types of Key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 9.0,
+            "end": 13.0,
+            "text": " And how to implement it, we will also tell you"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 13.0,
+            "end": 16.0,
+            "text": " But first of all, what is Key?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 16.0,
+            "end": 22.0,
+            "text": " Key is the data item in RDBMS which exclusively identifies the records of table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 22.0,
+            "end": 30.0,
+            "text": " Key is the data item in RDBMS which we use to identify the records"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 30.0,
+            "end": 36.0,
+            "text": " To fetch, to unify, to perform with other tables"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 36.0,
+            "end": 38.0,
+            "text": " Key is used in that case"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 38.0,
+            "end": 41.0,
+            "text": " The first is the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 41.0,
+            "end": 44.0,
+            "text": " What is the primary key?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 44.0,
+            "end": 49.0,
+            "text": " The primary key is the key field which uniquely identifies each record of table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 49.0,
+            "end": 52.0,
+            "text": " What is the primary key?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 52.0,
+            "end": 56.0,
+            "text": " It identifies the record of table with a single record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 56.0,
+            "end": 61.0,
+            "text": " As you can see here, in the student table, we have 4 records and these are records"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 61.0,
+            "end": 68.0,
+            "text": " So, in whichever column we apply the primary key, in that column, it should have a unique record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 68.0,
+            "end": 70.0,
+            "text": " No duplicate record should be there"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 70.0,
+            "end": 76.0,
+            "text": " The unique record will be in our column only then we can apply the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 76.0,
+            "end": 80.0,
+            "text": " So, we denote the high symbol as primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 80.0,
+            "end": 85.0,
+            "text": " If we talk about this column, we can also use primary key in this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 85.0,
+            "end": 91.0,
+            "text": " But in one table, we can apply primary key only for single column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 94.0,
+            "end": 99.0,
+            "text": " In practical session, you can see here, we have a student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 99.0,
+            "end": 102.0,
+            "text": " And in this student table, we have 4 columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 102.0,
+            "end": 105.0,
+            "text": " And this data is in our table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 105.0,
+            "end": 112.0,
+            "text": " So, if you look carefully in this table, the first column of the role is called primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 112.0,
+            "end": 115.0,
+            "text": " So, how we have created this table?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 115.0,
+            "end": 119.0,
+            "text": " This is the query written below, we have created it using this query"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 119.0,
+            "end": 124.0,
+            "text": " So, the role of our column name type and number is called primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 124.0,
+            "end": 131.0,
+            "text": " So, the primary key is used in this, which means we cannot keep a duplicate value in this column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 131.0,
+            "end": 134.0,
+            "text": " And we cannot insert a null value in this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 134.0,
+            "end": 138.0,
+            "text": " If we try to insert it, it will show"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 138.0,
+            "end": 142.0,
+            "text": " As you can see, the role of one name is already available here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 142.0,
+            "end": 144.0,
+            "text": " And we let the role be one"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 144.0,
+            "end": 150.0,
+            "text": " And we take the student's name, it will be in the address, it will be Delhi"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 150.0,
+            "end": 154.0,
+            "text": " So, we change the number of the phone and enter it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 154.0,
+            "end": 156.0,
+            "text": " So, here you can see the error has come"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 156.0,
+            "end": 163.0,
+            "text": " Unique constraint violated, that is, the unique constraint applied in the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 163.0,
+            "end": 165.0,
+            "text": " You are violating this, which you cannot do"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 165.0,
+            "end": 168.0,
+            "text": " That is why you are getting an error, you cannot get a duplicate value in this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 168.0,
+            "end": 171.0,
+            "text": " And we are inserting a duplicate value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 171.0,
+            "end": 173.0,
+            "text": " Okay, first"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 173.0,
+            "end": 176.0,
+            "text": " And in the normal column, you can give a duplicate value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 176.0,
+            "end": 179.0,
+            "text": " Like here, see, this is Delhi, this is here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 179.0,
+            "end": 183.0,
+            "text": " And in the normal column, the null value is also coming"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 183.0,
+            "end": 185.0,
+            "text": " See, there are no values in these 2 columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 185.0,
+            "end": 188.0,
+            "text": " But in the primary key column, you cannot give a null value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 188.0,
+            "end": 190.0,
+            "text": " Like if we know that we write a query here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 190.0,
+            "end": 194.0,
+            "text": " Insert into student"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 194.0,
+            "end": 200.0,
+            "text": " And I have to give the value, give the name and give the address"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 200.0,
+            "end": 203.0,
+            "text": " I want to give these two values"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 203.0,
+            "end": 205.0,
+            "text": " Okay"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 205.0,
+            "end": 207.0,
+            "text": " Here we will write values"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 207.0,
+            "end": 209.0,
+            "text": " So, I will give the name"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 209.0,
+            "end": 213.0,
+            "text": " And there is no name here, nothing is coming in the mind"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 213.0,
+            "end": 214.0,
+            "text": " So, we give this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 214.0,
+            "end": 216.0,
+            "text": " And we give the address"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 216.0,
+            "end": 218.0,
+            "text": " And this one"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 218.0,
+            "end": 219.0,
+            "text": " Okay"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 219.0,
+            "end": 223.0,
+            "text": " So, here, see, cannot insert null into role"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 223.0,
+            "end": 228.0,
+            "text": " So, here we have tried to ignore the column with the role"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 228.0,
+            "end": 232.0,
+            "text": " So, here we are telling that the null cannot be inserted into the role"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 232.0,
+            "end": 235.0,
+            "text": " But only if I write here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 235.0,
+            "end": 237.0,
+            "text": " Roll"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 237.0,
+            "end": 240.0,
+            "text": " And here I put a roll number"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 240.0,
+            "end": 241.0,
+            "text": " 2"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 241.0,
+            "end": 244.0,
+            "text": " So, there will be an error now, because 2 is already available"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 244.0,
+            "end": 248.0,
+            "text": " See, the unique constant violated error is here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 248.0,
+            "end": 252.0,
+            "text": " But if I do a unique roll here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 252.0,
+            "end": 255.0,
+            "text": " See, the record has been inserted"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 255.0,
+            "end": 257.0,
+            "text": " And I will show the data of the table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 257.0,
+            "end": 259.0,
+            "text": " See, the record has been inserted"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 259.0,
+            "end": 261.0,
+            "text": " The error was not coming in the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 261.0,
+            "end": 263.0,
+            "text": " But the null has come in the phone"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 263.0,
+            "end": 267.0,
+            "text": " Because none of the primary key is inserted in it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 267.0,
+            "end": 269.0,
+            "text": " Sorry, the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 269.0,
+            "end": 270.0,
+            "text": " The primary key is not inserted"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 270.0,
+            "end": 272.0,
+            "text": " That is why the null is allowed in it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 272.0,
+            "end": 274.0,
+            "text": " So, this is our primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 274.0,
+            "end": 278.0,
+            "text": " Now, let's move on to the second type of the candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 278.0,
+            "end": 280.0,
+            "text": " What is candidate key?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 280.0,
+            "end": 282.0,
+            "text": " Candidate key is the key field"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 282.0,
+            "end": 284.0,
+            "text": " Which can be uniquely identified"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 284.0,
+            "end": 285.0,
+            "text": " The records of the table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 285.0,
+            "end": 287.0,
+            "text": " What does this do?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 287.0,
+            "end": 289.0,
+            "text": " It uniquely identifies the record from the table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 289.0,
+            "end": 291.0,
+            "text": " But the difference is"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 291.0,
+            "end": 293.0,
+            "text": " See, this is the student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 293.0,
+            "end": 295.0,
+            "text": " There are 3 columns in it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 295.0,
+            "end": 297.0,
+            "text": " Now, in these 3 columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 297.0,
+            "end": 299.0,
+            "text": " What can we do in this column?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 299.0,
+            "end": 300.0,
+            "text": " We can insert the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 300.0,
+            "end": 302.0,
+            "text": " See, the hatch symbol is inserted"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 302.0,
+            "end": 304.0,
+            "text": " But we can also insert it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 304.0,
+            "end": 307.0,
+            "text": " This column can also be a candidate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 307.0,
+            "end": 309.0,
+            "text": " It can be a candidate for the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 309.0,
+            "end": 311.0,
+            "text": " Because this also has a unique record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 311.0,
+            "end": 314.0,
+            "text": " But we can apply the primary key in one of the columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 314.0,
+            "end": 316.0,
+            "text": " That is why if we insert it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 316.0,
+            "end": 318.0,
+            "text": " This will remain as a candidate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 318.0,
+            "end": 320.0,
+            "text": " This can happen but it will not happen"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 320.0,
+            "end": 322.0,
+            "text": " And if we insert the primary key in it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 322.0,
+            "end": 325.0,
+            "text": " Then we will have to remove it from it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 325.0,
+            "end": 327.0,
+            "text": " So, this is the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 327.0,
+            "end": 329.0,
+            "text": " And this is our candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 329.0,
+            "end": 330.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 330.0,
+            "end": 332.0,
+            "text": " It means that the eligible for the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 332.0,
+            "end": 334.0,
+            "text": " But the one that is not in it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 334.0,
+            "end": 336.0,
+            "text": " Is the candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 339.0,
+            "end": 341.0,
+            "text": " Now, we will look at the candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 341.0,
+            "end": 343.0,
+            "text": " What I told you about the candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 343.0,
+            "end": 346.0,
+            "text": " If there is a column in the table after the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 346.0,
+            "end": 348.0,
+            "text": " In which there is a unique record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 348.0,
+            "end": 350.0,
+            "text": " Every record is unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 350.0,
+            "end": 353.0,
+            "text": " Then it can be a candidate to become the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 353.0,
+            "end": 354.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 354.0,
+            "end": 356.0,
+            "text": " But in this table, no one"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 356.0,
+            "end": 359.0,
+            "text": " Can call the column as candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 359.0,
+            "end": 360.0,
+            "text": " Except for the role"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 360.0,
+            "end": 362.0,
+            "text": " So, there is a primary key on the role"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 362.0,
+            "end": 364.0,
+            "text": " There is no other candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 364.0,
+            "end": 366.0,
+            "text": " Because here, look"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 366.0,
+            "end": 368.0,
+            "text": " There is a null value in the phone"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 368.0,
+            "end": 370.0,
+            "text": " And here, both the phone numbers are duplicate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 370.0,
+            "end": 372.0,
+            "text": " Here, the address is duplicate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 372.0,
+            "end": 374.0,
+            "text": " There is a null value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 374.0,
+            "end": 376.0,
+            "text": " And here, there is a null value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 376.0,
+            "end": 378.0,
+            "text": " So, we cannot apply the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 378.0,
+            "end": 381.0,
+            "text": " So, there is no candidate key on this table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 381.0,
+            "end": 382.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 382.0,
+            "end": 385.0,
+            "text": " Although, we can apply the unique key on this name"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 385.0,
+            "end": 386.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 386.0,
+            "end": 388.0,
+            "text": " The unique key can be applied here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 388.0,
+            "end": 390.0,
+            "text": " But, the primary key cannot be applied"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 390.0,
+            "end": 392.0,
+            "text": " The primary key cannot be a candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 392.0,
+            "end": 393.0,
+            "text": " On this table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 393.0,
+            "end": 395.0,
+            "text": " But, the candidate key is for the unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 395.0,
+            "end": 397.0,
+            "text": " This is the column named after our name"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 397.0,
+            "end": 398.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 401.0,
+            "end": 403.0,
+            "text": " Now, we will talk about the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 403.0,
+            "end": 404.0,
+            "text": " What is this?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 404.0,
+            "end": 408.0,
+            "text": " In a relation, only one candidate can become the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 408.0,
+            "end": 412.0,
+            "text": " Then the remaining candidates are the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 412.0,
+            "end": 413.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 413.0,
+            "end": 415.0,
+            "text": " In a relation, we can only make one column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 415.0,
+            "end": 417.0,
+            "text": " The primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 417.0,
+            "end": 419.0,
+            "text": " The candidate key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 419.0,
+            "end": 421.0,
+            "text": " The remaining candidates are the children"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 421.0,
+            "end": 423.0,
+            "text": " Which are eligible for the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 423.0,
+            "end": 425.0,
+            "text": " But, they are not made"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 425.0,
+            "end": 427.0,
+            "text": " They are the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 427.0,
+            "end": 429.0,
+            "text": " For example, look at the student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 429.0,
+            "end": 431.0,
+            "text": " In this column, the primary key is applied"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 431.0,
+            "end": 433.0,
+            "text": " Because there is a unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 433.0,
+            "end": 435.0,
+            "text": " But, we cannot apply the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 435.0,
+            "end": 437.0,
+            "text": " Why not?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 437.0,
+            "end": 439.0,
+            "text": " Because here, it is a duplicate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 439.0,
+            "end": 441.0,
+            "text": " Here, it is also a duplicate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 441.0,
+            "end": 443.0,
+            "text": " So, it will not be applied here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 443.0,
+            "end": 445.0,
+            "text": " But, we can apply the primary key in this column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 445.0,
+            "end": 447.0,
+            "text": " We can apply it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 447.0,
+            "end": 449.0,
+            "text": " So, if the primary key is applied here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 449.0,
+            "end": 451.0,
+            "text": " Then, this is the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 451.0,
+            "end": 452.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 452.0,
+            "end": 454.0,
+            "text": " But, if we remove the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 454.0,
+            "end": 456.0,
+            "text": " And apply the primary key here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 456.0,
+            "end": 458.0,
+            "text": " So, this is the primary key column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 458.0,
+            "end": 459.0,
+            "text": " This is the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 459.0,
+            "end": 460.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 460.0,
+            "end": 462.0,
+            "text": " We understood and hope that we can apply it in this too"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 462.0,
+            "end": 463.0,
+            "text": " The primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 463.0,
+            "end": 465.0,
+            "text": " But, we have not applied it yet"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 465.0,
+            "end": 467.0,
+            "text": " Because, it will be applied in one table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 467.0,
+            "end": 469.0,
+            "text": " We can apply it in one column only"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 469.0,
+            "end": 470.0,
+            "text": " This is the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 470.0,
+            "end": 471.0,
+            "text": " This is also the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 471.0,
+            "end": 472.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 476.0,
+            "end": 478.0,
+            "text": " If we look at this table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 478.0,
+            "end": 480.0,
+            "text": " Can we apply the alternative key in this?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 480.0,
+            "end": 481.0,
+            "text": " So, let's see"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 481.0,
+            "end": 483.0,
+            "text": " The primary key is applied on the roll column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 483.0,
+            "end": 485.0,
+            "text": " Apart from this, there are three columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 485.0,
+            "end": 487.0,
+            "text": " For the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 487.0,
+            "end": 489.0,
+            "text": " But, we cannot apply the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 489.0,
+            "end": 491.0,
+            "text": " In any column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 491.0,
+            "end": 493.0,
+            "text": " Because, here, it is a null"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 493.0,
+            "end": 495.0,
+            "text": " If it is a null, then the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 495.0,
+            "end": 497.0,
+            "text": " Will be applied"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 497.0,
+            "end": 499.0,
+            "text": " And, the duplicate value is here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 499.0,
+            "end": 501.0,
+            "text": " And, it has a duplicate value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 501.0,
+            "end": 503.0,
+            "text": " So, the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 503.0,
+            "end": 505.0,
+            "text": " Will not be applied here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 505.0,
+            "end": 507.0,
+            "text": " For these three, for the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 507.0,
+            "end": 508.0,
+            "text": " The primary key is not there"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 508.0,
+            "end": 509.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 509.0,
+            "end": 511.0,
+            "text": " But, I had said before that"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 511.0,
+            "end": 513.0,
+            "text": " It can be unique for this name"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 513.0,
+            "end": 514.0,
+            "text": " The unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 514.0,
+            "end": 516.0,
+            "text": " Which allows for a null value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 516.0,
+            "end": 518.0,
+            "text": " We will discuss it practically in a while"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 518.0,
+            "end": 519.0,
+            "text": " Okay?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 519.0,
+            "end": 521.0,
+            "text": " So, let's hope that you have understood the alternative key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 521.0,
+            "end": 524.0,
+            "text": " Now, look at the composite key here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 524.0,
+            "end": 525.0,
+            "text": " What is this?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 525.0,
+            "end": 527.0,
+            "text": " Whenever more than one column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 527.0,
+            "end": 529.0,
+            "text": " Is combined"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 529.0,
+            "end": 531.0,
+            "text": " Each record of the table is composed"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 531.0,
+            "end": 535.0,
+            "text": " When we combine more than one column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 535.0,
+            "end": 537.0,
+            "text": " Uniquely, the record is identified"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 537.0,
+            "end": 539.0,
+            "text": " With our table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 539.0,
+            "end": 541.0,
+            "text": " We call it the composite key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 541.0,
+            "end": 543.0,
+            "text": " Look at the example here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 543.0,
+            "end": 546.0,
+            "text": " The roll and the course ID are three columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 546.0,
+            "end": 548.0,
+            "text": " The primary key cannot be applied here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 548.0,
+            "end": 550.0,
+            "text": " Because, the duplicate record is here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 550.0,
+            "end": 553.0,
+            "text": " And, if we talk about this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 553.0,
+            "end": 557.0,
+            "text": " In this, our primary key cannot be applied"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 557.0,
+            "end": 559.0,
+            "text": " And, the unique key cannot be applied"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 559.0,
+            "end": 561.0,
+            "text": " Because, here, the duplicate record is here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 561.0,
+            "end": 565.0,
+            "text": " But, if I combine these two columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 565.0,
+            "end": 567.0,
+            "text": " Then, what can we do?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 567.0,
+            "end": 569.0,
+            "text": " Apply the unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 569.0,
+            "end": 573.0,
+            "text": " So, if we apply the unique key here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 573.0,
+            "end": 575.0,
+            "text": " If we write the column here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 575.0,
+            "end": 577.0,
+            "text": " Then, write the column with comma"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 577.0,
+            "end": 579.0,
+            "text": " Course ID"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 579.0,
+            "end": 581.0,
+            "text": " So, it is called the composite key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 581.0,
+            "end": 584.0,
+            "text": " Because, we are applying the unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 584.0,
+            "end": 586.0,
+            "text": " By combining two columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 586.0,
+            "end": 589.0,
+            "text": " We are trying to find the data uniquely"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 589.0,
+            "end": 591.0,
+            "text": " So, this is our composite key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 591.0,
+            "end": 594.0,
+            "text": " In the form of composite key, we have the column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 597.0,
+            "end": 599.0,
+            "text": " In the practical session, you see"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 599.0,
+            "end": 601.0,
+            "text": " The student table is our old table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 601.0,
+            "end": 603.0,
+            "text": " The primary key is applied here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 603.0,
+            "end": 607.0,
+            "text": " But, we use two columns of composite key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 607.0,
+            "end": 611.0,
+            "text": " We use these columns to identify the uniquely recorded"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 611.0,
+            "end": 614.0,
+            "text": " So, here, we have the name and address"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 614.0,
+            "end": 616.0,
+            "text": " When we check the two columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 616.0,
+            "end": 618.0,
+            "text": " The two records are unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 618.0,
+            "end": 621.0,
+            "text": " Like, here, there is Delhi"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 621.0,
+            "end": 626.0,
+            "text": " But, there is Akhilesh and Anish in Delhi"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 626.0,
+            "end": 628.0,
+            "text": " So, this is the unique record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 628.0,
+            "end": 631.0,
+            "text": " We can use these two to apply the composite key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 631.0,
+            "end": 633.0,
+            "text": " So, this is the query"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 633.0,
+            "end": 635.0,
+            "text": " We have applied the composite key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 635.0,
+            "end": 637.0,
+            "text": " In the name and address"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 637.0,
+            "end": 640.0,
+            "text": " We can keep the unique value in the name and address"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 640.0,
+            "end": 642.0,
+            "text": " The duplicate value will not come"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 642.0,
+            "end": 644.0,
+            "text": " If we apply the duplicate value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 644.0,
+            "end": 646.0,
+            "text": " We will get an error here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 646.0,
+            "end": 648.0,
+            "text": " Insert query"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 648.0,
+            "end": 651.0,
+            "text": " So, if we add the column here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 651.0,
+            "end": 653.0,
+            "text": " We add 7"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 653.0,
+            "end": 656.0,
+            "text": " And, we add Ancus"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 656.0,
+            "end": 659.0,
+            "text": " And, the address of Ancus is Punjab"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 659.0,
+            "end": 662.0,
+            "text": " So, if we add Punjab here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 666.0,
+            "end": 668.0,
+            "text": " We will get an error here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 668.0,
+            "end": 669.0,
+            "text": " Let's change the number"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 669.0,
+            "end": 671.0,
+            "text": " Although, there is no requirement"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 671.0,
+            "end": 674.0,
+            "text": " But, here, the unique constraint is violated"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 674.0,
+            "end": 679.0,
+            "text": " If we do not apply the composite key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 679.0,
+            "end": 681.0,
+            "text": " In the name and address"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 681.0,
+            "end": 682.0,
+            "text": " What we could do?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 682.0,
+            "end": 684.0,
+            "text": " We could take Ancus here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 684.0,
+            "end": 686.0,
+            "text": " And, we could take Punjab in the address"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 686.0,
+            "end": 688.0,
+            "text": " There is Punjab"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 688.0,
+            "end": 689.0,
+            "text": " There are two places"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 689.0,
+            "end": 690.0,
+            "text": " But, there is one address of Ancus"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 690.0,
+            "end": 692.0,
+            "text": " And, there is one address of Akhil"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 692.0,
+            "end": 694.0,
+            "text": " But, when we do the same"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 694.0,
+            "end": 695.0,
+            "text": " We can take Ancus here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 695.0,
+            "end": 697.0,
+            "text": " Because, the composite key also allows"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 697.0,
+            "end": 699.0,
+            "text": " Unique data"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 699.0,
+            "end": 701.0,
+            "text": " But, Null also accepts"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 701.0,
+            "end": 703.0,
+            "text": " Null accepts both"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 703.0,
+            "end": 705.0,
+            "text": " Unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 705.0,
+            "end": 708.0,
+            "text": " So, let's hope you understand the composite key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 708.0,
+            "end": 711.0,
+            "text": " Now, let's see what is the foreign key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 711.0,
+            "end": 713.0,
+            "text": " Foreign key is the key field"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 713.0,
+            "end": 716.0,
+            "text": " Which uniquely identifies the records of another table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 716.0,
+            "end": 718.0,
+            "text": " For identifying the record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 718.0,
+            "end": 720.0,
+            "text": " from a different table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 720.0,
+            "end": 722.0,
+            "text": " Foreign key is used"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 722.0,
+            "end": 724.0,
+            "text": " For example,"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 724.0,
+            "end": 726.0,
+            "text": " You should understand that"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 726.0,
+            "end": 728.0,
+            "text": " We need at least two tables"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 728.0,
+            "end": 730.0,
+            "text": " The first table is the department"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 730.0,
+            "end": 731.0,
+            "text": " The second is the employee"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 731.0,
+            "end": 733.0,
+            "text": " First, we have to create relations"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 733.0,
+            "end": 735.0,
+            "text": " Between these two tables"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 735.0,
+            "end": 737.0,
+            "text": " The simple fund is to create a relation"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 737.0,
+            "end": 739.0,
+            "text": " Make any column a primary"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 739.0,
+            "end": 741.0,
+            "text": " In which there is a unique record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 741.0,
+            "end": 743.0,
+            "text": " We are making this column a primary"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 743.0,
+            "end": 745.0,
+            "text": " Because, there is a unique data"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 745.0,
+            "end": 748.0,
+            "text": " What to do in the second table?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 748.0,
+            "end": 750.0,
+            "text": " Make a column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 750.0,
+            "end": 752.0,
+            "text": " For foreign key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 752.0,
+            "end": 754.0,
+            "text": " What to do in the second table?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 754.0,
+            "end": 756.0,
+            "text": " Why this column?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 756.0,
+            "end": 758.0,
+            "text": " Because, the same data is"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 758.0,
+            "end": 760.0,
+            "text": " In the primary key of the first table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 760.0,
+            "end": 762.0,
+            "text": " What can we do?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 762.0,
+            "end": 765.0,
+            "text": " We can join these two columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 765.0,
+            "end": 767.0,
+            "text": " The relation is created"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 767.0,
+            "end": 769.0,
+            "text": " With the help of these two columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 769.0,
+            "end": 771.0,
+            "text": " The primary key and the foreign key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 771.0,
+            "end": 773.0,
+            "text": " Used to create a relationship between two tables"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 773.0,
+            "end": 774.0,
+            "text": " That's it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 774.0,
+            "end": 775.0,
+            "text": " What can we do?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 775.0,
+            "end": 776.0,
+            "text": " My requirement is"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 776.0,
+            "end": 779.0,
+            "text": " That the employee who works in the cell department"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 779.0,
+            "end": 781.0,
+            "text": " What is the data?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 781.0,
+            "end": 783.0,
+            "text": " The ID of the employee who works in the cell department"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 783.0,
+            "end": 784.0,
+            "text": " Is 10"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 784.0,
+            "end": 786.0,
+            "text": " From here, he will search"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 786.0,
+            "end": 787.0,
+            "text": " This is the data"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 787.0,
+            "end": 789.0,
+            "text": " 10, this and this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 789.0,
+            "end": 791.0,
+            "text": " These three records will be in front of us"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 791.0,
+            "end": 793.0,
+            "text": " Let's do the same thing practically"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 793.0,
+            "end": 795.0,
+            "text": " How to do it?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 798.0,
+            "end": 800.0,
+            "text": " For the foreign key practical"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 800.0,
+            "end": 802.0,
+            "text": " On the screen, we have a student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 802.0,
+            "end": 804.0,
+            "text": " In which we have a column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 804.0,
+            "end": 805.0,
+            "text": " This is the column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 805.0,
+            "end": 807.0,
+            "text": " And the type of column is here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 807.0,
+            "end": 809.0,
+            "text": " If you look carefully"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 809.0,
+            "end": 811.0,
+            "text": " In the role-lamb column, we have the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 811.0,
+            "end": 813.0,
+            "text": " That is, the null value is not allowed"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 813.0,
+            "end": 815.0,
+            "text": " What can we do?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 815.0,
+            "end": 817.0,
+            "text": " We are creating another table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 817.0,
+            "end": 821.0,
+            "text": " Which we are linking with our student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 821.0,
+            "end": 823.0,
+            "text": " Our course table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 823.0,
+            "end": 825.0,
+            "text": " We are linking with the student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 825.0,
+            "end": 827.0,
+            "text": " Using the foreign key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 827.0,
+            "end": 829.0,
+            "text": " We should have"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 829.0,
+            "end": 831.0,
+            "text": " A column in the course table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 831.0,
+            "end": 833.0,
+            "text": " Of the same name"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 833.0,
+            "end": 835.0,
+            "text": " Which is the primary key column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 835.0,
+            "end": 837.0,
+            "text": " So, here, the primary key is in the role"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 837.0,
+            "end": 839.0,
+            "text": " In the student role"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 839.0,
+            "end": 841.0,
+            "text": " So, we have made a role-lamb in the course"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 841.0,
+            "end": 843.0,
+            "text": " In the same role column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 843.0,
+            "end": 844.0,
+            "text": " Look here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 844.0,
+            "end": 846.0,
+            "text": " We are linking with the foreign key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 846.0,
+            "end": 848.0,
+            "text": " The role is passed in the foreign key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 848.0,
+            "end": 850.0,
+            "text": " So, the role we have passed here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 850.0,
+            "end": 852.0,
+            "text": " Is the role of this course table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 852.0,
+            "end": 854.0,
+            "text": " And what are the references"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 854.0,
+            "end": 856.0,
+            "text": " The role of the student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 856.0,
+            "end": 858.0,
+            "text": " The primary key column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 858.0,
+            "end": 860.0,
+            "text": " By querying this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 860.0,
+            "end": 862.0,
+            "text": " Our course table will be created"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 862.0,
+            "end": 864.0,
+            "text": " So, we have created"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 864.0,
+            "end": 866.0,
+            "text": " The course table structure"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 866.0,
+            "end": 868.0,
+            "text": " We will show you"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 868.0,
+            "end": 870.0,
+            "text": " Our course table is created"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 870.0,
+            "end": 872.0,
+            "text": " Now, what can you do?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 872.0,
+            "end": 874.0,
+            "text": " Insert data in both the tables"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 874.0,
+            "end": 876.0,
+            "text": " You can do data fetch"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 876.0,
+            "end": 878.0,
+            "text": " By using both the tables"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 878.0,
+            "end": 880.0,
+            "text": " We have told in the previous video"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 880.0,
+            "end": 882.0,
+            "text": " How to do this?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 882.0,
+            "end": 884.0,
+            "text": " In the description, you will find"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 884.0,
+            "end": 886.0,
+            "text": " The full course video playlist"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 886.0,
+            "end": 888.0,
+            "text": " With our SQL and RECULD database"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 888.0,
+            "end": 890.0,
+            "text": " You can check it out"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 890.0,
+            "end": 892.0,
+            "text": " The rest of the practice of foreign key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 892.0,
+            "end": 894.0,
+            "text": " In which we had to tell you"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 894.0,
+            "end": 896.0,
+            "text": " That this is used to link two tables"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 896.0,
+            "end": 898.0,
+            "text": " Now, we will see what is the unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 898.0,
+            "end": 900.0,
+            "text": " The unique key is the key fields"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 900.0,
+            "end": 902.0,
+            "text": " Which are also used to identify"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 902.0,
+            "end": 904.0,
+            "text": " Unique records from a table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 904.0,
+            "end": 906.0,
+            "text": " Also, here it is written"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 906.0,
+            "end": 908.0,
+            "text": " Because, like the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 908.0,
+            "end": 910.0,
+            "text": " It is used to identify"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 910.0,
+            "end": 912.0,
+            "text": " Unique records from a table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 912.0,
+            "end": 914.0,
+            "text": " But, what is the difference?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 914.0,
+            "end": 916.0,
+            "text": " Here, we have three columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 916.0,
+            "end": 918.0,
+            "text": " So, we can put the unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 918.0,
+            "end": 920.0,
+            "text": " In multiple columns"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 920.0,
+            "end": 922.0,
+            "text": " There is a unique record in this column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 922.0,
+            "end": 924.0,
+            "text": " Will it be used in this?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 924.0,
+            "end": 926.0,
+            "text": " Will it be used in this?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 926.0,
+            "end": 928.0,
+            "text": " In this column, there is a unique record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 928.0,
+            "end": 930.0,
+            "text": " We can also put a unique key in this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 930.0,
+            "end": 932.0,
+            "text": " In one of the two columns of the table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 932.0,
+            "end": 934.0,
+            "text": " It is unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 934.0,
+            "end": 936.0,
+            "text": " Here, we can see that it is a duplicate record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 936.0,
+            "end": 938.0,
+            "text": " We cannot put it in this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 938.0,
+            "end": 940.0,
+            "text": " In multiple columns, it will be unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 940.0,
+            "end": 942.0,
+            "text": " This also finds a unique record"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 942.0,
+            "end": 944.0,
+            "text": " It should have a unique record in the table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 944.0,
+            "end": 946.0,
+            "text": " But, this null value also allows"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 946.0,
+            "end": 948.0,
+            "text": " If there is a null here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 948.0,
+            "end": 950.0,
+            "text": " There will be a null here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 950.0,
+            "end": 952.0,
+            "text": " And, whether it is right or not"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 952.0,
+            "end": 954.0,
+            "text": " It doesn't matter, because it is not in this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 954.0,
+            "end": 956.0,
+            "text": " But, we can still put"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 956.0,
+            "end": 958.0,
+            "text": " A unique key in this column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 958.0,
+            "end": 960.0,
+            "text": " We can also put it in this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 960.0,
+            "end": 962.0,
+            "text": " Unique null allows, but the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 962.0,
+            "end": 964.0,
+            "text": " Does not allow"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 964.0,
+            "end": 966.0,
+            "text": " So, let's show this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 966.0,
+            "end": 968.0,
+            "text": " How to put a unique key in the form of a composite"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 968.0,
+            "end": 970.0,
+            "text": " And, it allows a null value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 970.0,
+            "end": 972.0,
+            "text": " And, it does not do the primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 972.0,
+            "end": 974.0,
+            "text": " We will see this"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 974.0,
+            "end": 976.0,
+            "text": " For a unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 976.0,
+            "end": 978.0,
+            "text": " For a practical key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 978.0,
+            "end": 980.0,
+            "text": " We have a student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 980.0,
+            "end": 982.0,
+            "text": " And, in this student table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 982.0,
+            "end": 984.0,
+            "text": " You know that the primary key is"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 984.0,
+            "end": 986.0,
+            "text": " on the roll column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 986.0,
+            "end": 988.0,
+            "text": " If I show you"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 988.0,
+            "end": 990.0,
+            "text": " You can see"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 992.0,
+            "end": 994.0,
+            "text": " Sorry, here the table will be written"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 996.0,
+            "end": 998.0,
+            "text": " You cannot put a note null here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 998.0,
+            "end": 1000.0,
+            "text": " You cannot add it"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1000.0,
+            "end": 1002.0,
+            "text": " This means that it has a primary key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1002.0,
+            "end": 1004.0,
+            "text": " And, the primary key is"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1004.0,
+            "end": 1006.0,
+            "text": " You can see the unique record here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1006.0,
+            "end": 1008.0,
+            "text": " Now, I have to"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1008.0,
+            "end": 1010.0,
+            "text": " Put a unique key"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1010.0,
+            "end": 1012.0,
+            "text": " So, we will put it on the roll column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1012.0,
+            "end": 1014.0,
+            "text": " So, how to put it?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1014.0,
+            "end": 1016.0,
+            "text": " First of all, you can create a table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1016.0,
+            "end": 1018.0,
+            "text": " Define the column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1018.0,
+            "end": 1020.0,
+            "text": " You can put it at the same time"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1020.0,
+            "end": 1022.0,
+            "text": " Second, suppose you have created a table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1022.0,
+            "end": 1024.0,
+            "text": " And, you forgot to put it later"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1024.0,
+            "end": 1026.0,
+            "text": " You can use the altar command"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1026.0,
+            "end": 1028.0,
+            "text": " You have to write the altar table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1028.0,
+            "end": 1030.0,
+            "text": " The name of the table"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1030.0,
+            "end": 1032.0,
+            "text": " You have to write the constant"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1032.0,
+            "end": 1034.0,
+            "text": " So, keep the spelling here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1034.0,
+            "end": 1036.0,
+            "text": " The name of the constant"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1036.0,
+            "end": 1038.0,
+            "text": " We will write the constant name"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1038.0,
+            "end": 1040.0,
+            "text": " P.H.N"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1040.0,
+            "end": 1042.0,
+            "text": " After that, you have to write"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1042.0,
+            "end": 1044.0,
+            "text": " Unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1044.0,
+            "end": 1046.0,
+            "text": " And, the name of the column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1046.0,
+            "end": 1048.0,
+            "text": " Phone"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1048.0,
+            "end": 1050.0,
+            "text": " So,"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1050.0,
+            "end": 1052.0,
+            "text": " The column of our phone"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1052.0,
+            "end": 1054.0,
+            "text": " Is this the unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1054.0,
+            "end": 1056.0,
+            "text": " Constraint"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1056.0,
+            "end": 1058.0,
+            "text": " Here, you can see"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1058.0,
+            "end": 1060.0,
+            "text": " The Unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1060.0,
+            "end": 1062.0,
+            "text": " Altar Table Option"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1062.0,
+            "end": 1064.0,
+            "text": " We have made some mistakes here"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1064.0,
+            "end": 1066.0,
+            "text": " Add"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1066.0,
+            "end": 1068.0,
+            "text": " Add"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1068.0,
+            "end": 1070.0,
+            "text": " Add for the constant"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1070.0,
+            "end": 1072.0,
+            "text": " Here, you can see"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1072.0,
+            "end": 1074.0,
+            "text": " Cannot Violate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1074.0,
+            "end": 1076.0,
+            "text": " Duplicate Keys Found"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1076.0,
+            "end": 1078.0,
+            "text": " Why we could not put it?"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1078.0,
+            "end": 1080.0,
+            "text": " We did it in this column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1080.0,
+            "end": 1082.0,
+            "text": " Because, in this column"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1082.0,
+            "end": 1084.0,
+            "text": " This is the duplicate value"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1084.0,
+            "end": 1086.0,
+            "text": " If this is not duplicate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1086.0,
+            "end": 1088.0,
+            "text": " It would have been unique"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1088.0,
+            "end": 1090.0,
+            "text": " It is duplicate"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1090.0,
+            "end": 1092.0,
+            "text": " So, this was our simple"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1092.0,
+            "end": 1094.0,
+            "text": " Practical"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1094.0,
+            "end": 1096.0,
+            "text": " I hope you understood"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1096.0,
+            "end": 1098.0,
+            "text": " If you have come, then like the video"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1098.0,
+            "end": 1100.0,
+            "text": " Share it on the channel"
+        },
+        {
+            "number": "31",
+            "title": "lecture",
+            "start": 1100.0,
+            "end": 1102.0,
+            "text": " Subscribe the channel"
+        }
+    ],
+    "text": " In the database management system, today's topic is Key We will see what is Key in DBMS, full explanation, types of Key And how to implement it, we will also tell you But first of all, what is Key? Key is the data item in RDBMS which exclusively identifies the records of table Key is the data item in RDBMS which we use to identify the records To fetch, to unify, to perform with other tables Key is used in that case The first is the primary key What is the primary key? The primary key is the key field which uniquely identifies each record of table What is the primary key? It identifies the record of table with a single record As you can see here, in the student table, we have 4 records and these are records So, in whichever column we apply the primary key, in that column, it should have a unique record No duplicate record should be there The unique record will be in our column only then we can apply the primary key So, we denote the high symbol as primary key If we talk about this column, we can also use primary key in this But in one table, we can apply primary key only for single column In practical session, you can see here, we have a student table And in this student table, we have 4 columns And this data is in our table So, if you look carefully in this table, the first column of the role is called primary key So, how we have created this table? This is the query written below, we have created it using this query So, the role of our column name type and number is called primary key So, the primary key is used in this, which means we cannot keep a duplicate value in this column And we cannot insert a null value in this If we try to insert it, it will show As you can see, the role of one name is already available here And we let the role be one And we take the student's name, it will be in the address, it will be Delhi So, we change the number of the phone and enter it So, here you can see the error has come Unique constraint violated, that is, the unique constraint applied in the primary key You are violating this, which you cannot do That is why you are getting an error, you cannot get a duplicate value in this And we are inserting a duplicate value Okay, first And in the normal column, you can give a duplicate value Like here, see, this is Delhi, this is here And in the normal column, the null value is also coming See, there are no values in these 2 columns But in the primary key column, you cannot give a null value Like if we know that we write a query here Insert into student And I have to give the value, give the name and give the address I want to give these two values Okay Here we will write values So, I will give the name And there is no name here, nothing is coming in the mind So, we give this And we give the address And this one Okay So, here, see, cannot insert null into role So, here we have tried to ignore the column with the role So, here we are telling that the null cannot be inserted into the role But only if I write here Roll And here I put a roll number 2 So, there will be an error now, because 2 is already available See, the unique constant violated error is here But if I do a unique roll here See, the record has been inserted And I will show the data of the table See, the record has been inserted The error was not coming in the primary key But the null has come in the phone Because none of the primary key is inserted in it Sorry, the primary key The primary key is not inserted That is why the null is allowed in it So, this is our primary key Now, let's move on to the second type of the candidate key What is candidate key? Candidate key is the key field Which can be uniquely identified The records of the table What does this do? It uniquely identifies the record from the table But the difference is See, this is the student table There are 3 columns in it Now, in these 3 columns What can we do in this column? We can insert the primary key See, the hatch symbol is inserted But we can also insert it This column can also be a candidate It can be a candidate for the primary key Because this also has a unique record But we can apply the primary key in one of the columns That is why if we insert it This will remain as a candidate This can happen but it will not happen And if we insert the primary key in it Then we will have to remove it from it So, this is the primary key And this is our candidate key Okay? It means that the eligible for the primary key But the one that is not in it Is the candidate key Now, we will look at the candidate key What I told you about the candidate key If there is a column in the table after the primary key In which there is a unique record Every record is unique Then it can be a candidate to become the primary key Okay? But in this table, no one Can call the column as candidate key Except for the role So, there is a primary key on the role There is no other candidate key Because here, look There is a null value in the phone And here, both the phone numbers are duplicate Here, the address is duplicate There is a null value And here, there is a null value So, we cannot apply the primary key So, there is no candidate key on this table Okay? Although, we can apply the unique key on this name Okay? The unique key can be applied here But, the primary key cannot be applied The primary key cannot be a candidate key On this table But, the candidate key is for the unique key This is the column named after our name Okay? Now, we will talk about the alternative key What is this? In a relation, only one candidate can become the primary key Then the remaining candidates are the alternative key Okay? In a relation, we can only make one column The primary key The candidate key The remaining candidates are the children Which are eligible for the primary key But, they are not made They are the alternative key For example, look at the student table In this column, the primary key is applied Because there is a unique key But, we cannot apply the primary key Why not? Because here, it is a duplicate Here, it is also a duplicate So, it will not be applied here But, we can apply the primary key in this column We can apply it So, if the primary key is applied here Then, this is the alternative key Okay? But, if we remove the primary key And apply the primary key here So, this is the primary key column This is the alternative key Okay? We understood and hope that we can apply it in this too The primary key But, we have not applied it yet Because, it will be applied in one table We can apply it in one column only This is the alternative key This is also the alternative key Okay? If we look at this table Can we apply the alternative key in this? So, let's see The primary key is applied on the roll column Apart from this, there are three columns For the alternative key But, we cannot apply the primary key In any column Because, here, it is a null If it is a null, then the primary key Will be applied And, the duplicate value is here And, it has a duplicate value So, the primary key Will not be applied here For these three, for the alternative key The primary key is not there Okay? But, I had said before that It can be unique for this name The unique key Which allows for a null value We will discuss it practically in a while Okay? So, let's hope that you have understood the alternative key Now, look at the composite key here What is this? Whenever more than one column Is combined Each record of the table is composed When we combine more than one column Uniquely, the record is identified With our table We call it the composite key Look at the example here The roll and the course ID are three columns The primary key cannot be applied here Because, the duplicate record is here And, if we talk about this In this, our primary key cannot be applied And, the unique key cannot be applied Because, here, the duplicate record is here But, if I combine these two columns Then, what can we do? Apply the unique key So, if we apply the unique key here If we write the column here Then, write the column with comma Course ID So, it is called the composite key Because, we are applying the unique key By combining two columns We are trying to find the data uniquely So, this is our composite key In the form of composite key, we have the column In the practical session, you see The student table is our old table The primary key is applied here But, we use two columns of composite key We use these columns to identify the uniquely recorded So, here, we have the name and address When we check the two columns The two records are unique Like, here, there is Delhi But, there is Akhilesh and Anish in Delhi So, this is the unique record We can use these two to apply the composite key So, this is the query We have applied the composite key In the name and address We can keep the unique value in the name and address The duplicate value will not come If we apply the duplicate value We will get an error here Insert query So, if we add the column here We add 7 And, we add Ancus And, the address of Ancus is Punjab So, if we add Punjab here We will get an error here Let's change the number Although, there is no requirement But, here, the unique constraint is violated If we do not apply the composite key In the name and address What we could do? We could take Ancus here And, we could take Punjab in the address There is Punjab There are two places But, there is one address of Ancus And, there is one address of Akhil But, when we do the same We can take Ancus here Because, the composite key also allows Unique data But, Null also accepts Null accepts both Unique So, let's hope you understand the composite key Now, let's see what is the foreign key Foreign key is the key field Which uniquely identifies the records of another table For identifying the record from a different table Foreign key is used For example, You should understand that We need at least two tables The first table is the department The second is the employee First, we have to create relations Between these two tables The simple fund is to create a relation Make any column a primary In which there is a unique record We are making this column a primary Because, there is a unique data What to do in the second table? Make a column For foreign key What to do in the second table? Why this column? Because, the same data is In the primary key of the first table What can we do? We can join these two columns The relation is created With the help of these two columns The primary key and the foreign key Used to create a relationship between two tables That's it What can we do? My requirement is That the employee who works in the cell department What is the data? The ID of the employee who works in the cell department Is 10 From here, he will search This is the data 10, this and this These three records will be in front of us Let's do the same thing practically How to do it? For the foreign key practical On the screen, we have a student table In which we have a column This is the column And the type of column is here If you look carefully In the role-lamb column, we have the primary key That is, the null value is not allowed What can we do? We are creating another table Which we are linking with our student table Our course table We are linking with the student table Using the foreign key We should have A column in the course table Of the same name Which is the primary key column So, here, the primary key is in the role In the student role So, we have made a role-lamb in the course In the same role column Look here We are linking with the foreign key The role is passed in the foreign key So, the role we have passed here Is the role of this course table And what are the references The role of the student table The primary key column By querying this Our course table will be created So, we have created The course table structure We will show you Our course table is created Now, what can you do? Insert data in both the tables You can do data fetch By using both the tables We have told in the previous video How to do this? In the description, you will find The full course video playlist With our SQL and RECULD database You can check it out The rest of the practice of foreign key In which we had to tell you That this is used to link two tables Now, we will see what is the unique key The unique key is the key fields Which are also used to identify Unique records from a table Also, here it is written Because, like the primary key It is used to identify Unique records from a table But, what is the difference? Here, we have three columns So, we can put the unique key In multiple columns There is a unique record in this column Will it be used in this? Will it be used in this? In this column, there is a unique record We can also put a unique key in this In one of the two columns of the table It is unique Here, we can see that it is a duplicate record We cannot put it in this In multiple columns, it will be unique This also finds a unique record It should have a unique record in the table But, this null value also allows If there is a null here There will be a null here And, whether it is right or not It doesn't matter, because it is not in this But, we can still put A unique key in this column We can also put it in this Unique null allows, but the primary key Does not allow So, let's show this How to put a unique key in the form of a composite And, it allows a null value And, it does not do the primary key We will see this For a unique key For a practical key We have a student table And, in this student table You know that the primary key is on the roll column If I show you You can see Sorry, here the table will be written You cannot put a note null here You cannot add it This means that it has a primary key And, the primary key is You can see the unique record here Now, I have to Put a unique key So, we will put it on the roll column So, how to put it? First of all, you can create a table Define the column You can put it at the same time Second, suppose you have created a table And, you forgot to put it later You can use the altar command You have to write the altar table The name of the table You have to write the constant So, keep the spelling here The name of the constant We will write the constant name P.H.N After that, you have to write Unique And, the name of the column Phone So, The column of our phone Is this the unique Constraint Here, you can see The Unique Altar Table Option We have made some mistakes here Add Add Add for the constant Here, you can see Cannot Violate Duplicate Keys Found Why we could not put it? We did it in this column Because, in this column This is the duplicate value If this is not duplicate It would have been unique It is duplicate So, this was our simple Practical I hope you understood If you have come, then like the video Share it on the channel Subscribe the channel"
+}
